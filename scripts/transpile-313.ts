@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { xml2js } from 'xml-js';
 
-const outputPath = './public/items/data-313.json';
+const itemsPath = './src/data/3.13/items.json';
 
 const projectPath = process.argv[2];
 const resourcePath = join(projectPath, 'RandomizerMod3.0', 'Resources');
@@ -18,11 +18,11 @@ const poolMap: Record<string, string> = {
     EggShopItem:        '',
     EggShopLocation:    '',
     ElevatorPass:       '',
-    Essence_Boss:       '',
+    Essence_Boss:       'boss_essence',
     Fake:               '',
     Flame:              'grimmkin_flame',
-    Focus:              '',
-    Geo:                '',
+    Focus:              'focus',
+    Geo:                'geo_chest',
     Grub:               'grub',
     GrubItem:           '',
     Journal:            'journal',
@@ -30,14 +30,14 @@ const poolMap: Record<string, string> = {
     Key:                'key',
     Map:                'map',
     Mask:               'mask_shard',
-    Mimic:              '',
+    Mimic:              'mimic',
     MimicItem:          '',
-    Notch:              '',
+    Notch:              'charm_notch',
     Ore:                'pale_ore',
-    PalaceJournal:      '',
-    Relic:              '',
+    PalaceJournal:      'journal',
+    Relic:              'relic',
     Root:               'whisper_root',
-    Skill:              '',
+    Skill:              'skill',
     SplitClaw:          '',
     SplitCloak:         '',
     SplitCloakLocation: '',
@@ -57,7 +57,7 @@ for (const item of itemsXml.randomizer.item) {
     }
 
     data.push({
-        id:        item._attributes.name,
+        id:        item._attributes.name.replace(/'/g, '_'),
         pool:      poolMap[item.pool?._text],
         scene:     item.sceneName?._text,
         itemLogic: item.itemLogic?._text,
@@ -66,4 +66,4 @@ for (const item of itemsXml.randomizer.item) {
     });
 }
 
-writeFileSync(outputPath, JSON.stringify(data, null, 4));
+writeFileSync(itemsPath, JSON.stringify(data, null, 4));

@@ -89,6 +89,10 @@ module.exports = configure((ctx) => ({
             chain
                 .resolve
                 .alias.set('setup', resolve('src/setup'));
+
+                chain
+                .resolve
+                .alias.set('data', resolve('src/data'));
         },
     },
 

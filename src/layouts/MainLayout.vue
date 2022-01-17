@@ -30,7 +30,7 @@ export default defineComponent({
     name: 'MainLayout',
 
     setup() {
-        const leftDrawerOpen = ref(false);
+        const leftDrawerOpen = ref(true);
 
         const toggleLeftDrawer = () => {
             leftDrawerOpen.value = !leftDrawerOpen.value;

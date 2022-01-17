@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
+    "buffer": "^6.0.3",
     "core-js": "^3.6.5",
     "leaflet": "^1.7.1",
     "quasar": "^2.0.0",
