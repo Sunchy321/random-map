@@ -1,0 +1,2693 @@
+[
+    {
+        "id": "Lurien",
+        "pool": "dreamer",
+        "scene": "Ruins2_Watcher_Room",
+        "itemLogic": "Watcher's_Spire + DREAMNAIL + (RIGHTCLAW | (WINGS + LEFTCLAW) | (LEFTCLAW + SHADESKIPS + 4MASKS)) + BOSS",
+        "areaLogic": "Watcher's_Spire + DREAMNAIL + (RIGHTCLAW | (WINGS + LEFTCLAW) | (LEFTCLAW + SHADESKIPS + 4MASKS)) + BOSS",
+        "roomLogic": "Ruins2_Watcher_Room[bot1] + DREAMNAIL"
+    },
+    {
+        "id": "Monomon",
+        "pool": "dreamer",
+        "scene": "Fungus3_archive_02",
+        "itemLogic": "Teacher's_Archives + DREAMNAIL + AERIALMINIBOSS + ((ACID + (LEFTCLAW | (WINGS + RIGHTCLAW))) | (LEFTSUPERDASH + FULLCLAW))",
+        "areaLogic": "Teacher's_Archives + DREAMNAIL + AERIALMINIBOSS + ((ACID + (LEFTCLAW | (WINGS + RIGHTCLAW))) | (LEFTSUPERDASH + FULLCLAW))",
+        "roomLogic": "Fungus3_archive_02[top1] + DREAMNAIL + AERIALMINIBOSS + ((ACID + (LEFTCLAW | (WINGS + RIGHTCLAW))) | (LEFTSUPERDASH + FULLCLAW))"
+    },
+    {
+        "id": "Herrah",
+        "pool": "dreamer",
+        "scene": "Deepnest_Spider_Town",
+        "itemLogic": "Beast's_Den + (FULLCLAW | (WINGS + ANYCLAW)) + DREAMNAIL + (RIGHTSLASH | RIGHTSHADOWDASH | LEFTDASH | Herrah | MINIBOSS)",
+        "areaLogic": "Beast's_Den + (FULLCLAW | (WINGS + ANYCLAW)) + DREAMNAIL + (RIGHTSLASH | RIGHTSHADOWDASH | LEFTDASH | Herrah | MINIBOSS)",
+        "roomLogic": "Deepnest_Spider_Town[left1] + (FULLCLAW | (WINGS + ANYCLAW)) + DREAMNAIL + (RIGHTSLASH | RIGHTSHADOWDASH | LEFTDASH | Herrah | MINIBOSS)"
+    },
+    {
+        "id": "World_Sense",
+        "pool": "dreamer",
+        "scene": "Room_Final_Boss_Atrium",
+        "itemLogic": "Crossroads + Lurien + Monomon + Herrah",
+        "areaLogic": "Room_temple[left1] + Lurien + Monomon + Herrah",
+        "roomLogic": "Room_temple[left1] + Lurien + Monomon + Herrah"
+    },
+    {
+        "id": "Mothwing_Cloak",
+        "pool": "",
+        "scene": "Fungus1_04",
+        "itemLogic": "Greenpath",
+        "areaLogic": "Greenpath",
+        "roomLogic": "Fungus1_04"
+    },
+    {
+        "id": "Mantis_Claw",
+        "pool": "",
+        "scene": "Fungus2_14",
+        "itemLogic": "Mantis_Village + (LEFTDASH | WINGS | (LEFTSUPERDASH + ANYCLAW) | MILDSKIPS)",
+        "areaLogic": "Mantis_Village + (LEFTDASH | WINGS | (LEFTSUPERDASH + ANYCLAW) | MILDSKIPS)",
+        "roomLogic": "Fungus2_14 + (LEFTDASH | WINGS | (LEFTSUPERDASH + ANYCLAW) | MILDSKIPS)"
+    },
+    {
+        "id": "Crystal_Heart",
+        "pool": "",
+        "scene": "Mines_31",
+        "itemLogic": "Upper_Crystal_Peak + (RIGHTSUPERDASH | (LEFTCLAW + (RIGHTDASH | WINGS | AIRSTALL)) | (WINGS + SHADESKIPS + 4MASKS))",
+        "areaLogic": "Upper_Crystal_Peak + (RIGHTSUPERDASH | (LEFTCLAW + (RIGHTDASH | WINGS | AIRSTALL)) | (WINGS + SHADESKIPS + 4MASKS))",
+        "roomLogic": "Mines_31[left1] + (RIGHTSUPERDASH | (LEFTCLAW + (RIGHTDASH | WINGS | AIRSTALL)))"
+    },
+    {
+        "id": "Monarch_Wings",
+        "pool": "",
+        "scene": "Abyss_21",
+        "itemLogic": "Far_Left_Basin + (FULLCLAW | (WINGS + (LEFTCLAW | MILDSKIPS))) + MINIBOSS",
+        "areaLogic": "Far_Left_Basin + (FULLCLAW | (WINGS + (LEFTCLAW | MILDSKIPS))) + MINIBOSS",
+        "roomLogic": "Abyss_21[right1] + (RIGHTCLAW | WINGS)"
+    },
+    {
+        "id": "Shade_Cloak",
+        "pool": "",
+        "scene": "Abyss_10",
+        "itemLogic": "Abyss_Ocean + (RIGHTCLAW | RIGHTSHADOWDASH | (VOIDHEART + (RIGHTDASH | RIGHTSUPERDASH | SWIM | WINGS | FULLCLAW)) | (WINGS + SHADESKIPS + 4MASKS))",
+        "areaLogic": "Abyss_Ocean + (RIGHTCLAW | RIGHTSHADOWDASH | (VOIDHEART + (RIGHTDASH | RIGHTSUPERDASH | SWIM | WINGS | FULLCLAW)))",
+        "roomLogic": "\n      Abyss_10[left2] + RIGHTSHADOWDASH\n      | Abyss_10[left1] + (RIGHTCLAW | RIGHTSHADOWDASH | (VOIDHEART + (RIGHTDASH | RIGHTSUPERDASH | SWIM | WINGS | FULLCLAW)))\n    "
+    },
+    {
+        "id": "Isma's_Tear",
+        "pool": "",
+        "scene": "Waterways_13",
+        "itemLogic": "Isma's_Grove",
+        "areaLogic": "Isma's_Grove",
+        "roomLogic": "(Waterways_13[left1] + (FULLCLAW | (ANYCLAW + (WINGS | MILDSKIPS)) | (LEFTCLAW + (RIGHTDASH | RIGHTSUPERDASH)))) | (Waterways_13[left2] + ((ACID + (RIGHTCLAW | WINGS | MILDSKIPS)) | (ACIDSKIPS + LEFTCLAW + RIGHTSUPERDASH + (WINGS | RIGHTCLAW))))"
+    },
+    {
+        "id": "Dream_Nail",
+        "pool": "",
+        "scene": "Dream_Nailcollection",
+        "itemLogic": "Upper_Resting_Grounds",
+        "areaLogic": "Upper_Resting_Grounds",
+        "roomLogic": "RestingGrounds_04[left1] | RestingGrounds_04[right1]"
+    },
+    {
+        "id": "Dream_Gate",
+        "pool": "",
+        "scene": "RestingGrounds_07",
+        "itemLogic": "Upper_Resting_Grounds + ESSENCECOUNT",
+        "areaLogic": "Upper_Resting_Grounds + ESSENCECOUNT",
+        "roomLogic": "RestingGrounds_07[right1] + ESSENCECOUNT"
+    },
+    {
+        "id": "Awoken_Dream_Nail",
+        "pool": "",
+        "scene": "RestingGrounds_07",
+        "itemLogic": "Upper_Resting_Grounds + ESSENCECOUNT",
+        "areaLogic": "Upper_Resting_Grounds + ESSENCECOUNT",
+        "roomLogic": "RestingGrounds_07[right1] + ESSENCECOUNT"
+    },
+    {
+        "id": "Vengeful_Spirit",
+        "pool": "",
+        "scene": "Crossroads_ShamanTemple",
+        "itemLogic": "Ancestral_Mound",
+        "areaLogic": "Ancestral_Mound",
+        "roomLogic": "Crossroads_ShamanTemple[left1]"
+    },
+    {
+        "id": "Shade_Soul",
+        "pool": "",
+        "scene": "Ruins1_31b",
+        "itemLogic": "Soul_Sanctum + ELEGANT + MINIBOSS",
+        "areaLogic": "Ruins1_31[right1] + ELEGANT + MINIBOSS",
+        "roomLogic": "Ruins1_31b"
+    },
+    {
+        "id": "Desolate_Dive",
+        "pool": "",
+        "scene": "Ruins1_24",
+        "itemLogic": "Soul_Sanctum + (LEFTCLAW | WINGS | (RIGHTCLAW + LEFTSUPERDASH + MILDSKIPS)) + NAILCOMBAT",
+        "areaLogic": "Soul_Sanctum + (LEFTCLAW | WINGS | (RIGHTCLAW + LEFTSUPERDASH + MILDSKIPS)) + NAILCOMBAT",
+        "roomLogic": "Ruins1_24[right1] + NAILCOMBAT"
+    },
+    {
+        "id": "Descending_Dark",
+        "pool": "",
+        "scene": "Mines_35",
+        "itemLogic": "Crystallized_Mound + QUAKE + (LEFTCLAW | (RIGHTCLAW + ((RIGHTDASH + MILDSKIPS) | SPICYSKIPS)) | WINGS)",
+        "areaLogic": "Crystallized_Mound + QUAKE + (LEFTCLAW | (RIGHTCLAW + ((RIGHTDASH + MILDSKIPS) | SPICYSKIPS)) | WINGS)",
+        "roomLogic": "Mines_35[left1] + QUAKE + (LEFTCLAW | (RIGHTCLAW + ((RIGHTDASH + MILDSKIPS) | SPICYSKIPS)) | WINGS)"
+    },
+    {
+        "id": "Howling_Wraiths",
+        "pool": "",
+        "scene": "Room_Fungus_Shaman",
+        "itemLogic": "Overgrown_Mound",
+        "areaLogic": "Overgrown_Mound",
+        "roomLogic": "Room_Fungus_Shaman[left1]"
+    },
+    {
+        "id": "Abyss_Shriek",
+        "pool": "",
+        "scene": "Abyss_12",
+        "itemLogic": "Abyss + SCREAM",
+        "areaLogic": "Abyss + SCREAM",
+        "roomLogic": "Abyss_12[right1] + SCREAM"
+    },
+    {
+        "id": "Cyclone_Slash",
+        "pool": "",
+        "scene": "Room_nailmaster",
+        "itemLogic": "Howling_Cliffs",
+        "areaLogic": "Howling_Cliffs",
+        "roomLogic": "Room_nailmaster[left1]"
+    },
+    {
+        "id": "Dash_Slash",
+        "pool": "",
+        "scene": "Room_nailmaster_03",
+        "itemLogic": "Oro_Bench",
+        "areaLogic": "Oro_Bench",
+        "roomLogic": "Room_nailmaster_03[left1] + Ruins1_05b[top1]"
+    },
+    {
+        "id": "Great_Slash",
+        "pool": "",
+        "scene": "Room_nailmaster_02",
+        "itemLogic": "Greenpath + ((LEFTCLAW + ((LEFTSUPERDASH + RIGHTCLAW + ((LEFTDASH + (RIGHTDASH | RIGHTSUPERDASH)) | WINGS)) | (WINGS + LEFTDASH + (RIGHTDASH | RIGHTSUPERDASH | RIGHTCLAW)))) | (RIGHTCLAW + LEFTDASH + WINGS + LEFTSUPERDASH + SPICYSKIPS))",
+        "areaLogic": "Greenpath + ((LEFTCLAW + ((LEFTSUPERDASH + RIGHTCLAW + ((LEFTDASH + (RIGHTDASH | RIGHTSUPERDASH)) | WINGS)) | (WINGS + LEFTDASH + (RIGHTDASH | RIGHTSUPERDASH | RIGHTCLAW)))) | (RIGHTCLAW + LEFTDASH + WINGS + LEFTSUPERDASH + SPICYSKIPS))",
+        "roomLogic": "Room_nailmaster_02[left1]"
+    },
+    {
+        "id": "Focus",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Gathering_Swarm",
+        "pool": "charm",
+        "scene": "Room_shop"
+    },
+    {
+        "id": "Wayward_Compass",
+        "pool": "charm",
+        "scene": "Room_mapper"
+    },
+    {
+        "id": "Grubsong",
+        "pool": "charm",
+        "scene": "Crossroads_38",
+        "itemLogic": "Crossroads + GRUBCOUNT",
+        "areaLogic": "Crossroads + GRUBCOUNT",
+        "roomLogic": "Crossroads_38[right1] + GRUBCOUNT"
+    },
+    {
+        "id": "Stalwart_Shell",
+        "pool": "charm",
+        "scene": "Room_shop"
+    },
+    {
+        "id": "Baldur_Shell",
+        "pool": "charm",
+        "scene": "Fungus1_28",
+        "itemLogic": "RIGHTBALDURS + (Howling_Cliffs | (Greenpath + (FULLCLAW | WINGS | RIGHTDASH | RIGHTSUPERDASH | SHADESKIPS)))",
+        "areaLogic": "RIGHTBALDURS + (Howling_Cliffs | (Fungus1_28[left2] + (FULLCLAW | WINGS | RIGHTDASH | RIGHTSUPERDASH)))",
+        "roomLogic": "RIGHTBALDURS + (Fungus1_28[left1] | (Fungus1_28[left2] + (FULLCLAW | WINGS | RIGHTDASH | RIGHTSUPERDASH)))"
+    },
+    {
+        "id": "Fury_of_the_Fallen",
+        "pool": "charm",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Quick_Focus",
+        "pool": "charm",
+        "scene": "Room_Charm_Shop"
+    },
+    {
+        "id": "Lifeblood_Heart",
+        "pool": "charm",
+        "scene": "Room_Charm_Shop"
+    },
+    {
+        "id": "Lifeblood_Core",
+        "pool": "charm",
+        "scene": "Abyss_08",
+        "itemLogic": "Abyss + LIFEBLOOD + (SPICYSKIPS | (FULLDASH + WINGS))",
+        "areaLogic": "Abyss + LIFEBLOOD + (SPICYSKIPS | (FULLDASH + WINGS))",
+        "roomLogic": "Abyss_08[right1] + (SPICYSKIPS | (FULLDASH + WINGS))"
+    },
+    {
+        "id": "Defender's_Crest",
+        "pool": "charm",
+        "scene": "Waterways_05",
+        "itemLogic": "Central_Left_Waterways + (RIGHTCLAW | (WINGS + LEFTCLAW) | ((WINGS | LEFTCLAW) + SPICYSKIPS)) + BOSS",
+        "areaLogic": "Central_Left_Waterways + (RIGHTCLAW | (WINGS + LEFTCLAW) | ((WINGS | LEFTCLAW) + SPICYSKIPS)) + BOSS",
+        "roomLogic": "Waterways_05[bot1] + (ANYCLAW | WINGS) + BOSS"
+    },
+    {
+        "id": "Flukenest",
+        "pool": "charm",
+        "scene": "Waterways_12",
+        "itemLogic": "Lower_Left_Waterways + (SWIM | LEFTSUPERDASH) + BOSSFLUKE",
+        "areaLogic": "Lower_Left_Waterways + (SWIM | LEFTSUPERDASH) + BOSSFLUKE",
+        "roomLogic": "Waterways_12[right1] + (SWIM | LEFTSUPERDASH) + BOSSFLUKE"
+    },
+    {
+        "id": "Thorns_of_Agony",
+        "pool": "charm",
+        "scene": "Fungus1_14",
+        "itemLogic": "Greenpath + (RIGHTDASH | (LEFTCLAW + RIGHTSUPERDASH))",
+        "areaLogic": "Greenpath + (RIGHTDASH | (LEFTCLAW + RIGHTSUPERDASH))",
+        "roomLogic": "Fungus1_14[left1] + (RIGHTDASH | (LEFTCLAW + RIGHTSUPERDASH))"
+    },
+    {
+        "id": "Mark_of_Pride",
+        "pool": "charm",
+        "scene": "Fungus2_31",
+        "itemLogic": "Lower_Mantis_Village + (ANYCLAW | (WINGS + MILDSKIPS)) + (LEFTCLAW | WINGS | (RIGHTCLAW + SHADESKIPS))",
+        "areaLogic": "Lower_Mantis_Village + (ANYCLAW | (WINGS + MILDSKIPS)) + (LEFTCLAW | WINGS | (RIGHTCLAW + SHADESKIPS))",
+        "roomLogic": "Fungus2_31[left1] + (Fungus2_15 | Fungus2_15[left1]) + (LEFTCLAW | WINGS | (RIGHTCLAW + SHADESKIPS))"
+    },
+    {
+        "id": "Steady_Body",
+        "pool": "charm",
+        "scene": "Room_Charm_Shop"
+    },
+    {
+        "id": "Heavy_Blow",
+        "pool": "charm",
+        "scene": "Room_shop"
+    },
+    {
+        "id": "Sharp_Shadow",
+        "pool": "charm",
+        "scene": "Deepnest_44",
+        "itemLogic": "Deepnest + RIGHTSHADOWDASH + (LEFTSHADOWDASH | 4MASKS)",
+        "areaLogic": "Deepnest + RIGHTSHADOWDASH + (LEFTSHADOWDASH | 4MASKS)",
+        "roomLogic": "Deepnest_44[top1] + RIGHTSHADOWDASH + (LEFTSHADOWDASH | 4MASKS)"
+    },
+    {
+        "id": "Spore_Shroom",
+        "pool": "charm",
+        "scene": "Fungus2_20",
+        "itemLogic": "Bottom_Left_Fungal_Wastes + (RIGHTCLAW | WINGS) + (ACID | RIGHTDASH | (LEFTCLAW + RIGHTSUPERDASH))",
+        "areaLogic": "Bottom_Left_Fungal_Wastes + (RIGHTCLAW | WINGS) + (ACID | RIGHTDASH | (LEFTCLAW + RIGHTSUPERDASH))",
+        "roomLogic": "(Fungus2_20[left1] | Fungus2_20[right1]) + (RIGHTCLAW | WINGS) + (ACID | RIGHTDASH | (LEFTCLAW + RIGHTSUPERDASH))"
+    },
+    {
+        "id": "Longnail",
+        "pool": "charm",
+        "scene": "Room_Charm_Shop"
+    },
+    {
+        "id": "Shaman_Stone",
+        "pool": "charm",
+        "scene": "Room_Charm_Shop"
+    },
+    {
+        "id": "Soul_Catcher",
+        "pool": "charm",
+        "scene": "Crossroads_ShamanTemple",
+        "itemLogic": "Ancestral_Mound + (ANYCLAW | LEFTBALDURS | (WINGS + SHADESKIPS)) + (UPWALLBREAK | (LEFTBALDURS + ((LEFTSUPERDASH + RIGHTCLAW) | (RIGHTSUPERDASH + LEFTCLAW)) + MILDSKIPS))",
+        "areaLogic": "Ancestral_Mound + (ANYCLAW | LEFTBALDURS | (WINGS + SHADESKIPS)) + (UPWALLBREAK | (LEFTBALDURS + ((LEFTSUPERDASH + RIGHTCLAW) | (RIGHTSUPERDASH + LEFTCLAW)) + MILDSKIPS))",
+        "roomLogic": "Crossroads_ShamanTemple[left1] + (ANYCLAW | LEFTBALDURS | (WINGS + SHADESKIPS)) + (UPWALLBREAK | (LEFTBALDURS + ((LEFTSUPERDASH + RIGHTCLAW) | (RIGHTSUPERDASH + LEFTCLAW)) + MILDSKIPS))"
+    },
+    {
+        "id": "Soul_Eater",
+        "pool": "charm",
+        "scene": "RestingGrounds_10",
+        "itemLogic": "Upper_Resting_Grounds + QUAKE + (ANYCLAW | WINGS)",
+        "areaLogic": "Upper_Resting_Grounds + QUAKE + (ANYCLAW | WINGS)",
+        "roomLogic": "RestingGrounds_10 + (ANYCLAW | WINGS) + UPWALLBREAK"
+    },
+    {
+        "id": "Glowing_Womb",
+        "pool": "charm",
+        "scene": "Crossroads_22",
+        "itemLogic": "Crossroads + (LEFTSUPERDASH | LEFTTUNNEL) + (ANYCLAW | WINGS | INFECTED)",
+        "areaLogic": "Crossroads + (LEFTSUPERDASH | LEFTTUNNEL) + (ANYCLAW | WINGS | INFECTED)",
+        "roomLogic": "Crossroads_22[bot1]"
+    },
+    {
+        "id": "Fragile_Heart",
+        "pool": "charm",
+        "scene": "Fungus2_26"
+    },
+    {
+        "id": "Fragile_Greed",
+        "pool": "charm",
+        "scene": "Fungus2_26"
+    },
+    {
+        "id": "Fragile_Strength",
+        "pool": "charm",
+        "scene": "Fungus2_26"
+    },
+    {
+        "id": "Nailmaster's_Glory",
+        "pool": "charm",
+        "scene": "Room_Sly_Storeroom",
+        "itemLogic": "Dirtmouth + Crossroads + Cyclone_Slash + Dash_Slash + Great_Slash",
+        "areaLogic": "Dirtmouth + Crossroads + Cyclone_Slash + Dash_Slash + Great_Slash",
+        "roomLogic": "Room_ruinhouse[left1] + Room_shop[left1] + Cyclone_Slash + Dash_Slash + Great_Slash"
+    },
+    {
+        "id": "Joni's_Blessing",
+        "pool": "charm",
+        "scene": "Cliffs_05",
+        "itemLogic": "Howling_Cliffs + (DARKROOMS | LANTERN)",
+        "areaLogic": "Howling_Cliffs + (DARKROOMS | LANTERN)",
+        "roomLogic": "Cliffs_05[left1]"
+    },
+    {
+        "id": "Shape_of_Unn",
+        "pool": "charm",
+        "scene": "Fungus1_Slug",
+        "itemLogic": "Lake_of_Unn + ((ACID + (ANYCLAW | WINGS)) | (FULLSKIPACID + WINGS + ((FIREBALL + FIREBALLSKIPS) | LEFTSHARPSHADOW) + SPICYSKIPS) | (SPICYSKIPS + ACIDSKIPS + WINGS + FULLSUPERDASH + FULLSHARPSHADOW))",
+        "areaLogic": "Lake_of_Unn + ((ACID + (ANYCLAW | WINGS)) | (FULLSKIPACID + WINGS + ((FIREBALL + FIREBALLSKIPS) | LEFTSHARPSHADOW) + SPICYSKIPS) | (SPICYSKIPS + ACIDSKIPS + WINGS + FULLSUPERDASH + FULLSHARPSHADOW))",
+        "roomLogic": "Fungus1_Slug[right1] + (ACID | FULLSKIPACID)"
+    },
+    {
+        "id": "Hiveblood",
+        "pool": "charm",
+        "scene": "Hive_05",
+        "itemLogic": "Hive_Top + (WINGS | (FULLCLAW + MILDSKIPS) | (ANYCLAW + RIGHTDASH)) + BOSS",
+        "areaLogic": "Hive_Top + (WINGS | (FULLCLAW + MILDSKIPS) | (ANYCLAW + RIGHTDASH)) + BOSS",
+        "roomLogic": "Hive_05[left1] + BOSS"
+    },
+    {
+        "id": "Dream_Wielder",
+        "pool": "charm",
+        "scene": "RestingGrounds_07",
+        "itemLogic": "Upper_Resting_Grounds + ESSENCECOUNT",
+        "areaLogic": "Upper_Resting_Grounds + ESSENCECOUNT",
+        "roomLogic": "RestingGrounds_07[right1] + ESSENCECOUNT"
+    },
+    {
+        "id": "Dashmaster",
+        "pool": "charm",
+        "scene": "Fungus2_23",
+        "itemLogic": "Mantis_Outskirts | Far_Upper_Left_Waterways",
+        "areaLogic": "Mantis_Outskirts | (Fungus2_23[right2] + Far_Upper_Left_Waterways)",
+        "roomLogic": "Fungus2_23"
+    },
+    {
+        "id": "Quick_Slash",
+        "pool": "charm",
+        "scene": "Deepnest_East_14b",
+        "itemLogic": "Oro_Bench + (FULLCLAW | WINGS) + QUAKE + (LEFTDASH | SPIKETUNNELS)",
+        "areaLogic": "Oro_Bench + (FULLCLAW | WINGS) + QUAKE + (LEFTDASH | SPIKETUNNELS)",
+        "roomLogic": "Deepnest_East_14b[top1] | (Deepnest_East_14b[right1] + (FULLCLAW | WINGS | SPICYSKIPS))"
+    },
+    {
+        "id": "Spell_Twister",
+        "pool": "charm",
+        "scene": "Ruins1_30",
+        "itemLogic": "Soul_Sanctum + (LEFTCLAW | WINGS | (RIGHTCLAW + LEFTSUPERDASH + MILDSKIPS))",
+        "areaLogic": "Soul_Sanctum + (LEFTCLAW | WINGS | (RIGHTCLAW + LEFTSUPERDASH + MILDSKIPS))",
+        "roomLogic": "Ruins1_30 + (ANYCLAW | WINGS)"
+    },
+    {
+        "id": "Deep_Focus",
+        "pool": "charm",
+        "scene": "Mines_36",
+        "itemLogic": "(Upper_Crystal_Peak | (Crystal_Peak + LEFTDASH + RIGHTCLAW + MILDSKIPS)) + (((ANYCLAW | WINGS) + LEFTSUPERDASH) | (SPICYSKIPS + WINGS + LEFTDASH))",
+        "areaLogic": "(Upper_Crystal_Peak | (Crystal_Peak + LEFTDASH + RIGHTCLAW + MILDSKIPS)) + (((ANYCLAW | WINGS) + LEFTSUPERDASH) | (SPICYSKIPS + WINGS + LEFTDASH))",
+        "roomLogic": "Mines_36[right1]"
+    },
+    {
+        "id": "Grubberfly's_Elegy",
+        "pool": "charm",
+        "scene": "Crossroads_38",
+        "itemLogic": "Crossroads + GRUBCOUNT",
+        "areaLogic": "Crossroads + GRUBCOUNT",
+        "roomLogic": "Crossroads_38[right1] + GRUBCOUNT"
+    },
+    {
+        "id": "Queen_Fragment",
+        "pool": "charm",
+        "scene": "Room_Queen",
+        "itemLogic": "Far_Queen's_Gardens + LEFTSHADOWDASH + (ANYCLAW | WINGS) + BOSS",
+        "areaLogic": "Far_Queen's_Gardens + LEFTSHADOWDASH + (ANYCLAW | WINGS) + BOSS",
+        "roomLogic": "Room_Queen[left1]"
+    },
+    {
+        "id": "King_Fragment",
+        "pool": "charm",
+        "scene": "White_Palace_09",
+        "itemLogic": "Palace_Grounds + AWOKEN + FULLCLAW + FULLDASH + WINGS + FULLSUPERDASH",
+        "areaLogic": "Palace_Grounds + AWOKEN + FULLCLAW + FULLDASH + WINGS + FULLSUPERDASH",
+        "roomLogic": "White_Palace_09[right1] + LEFTSUPERDASH + (FULLCLAW | WINGS)"
+    },
+    {
+        "id": "Void_Heart",
+        "pool": "charm",
+        "scene": "Abyss_15",
+        "itemLogic": "Abyss + RIGHTSHADOWDASH + DREAMNAIL + KINGSOUL + (MILDSKIPS | ANYCLAW | WINGS)",
+        "areaLogic": "Abyss + RIGHTSHADOWDASH + DREAMNAIL + KINGSOUL + (MILDSKIPS | ANYCLAW | WINGS)",
+        "roomLogic": "Abyss_15[top1] + RIGHTSHADOWDASH + DREAMNAIL + (MILDSKIPS | ANYCLAW | WINGS)"
+    },
+    {
+        "id": "Sprintmaster",
+        "pool": "charm",
+        "scene": "Room_shop"
+    },
+    {
+        "id": "Dreamshield",
+        "pool": "charm",
+        "scene": "RestingGrounds_17",
+        "itemLogic": "Upper_Resting_Grounds",
+        "areaLogic": "Upper_Resting_Grounds",
+        "roomLogic": "RestingGrounds_17[right1]"
+    },
+    {
+        "id": "Weaversong",
+        "pool": "charm",
+        "scene": "Deepnest_45_v02",
+        "itemLogic": "Weaver's_Den + (RIGHTCLAW | (LEFTCLAW + WINGS) | (WINGS + MILDSKIPS))",
+        "areaLogic": "Weaver's_Den + (RIGHTCLAW | (LEFTCLAW + WINGS) | (WINGS + MILDSKIPS))",
+        "roomLogic": "Deepnest_45_v02[left1] + (RIGHTCLAW | (LEFTCLAW + WINGS) | (WINGS + MILDSKIPS))"
+    },
+    {
+        "id": "Grimmchild",
+        "pool": "charm",
+        "scene": "Grimm_Main_Tent",
+        "itemLogic": "Dirtmouth + ((Howling_Cliffs + DREAMNAIL) | Grimmchild)",
+        "areaLogic": "Dirtmouth + ((Howling_Cliffs + DREAMNAIL) | Grimmchild)",
+        "roomLogic": "((Cliffs_06[left1] + DREAMNAIL) | Grimmchild) + Grimm_Main_Tent[left1]"
+    },
+    {
+        "id": "City_Crest",
+        "pool": "key",
+        "scene": "Crossroads_10",
+        "itemLogic": "Crossroads",
+        "areaLogic": "Crossroads",
+        "roomLogic": "Crossroads_10"
+    },
+    {
+        "id": "Lumafly_Lantern",
+        "pool": "key",
+        "scene": "Room_shop"
+    },
+    {
+        "id": "Tram_Pass",
+        "pool": "key",
+        "scene": "Deepnest_26b",
+        "itemLogic": "Failed_Tramway + (LEFTCLAW | (WINGS + MILDSKIPS))",
+        "areaLogic": "Failed_Tramway + (LEFTCLAW | (WINGS + MILDSKIPS))",
+        "roomLogic": "Deepnest_26b[right2] + (LEFTCLAW | WINGS)"
+    },
+    {
+        "id": "Simple_Key-Sly",
+        "pool": "key",
+        "scene": "Room_shop"
+    },
+    {
+        "id": "Simple_Key-Basin",
+        "pool": "key",
+        "scene": "Abyss_20",
+        "itemLogic": "Far_Left_Basin",
+        "areaLogic": "Far_Left_Basin",
+        "roomLogic": "Abyss_20[top1] | Abyss_20[top2]"
+    },
+    {
+        "id": "Simple_Key-City",
+        "pool": "key",
+        "scene": "Ruins1_17",
+        "itemLogic": "Upper_Storerooms + (RIGHTDASH | WINGS | RIGHTSUPERDASH | MILDSKIPS)",
+        "areaLogic": "Upper_Storerooms + (RIGHTDASH | WINGS | RIGHTSUPERDASH | MILDSKIPS)",
+        "roomLogic": "(Ruins1_17[top1] | Ruins1_17[right1]) + (RIGHTDASH | WINGS | RIGHTSUPERDASH | MILDSKIPS)"
+    },
+    {
+        "id": "Simple_Key-Lurker",
+        "pool": "key",
+        "scene": "GG_Lurker",
+        "itemLogic": "Pale_Lurker_Area + (SWIM | RIGHTDASH | WINGS | (LEFTCLAW + RIGHTSUPERDASH)) + RIGHTCLAW + BOSS",
+        "areaLogic": "Pale_Lurker_Area + (SWIM | RIGHTDASH | WINGS | (LEFTCLAW + RIGHTSUPERDASH)) + RIGHTCLAW + BOSS",
+        "roomLogic": "GG_Lurker[left1] + (SWIM | RIGHTDASH | WINGS | (LEFTCLAW + RIGHTSUPERDASH)) + RIGHTCLAW + BOSS"
+    },
+    {
+        "id": "Shopkeeper's_Key",
+        "pool": "key",
+        "scene": "Mines_11",
+        "itemLogic": "Upper_Crystal_Peak + (ANYCLAW | WINGS)",
+        "areaLogic": "Upper_Crystal_Peak + (ANYCLAW | WINGS | MILDSKIPS)",
+        "roomLogic": "Mines_11 + (ANYCLAW | WINGS | MILDSKIPS)"
+    },
+    {
+        "id": "Elegant_Key",
+        "pool": "key",
+        "scene": "Room_shop"
+    },
+    {
+        "id": "Love_Key",
+        "pool": "key",
+        "scene": "Fungus3_39",
+        "itemLogic": "Bottom_Right_Queen's_Gardens + (ACID | RIGHTSKIPACID | (ACIDSKIPS + RIGHTCLAW + RIGHTDASH + WINGS + (Dashmaster | AIRSTALL)) | (SPICYSKIPS + ACIDSKIPS + RIGHTSHARPSHADOW + WINGS))",
+        "areaLogic": "Bottom_Right_Queen's_Gardens + (ACID | RIGHTSKIPACID | (ACIDSKIPS + RIGHTCLAW + RIGHTDASH + WINGS + (Dashmaster | AIRSTALL)) | (SPICYSKIPS + ACIDSKIPS + RIGHTSHARPSHADOW + WINGS))",
+        "roomLogic": "Fungus3_39[left1] + (ACID | RIGHTSKIPACID | (ACIDSKIPS + RIGHTCLAW + RIGHTDASH + WINGS + (Dashmaster | AIRSTALL)) | (SPICYSKIPS + ACIDSKIPS + RIGHTSHARPSHADOW + WINGS))"
+    },
+    {
+        "id": "King's_Brand",
+        "pool": "key",
+        "scene": "Room_Wyrm",
+        "itemLogic": "Cast_Off_Shell + BOSS",
+        "areaLogic": "Cast_Off_Shell + BOSS",
+        "roomLogic": "Room_Wyrm[right1]"
+    },
+    {
+        "id": "Godtuner",
+        "pool": "key",
+        "scene": "GG_Waterways",
+        "itemLogic": "Junk_Pit + SIMPLE4",
+        "areaLogic": "Junk_Pit + SIMPLE4",
+        "roomLogic": "(GG_Waterways[door1] | (GG_Waterways[right1] + (LEFTSUPERDASH | SWIM))) + SIMPLE4"
+    },
+    {
+        "id": "Collector's_Map",
+        "pool": "key",
+        "scene": "Ruins2_11",
+        "itemLogic": "Tower_of_Love + LOVE + (LEFTCLAW | ((WINGS | RIGHTDASH) + RIGHTCLAW) | (WINGS + SPICYSKIPS)) + BOSS",
+        "areaLogic": "Tower_of_Love + LOVE + (LEFTCLAW | ((WINGS | RIGHTDASH) + RIGHTCLAW) | (WINGS + SPICYSKIPS)) + BOSS",
+        "roomLogic": "Ruins2_11[right1] + (LEFTCLAW | ((WINGS | RIGHTDASH) + RIGHTCLAW) | (WINGS + SPICYSKIPS)) + BOSS"
+    },
+    {
+        "id": "Mask_Shard-Sly1",
+        "pool": "mask_shard",
+        "scene": "Room_shop"
+    },
+    {
+        "id": "Mask_Shard-Sly2",
+        "pool": "mask_shard",
+        "scene": "Room_shop"
+    },
+    {
+        "id": "Mask_Shard-Sly3",
+        "pool": "mask_shard",
+        "scene": "Room_shop"
+    },
+    {
+        "id": "Mask_Shard-Sly4",
+        "pool": "mask_shard",
+        "scene": "Room_shop"
+    },
+    {
+        "id": "Mask_Shard-Seer",
+        "pool": "mask_shard",
+        "scene": "RestingGrounds_07",
+        "itemLogic": "Upper_Resting_Grounds + ESSENCECOUNT",
+        "areaLogic": "Upper_Resting_Grounds + ESSENCECOUNT",
+        "roomLogic": "RestingGrounds_07[right1] + ESSENCECOUNT"
+    },
+    {
+        "id": "Mask_Shard-5_Grubs",
+        "pool": "mask_shard",
+        "scene": "Crossroads_38",
+        "itemLogic": "Crossroads + GRUBCOUNT",
+        "areaLogic": "Crossroads + GRUBCOUNT",
+        "roomLogic": "Crossroads_38[right1] + GRUBCOUNT"
+    },
+    {
+        "id": "Mask_Shard-Brooding_Mawlek",
+        "pool": "mask_shard",
+        "scene": "Crossroads_09",
+        "itemLogic": "Crossroads + MINIBOSS",
+        "areaLogic": "Crossroads + MINIBOSS",
+        "roomLogic": "(Crossroads_09[left1] | Crossroads_09[right1]) + MINIBOSS"
+    },
+    {
+        "id": "Mask_Shard-Crossroads_Goam",
+        "pool": "mask_shard",
+        "scene": "Crossroads_13",
+        "itemLogic": "Crossroads + (ANYCLAW | WINGS | MILDSKIPS)",
+        "areaLogic": "Crossroads + (ANYCLAW | WINGS | MILDSKIPS)",
+        "roomLogic": "(Crossroads_13[left1] | Crossroads_13[right1]) + (ANYCLAW | WINGS | MILDSKIPS)"
+    },
+    {
+        "id": "Mask_Shard-Stone_Sanctuary",
+        "pool": "mask_shard",
+        "scene": "Fungus1_36",
+        "itemLogic": "Stone_Sanctuary",
+        "areaLogic": "Stone_Sanctuary",
+        "roomLogic": "Fungus1_36[left1]"
+    },
+    {
+        "id": "Mask_Shard-Queen's_Station",
+        "pool": "mask_shard",
+        "scene": "Fungus2_01",
+        "itemLogic": "Queen's_Station + ((FULLCLAW + (LEFTDASH | LEFTSUPERDASH)) | WINGS | (RIGHTDASH + RIGHTCLAW + (LEFTDASH | LEFTSUPERDASH) + MILDSKIPS))",
+        "areaLogic": "Queen's_Station + ((FULLCLAW + (LEFTDASH | LEFTSUPERDASH)) | WINGS | (RIGHTDASH + RIGHTCLAW + (LEFTDASH | LEFTSUPERDASH) + MILDSKIPS))",
+        "roomLogic": "Fungus2_01 + ((FULLCLAW + (LEFTDASH | LEFTSUPERDASH)) | WINGS | (RIGHTDASH + RIGHTCLAW + (LEFTDASH | LEFTSUPERDASH) + MILDSKIPS))"
+    },
+    {
+        "id": "Mask_Shard-Deepnest",
+        "pool": "mask_shard",
+        "scene": "Fungus2_25",
+        "itemLogic": "Fungal_Core",
+        "areaLogic": "Fungus2_25[top2]",
+        "roomLogic": "Fungus2_25[top2]"
+    },
+    {
+        "id": "Mask_Shard-Waterways",
+        "pool": "mask_shard",
+        "scene": "Waterways_04b",
+        "itemLogic": "\n      Upper_Left_Waterways + (SWIM | LEFTSKIPACID)\n      | Far_Left_Waterways + (SWIM | (LEFTCLAW + LEFTDASH))\n      | (Central_Left_Waterways + RIGHTCLAW) + (SWIM | LEFTSKIPACID)\n    ",
+        "areaLogic": "\n      Upper_Left_Waterways + (SWIM | LEFTSKIPACID)\n      | Far_Left_Waterways + (SWIM | (LEFTCLAW + LEFTDASH))\n      | (Central_Left_Waterways + RIGHTCLAW) + (SWIM | LEFTSKIPACID)\n    ",
+        "roomLogic": "\n      Waterways_04b[left1] + (SWIM | (LEFTCLAW + LEFTDASH))\n      | Waterways_04b[right1] + (WINGS | LEFTDASH | SWIM | (RIGHTCLAW + RIGHTDASH + LEFTSUPERDASH)) + (SWIM | (LEFTCLAW + LEFTDASH))\n      | Waterways_04b[right2] + (SWIM | LEFTSKIPACID)\n    "
+    },
+    {
+        "id": "Mask_Shard-Enraged_Guardian",
+        "pool": "mask_shard",
+        "scene": "Mines_32",
+        "itemLogic": "Upper_Crystal_Peak + ANYCLAW + WINGS + BOSS + (SIDESLASH | UPSLASH | Great_Slash | Cyclone_Slash | (ANYDASH + Dash_Slash))",
+        "areaLogic": "Upper_Crystal_Peak + ANYCLAW + WINGS + BOSS + (SIDESLASH | UPSLASH | Great_Slash | Cyclone_Slash | (ANYDASH + Dash_Slash))",
+        "roomLogic": "Mines_18 + Mines_32[bot1] + BOSS + (SIDESLASH | UPSLASH | Great_Slash | Cyclone_Slash | (ANYDASH + Dash_Slash))"
+    },
+    {
+        "id": "Mask_Shard-Hive",
+        "pool": "mask_shard",
+        "scene": "Hive_04",
+        "itemLogic": "Hive_Top",
+        "areaLogic": "Hive_Top",
+        "roomLogic": "Hive_04[left1] | Hive_04[left2] | Hive_04[right1]"
+    },
+    {
+        "id": "Mask_Shard-Grey_Mourner",
+        "pool": "mask_shard",
+        "scene": "Room_Mansion",
+        "itemLogic": "Upper_Resting_Grounds + Top_Left_Queen's_Gardens + QUAKE + FULLCLAW + WINGS + FULLSUPERDASH + ACID + FULLSHADOWDASH + (SIDESLASH | UPSLASH)",
+        "areaLogic": "Upper_Resting_Grounds + Top_Left_Queen's_Gardens + QUAKE + FULLCLAW + WINGS + FULLSUPERDASH + ACID + FULLSHADOWDASH + (SIDESLASH | UPSLASH)",
+        "roomLogic": "Room_Mansion[left1] + Fungus3_49[right1] + QUAKE + FULLCLAW + WINGS + ACID + FULLSUPERDASH + FULLSHADOWDASH + (SIDESLASH | UPSLASH)"
+    },
+    {
+        "id": "Mask_Shard-Bretta",
+        "pool": "mask_shard",
+        "scene": "Room_Bretta",
+        "itemLogic": "Mantis_Outskirts + Dirtmouth + (((LEFTCLAW | (RIGHTCLAW + MILDSKIPS)) + WINGS) | (FULLCLAW + (FULLDASH | WINGS | FULLSUPERDASH | (AIRSTALL + (SHADESKIPS + 4MASKS)))))",
+        "areaLogic": "Mantis_Outskirts + Dirtmouth + (((LEFTCLAW | (RIGHTCLAW + MILDSKIPS)) + WINGS) | (FULLCLAW + (FULLDASH | WINGS | FULLSUPERDASH | (AIRSTALL + (SHADESKIPS + 4MASKS)))))",
+        "roomLogic": "Room_Bretta[right1]"
+    },
+    {
+        "id": "Mask_Shard-Start",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Mask_Shard-Start_2",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Mask_Shard-Start_3",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Mask_Shard-Start_4",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Mask_Shard-Start_5",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Mask_Shard-Start_6",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Mask_Shard-Start_7",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Mask_Shard-Start_8",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Mask_Shard-Start_9",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Mask_Shard-Start_10",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Mask_Shard-Start_11",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Mask_Shard-Start_12",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Mask_Shard-Start_13",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Mask_Shard-Start_14",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Mask_Shard-Start_15",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Mask_Shard-Start_16",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Vessel_Fragment-Sly1",
+        "pool": "vessel_fragment",
+        "scene": "Room_shop"
+    },
+    {
+        "id": "Vessel_Fragment-Sly2",
+        "pool": "vessel_fragment",
+        "scene": "Room_shop"
+    },
+    {
+        "id": "Vessel_Fragment-Seer",
+        "pool": "vessel_fragment",
+        "scene": "RestingGrounds_07",
+        "itemLogic": "Upper_Resting_Grounds + ESSENCECOUNT",
+        "areaLogic": "Upper_Resting_Grounds + ESSENCECOUNT",
+        "roomLogic": "RestingGrounds_07[right1] + ESSENCECOUNT"
+    },
+    {
+        "id": "Vessel_Fragment-Greenpath",
+        "pool": "vessel_fragment",
+        "scene": "Fungus1_13",
+        "itemLogic": "Greenpath-MMC",
+        "areaLogic": "Greenpath-MMC",
+        "roomLogic": "Fungus1_13[right1] + (LEFTCLAW | (SPICYSKIPS + 2MASKS + WINGS) | (WINGS + RIGHTCLAW + (LEFTDASH | LEFTSUPERDASH)))"
+    },
+    {
+        "id": "Vessel_Fragment-City",
+        "pool": "vessel_fragment",
+        "scene": "Ruins2_09",
+        "itemLogic": "Upper_King's_Station + MINIBOSS",
+        "areaLogic": "Upper_King's_Station + MINIBOSS",
+        "roomLogic": "Ruins2_09[bot1] + MINIBOSS"
+    },
+    {
+        "id": "Vessel_Fragment-Crossroads",
+        "pool": "vessel_fragment",
+        "scene": "Crossroads_37",
+        "itemLogic": "Left_Elevator",
+        "areaLogic": "Left_Elevator",
+        "roomLogic": "Crossroads_37[right1]"
+    },
+    {
+        "id": "Vessel_Fragment-Basin",
+        "pool": "vessel_fragment",
+        "scene": "Abyss_04",
+        "itemLogic": "Mid_Basin + (FULLCLAW | WINGS) + GEO",
+        "areaLogic": "Mid_Basin + (FULLCLAW | WINGS)",
+        "roomLogic": "Abyss_04 + Ruins1_05b[top1] + (FULLCLAW | (WINGS + (Abyss_04[top1] | MILDSKIPS)))"
+    },
+    {
+        "id": "Vessel_Fragment-Deepnest",
+        "pool": "vessel_fragment",
+        "scene": "Deepnest_38",
+        "itemLogic": "Deepnest + (RIGHTCLAW | WINGS)",
+        "areaLogic": "Deepnest + (RIGHTCLAW | WINGS)",
+        "roomLogic": "Deepnest_38[bot1] + (RIGHTCLAW | WINGS)"
+    },
+    {
+        "id": "Vessel_Fragment-Stag_Nest",
+        "pool": "vessel_fragment",
+        "scene": "Cliffs_03",
+        "itemLogic": "Stag_Nest",
+        "areaLogic": "Stag_Nest",
+        "roomLogic": "Cliffs_03[right1] | ((ALLSTAGS | Stag_Nest_Stag) + CANSTAG-R)"
+    },
+    {
+        "id": "Charm_Notch-Shrumal_Ogres",
+        "pool": "",
+        "scene": "Fungus2_05",
+        "itemLogic": "(Left_Fungal_Wastes | Main_Fungal_Wastes) + (SIDESLASH | UPSLASH | Cyclone_Slash | Great_Slash | SPICYCOMBATSKIPS)",
+        "areaLogic": "(Left_Fungal_Wastes | Main_Fungal_Wastes) + (SIDESLASH | UPSLASH | Cyclone_Slash | Great_Slash | SPICYCOMBATSKIPS)",
+        "roomLogic": "(Fungus2_05[bot1] | Fungus2_05[right1]) + (SIDESLASH | UPSLASH | Cyclone_Slash | Great_Slash | SPICYCOMBATSKIPS)"
+    },
+    {
+        "id": "Charm_Notch-Fog_Canyon",
+        "pool": "",
+        "scene": "Fungus3_28",
+        "itemLogic": "Right_Fog_Canyon + ((ACID | LEFTSKIPACID | (WINGS + (LEFTDASH | (AIRSTALL + RIGHTCLAW)) + ACIDSKIPS)) + (RIGHTCLAW | (LEFTCLAW + (WINGS | MILDSKIPS))) | (FULLCLAW + FULLDASH + ACIDSKIPS + SPICYSKIPS))",
+        "areaLogic": "Right_Fog_Canyon + ((ACID | LEFTSKIPACID | (WINGS + (LEFTDASH | (AIRSTALL + RIGHTCLAW)) + ACIDSKIPS)) + (RIGHTCLAW | (LEFTCLAW + (WINGS | MILDSKIPS))) | (FULLCLAW + FULLDASH + ACIDSKIPS + SPICYSKIPS))",
+        "roomLogic": "Fungus3_28[right1] + ((ACID | LEFTSKIPACID | (WINGS + (LEFTDASH | (AIRSTALL + RIGHTCLAW)) + ACIDSKIPS)) + (RIGHTCLAW | (LEFTCLAW + (WINGS | MILDSKIPS))) | (FULLCLAW + FULLDASH + ACIDSKIPS + SPICYSKIPS))"
+    },
+    {
+        "id": "Charm_Notch-Colosseum",
+        "pool": "",
+        "scene": "Room_Colosseum_Bronze",
+        "itemLogic": "Colosseum + BOSS + (SPICYCOMBATSKIPS | FOCUS)",
+        "areaLogic": "Colosseum + BOSS + (SPICYCOMBATSKIPS | FOCUS)",
+        "roomLogic": "BOSS + Room_Colosseum_01[left1] + (SPICYCOMBATSKIPS | FOCUS)"
+    },
+    {
+        "id": "Charm_Notch-Grimm",
+        "pool": "",
+        "scene": "Grimm_Main_Tent",
+        "itemLogic": "Dirtmouth + Grimmchild + BOSS + 6FLAMES",
+        "areaLogic": "Dirtmouth + Grimmchild + BOSS + 6FLAMES",
+        "roomLogic": "Grimm_Main_Tent[left1] + Grimmchild + BOSS + 6FLAMES"
+    },
+    {
+        "id": "Charm_Notch-Start",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Charm_Notch-Start_2",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Pale_Ore-Basin",
+        "pool": "pale_ore",
+        "scene": "Abyss_17",
+        "itemLogic": "Mid_Basin + (ANYCLAW | WINGS | (LEFTDASH + MILDSKIPS) | (SPICYSKIPS + 2MASKS))",
+        "areaLogic": "Mid_Basin + (ANYCLAW | WINGS | (LEFTDASH + MILDSKIPS) | (SPICYSKIPS + 2MASKS))",
+        "roomLogic": "Abyss_17[top1] + (ANYCLAW | WINGS | (LEFTDASH + MILDSKIPS) | (SPICYSKIPS + 2MASKS))"
+    },
+    {
+        "id": "Pale_Ore-Crystal_Peak",
+        "pool": "pale_ore",
+        "scene": "Mines_34",
+        "itemLogic": "Hallownest's_Crown",
+        "areaLogic": "Hallownest's_Crown",
+        "roomLogic": "Mines_34[bot1] + (LEFTCLAW | (WINGS + RIGHTCLAW)) + (WINGS | FULLDASH | FULLSUPERDASH)"
+    },
+    {
+        "id": "Pale_Ore-Nosk",
+        "pool": "pale_ore",
+        "scene": "Deepnest_32",
+        "itemLogic": "Deepnest + ANYCLAW + (WINGS | LEFTSUPERDASH | (LEFTCLAW + SHADESKIPS)) + BOSS",
+        "areaLogic": "Deepnest + ANYCLAW + (WINGS | LEFTSUPERDASH | (LEFTCLAW + SHADESKIPS)) + BOSS",
+        "roomLogic": "Deepnest_32[left1] + BOSS"
+    },
+    {
+        "id": "Pale_Ore-Seer",
+        "pool": "pale_ore",
+        "scene": "RestingGrounds_07",
+        "itemLogic": "Upper_Resting_Grounds + ESSENCECOUNT",
+        "areaLogic": "Upper_Resting_Grounds + ESSENCECOUNT",
+        "roomLogic": "RestingGrounds_07[right1] + ESSENCECOUNT"
+    },
+    {
+        "id": "Pale_Ore-Grubs",
+        "pool": "pale_ore",
+        "scene": "Crossroads_38",
+        "itemLogic": "Crossroads + GRUBCOUNT",
+        "areaLogic": "Crossroads + GRUBCOUNT",
+        "roomLogic": "Crossroads_38[right1] + GRUBCOUNT"
+    },
+    {
+        "id": "Pale_Ore-Colosseum",
+        "pool": "pale_ore",
+        "scene": "Room_Colosseum_Silver",
+        "itemLogic": "Colosseum + (ANYCLAW | (SPICYCOMBATSKIPS + WINGS)) + BOSS + (SPICYCOMBATSKIPS | FOCUS)",
+        "areaLogic": "Colosseum + (ANYCLAW | (SPICYCOMBATSKIPS + WINGS)) + BOSS + (SPICYCOMBATSKIPS | FOCUS)",
+        "roomLogic": "Room_Colosseum_01[left1] + (ANYCLAW | (SPICYCOMBATSKIPS + WINGS)) + BOSS + (SPICYCOMBATSKIPS | FOCUS)"
+    },
+    {
+        "id": "200_Geo-False_Knight_Chest",
+        "pool": "",
+        "scene": "Crossroads_10",
+        "itemLogic": "Crossroads",
+        "areaLogic": "Crossroads",
+        "roomLogic": "Crossroads_10"
+    },
+    {
+        "id": "380_Geo-Soul_Master_Chest",
+        "pool": "",
+        "scene": "Ruins1_32",
+        "itemLogic": "Soul_Sanctum + (LEFTCLAW | (WINGS + RIGHTCLAW) | (RIGHTCLAW + LEFTSUPERDASH + MILDSKIPS)) + NAILCOMBAT",
+        "areaLogic": "Soul_Sanctum + (LEFTCLAW | (WINGS + RIGHTCLAW) | (RIGHTCLAW + LEFTSUPERDASH + MILDSKIPS)) + NAILCOMBAT",
+        "roomLogic": "Ruins1_32[right1] + ANYCLAW"
+    },
+    {
+        "id": "655_Geo-Watcher_Knights_Chest",
+        "pool": "",
+        "scene": "Ruins2_03",
+        "itemLogic": "Watcher's_Spire + (RIGHTCLAW | (WINGS + LEFTCLAW) | (LEFTCLAW + (SHADESKIPS + 4MASKS))) + BOSS",
+        "areaLogic": "Watcher's_Spire + (RIGHTCLAW | (WINGS + LEFTCLAW) | (LEFTCLAW + (SHADESKIPS + 4MASKS))) + BOSS",
+        "roomLogic": "Ruins2_03[top1] | (ANYCLAW + BOSS + Ruins2_03[bot1])"
+    },
+    {
+        "id": "85_Geo-Greenpath_Chest",
+        "pool": "",
+        "scene": "Fungus1_13",
+        "itemLogic": "(Greenpath + (LEFTDASH | LEFTCLAW | WINGS | LEFTSUPERDASH | AIRSTALL | SHADESKIPS)) | Greenpath-MMC",
+        "areaLogic": "(Greenpath + (LEFTDASH | LEFTCLAW | WINGS | LEFTSUPERDASH | AIRSTALL | SHADESKIPS)) | Greenpath-MMC",
+        "roomLogic": "Fungus1_13[right1]"
+    },
+    {
+        "id": "620_Geo-Mantis_Lords_Chest",
+        "pool": "",
+        "scene": "Fungus2_31",
+        "itemLogic": "Lower_Mantis_Village + (ANYCLAW | (WINGS + MILDSKIPS))",
+        "areaLogic": "Lower_Mantis_Village + (ANYCLAW | (WINGS + MILDSKIPS))",
+        "roomLogic": "Fungus2_31[left1] + (Fungus2_15 | Fungus2_15[left1]) + (ANYCLAW | WINGS)"
+    },
+    {
+        "id": "150_Geo-Resting_Grounds_Chest",
+        "pool": "",
+        "scene": "RestingGrounds_10",
+        "itemLogic": "Upper_Resting_Grounds + QUAKE",
+        "areaLogic": "Upper_Resting_Grounds + QUAKE",
+        "roomLogic": "RestingGrounds_10"
+    },
+    {
+        "id": "80_Geo-Crystal_Peak_Chest",
+        "pool": "",
+        "scene": "Mines_37",
+        "itemLogic": "Upper_Crystal_Peak + (ANYCLAW | (WINGS + Grubberfly's_Elegy + LEFTSLASH + SHADESKIPS + SPICYSKIPS)) + (FULLDASH | (FULLSUPERDASH + RIGHTCLAW + SPICYSKIPS) | (Sprintmaster + Dashmaster + 2NOTCHES))",
+        "areaLogic": "Upper_Crystal_Peak + (ANYCLAW | (WINGS + Grubberfly's_Elegy + LEFTSLASH + SHADESKIPS + SPICYSKIPS)) + (FULLDASH | (FULLSUPERDASH + RIGHTCLAW + SPICYSKIPS) | (Sprintmaster + Dashmaster + 2NOTCHES))",
+        "roomLogic": "ANYCLAW + ((Mines_37[top1] + (FULLDASH | (FULLSUPERDASH + RIGHTCLAW + SPICYSKIPS) | (Sprintmaster + Dashmaster + 2NOTCHES))) | Mines_37[bot1])"
+    },
+    {
+        "id": "160_Geo-Weavers_Den_Chest",
+        "pool": "",
+        "scene": "Deepnest_45_v02",
+        "itemLogic": "Weaver's_Den + (RIGHTCLAW | (WINGS + (LEFTCLAW | SPICYSKIPS))) + ((LEFTDASH + WINGS) | LEFTSUPERDASH) + (LEFTDASH | SPIKETUNNELS) + (ANYCLAW | LEFTSLASH | UPSLASH | FIREBALL | SCREAM)",
+        "areaLogic": "Weaver's_Den + (RIGHTCLAW | (WINGS + (LEFTCLAW | SPICYSKIPS))) + ((LEFTDASH + WINGS) | LEFTSUPERDASH) + (LEFTDASH | SPIKETUNNELS) + (ANYCLAW | LEFTSLASH | UPSLASH | FIREBALL | SCREAM)",
+        "roomLogic": "Deepnest_45_v02[left1] + (RIGHTCLAW | (WINGS + (LEFTCLAW | SPICYSKIPS))) + ((LEFTDASH + WINGS) | LEFTSUPERDASH) + (LEFTDASH | SPIKETUNNELS) + (ANYCLAW | LEFTSLASH | UPSLASH | FIREBALL | SCREAM)"
+    },
+    {
+        "id": "8_Geo-Junk_Pit_Chest_1",
+        "pool": "junk_pit",
+        "scene": "GG_Waterways",
+        "itemLogic": "Junk_Pit",
+        "areaLogic": "Junk_Pit",
+        "roomLogic": "(GG_Waterways[door1] | (GG_Waterways[right1] + (LEFTSUPERDASH | SWIM)))"
+    },
+    {
+        "id": "8_Geo-Junk_Pit_Chest_2",
+        "pool": "junk_pit",
+        "scene": "GG_Waterways",
+        "itemLogic": "Junk_Pit",
+        "areaLogic": "Junk_Pit",
+        "roomLogic": "(GG_Waterways[door1] | (GG_Waterways[right1] + (LEFTSUPERDASH | SWIM)))"
+    },
+    {
+        "id": "25_Geo-Junk_Pit_Chest_3",
+        "pool": "junk_pit",
+        "scene": "GG_Waterways",
+        "itemLogic": "Junk_Pit",
+        "areaLogic": "Junk_Pit",
+        "roomLogic": "(GG_Waterways[door1] | (GG_Waterways[right1] + (LEFTSUPERDASH | SWIM)))"
+    },
+    {
+        "id": "Lumafly_Escape-Junk_Pit_Chest_4",
+        "pool": "junk_pit",
+        "scene": "GG_Waterways",
+        "itemLogic": "Junk_Pit",
+        "areaLogic": "Junk_Pit",
+        "roomLogic": "(GG_Waterways[door1] | (GG_Waterways[right1] + (LEFTSUPERDASH | SWIM)))"
+    },
+    {
+        "id": "10_Geo-Junk_Pit_Chest_5",
+        "pool": "junk_pit",
+        "scene": "GG_Waterways",
+        "itemLogic": "Junk_Pit",
+        "areaLogic": "Junk_Pit",
+        "roomLogic": "(GG_Waterways[door1] | (GG_Waterways[right1] + (LEFTSUPERDASH | SWIM)))"
+    },
+    {
+        "id": "Rancid_Egg-Sly",
+        "pool": "rancid_egg",
+        "scene": "Room_shop"
+    },
+    {
+        "id": "Rancid_Egg-Grubs",
+        "pool": "rancid_egg",
+        "scene": "Crossroads_38",
+        "itemLogic": "Crossroads + GRUBCOUNT",
+        "areaLogic": "Crossroads + GRUBCOUNT",
+        "roomLogic": "Crossroads_38[right1] + GRUBCOUNT"
+    },
+    {
+        "id": "Rancid_Egg-Sheo",
+        "pool": "rancid_egg",
+        "scene": "Fungus1_15",
+        "itemLogic": "Greenpath + ((LEFTCLAW + ((LEFTSUPERDASH + RIGHTCLAW + (LEFTDASH | WINGS)) | (WINGS + LEFTDASH))) | (RIGHTCLAW + LEFTDASH + WINGS + LEFTSUPERDASH + SPICYSKIPS))",
+        "areaLogic": "Greenpath + ((LEFTCLAW + ((LEFTSUPERDASH + RIGHTCLAW + (LEFTDASH | WINGS)) | (WINGS + LEFTDASH))) | (RIGHTCLAW + LEFTDASH + WINGS + LEFTSUPERDASH + SPICYSKIPS))",
+        "roomLogic": "Fungus1_15[right1] | Fungus1_15[door1]"
+    },
+    {
+        "id": "Rancid_Egg-Fungal_Core",
+        "pool": "rancid_egg",
+        "scene": "Fungus2_29",
+        "itemLogic": "Fungal_Core + (ANYCLAW | WINGS)",
+        "areaLogic": "Fungal_Core + (ANYCLAW | WINGS)",
+        "roomLogic": "(Fungus2_29[right1] + ANYCLAW + WINGS) | (Fungus2_29[bot1] + (LEFTCLAW | WINGS))"
+    },
+    {
+        "id": "Rancid_Egg-Queen's_Gardens",
+        "pool": "rancid_egg",
+        "scene": "Fungus3_34",
+        "itemLogic": "(Top_Right_Queen's_Gardens + (RIGHTCLAW | WINGS | FULLDASH)) | (Top_Left_Queen's_Gardens + RIGHTDASH)",
+        "areaLogic": "(Top_Right_Queen's_Gardens + (RIGHTCLAW | WINGS | FULLDASH)) | (Top_Left_Queen's_Gardens + RIGHTDASH)",
+        "roomLogic": "(Fungus3_34 + (RIGHTCLAW | WINGS | FULLDASH)) | (Fungus3_34[left1] + RIGHTDASH)"
+    },
+    {
+        "id": "Rancid_Egg-Blue_Lake",
+        "pool": "rancid_egg",
+        "scene": "Crossroads_50",
+        "itemLogic": "Left_Blue_Lake + ((SWIM + WINGS) | RIGHTSUPERDASH)",
+        "areaLogic": "Left_Blue_Lake + ((SWIM + WINGS) | RIGHTSUPERDASH)",
+        "roomLogic": "(Crossroads_50[left1] + RIGHTSUPERDASH) | ((Crossroads_50[left1] | Crossroads_50[right1]) + SWIM + WINGS)"
+    },
+    {
+        "id": "Rancid_Egg-Crystal_Peak_Dive_Entrance",
+        "pool": "rancid_egg",
+        "scene": "Mines_01",
+        "itemLogic": "(Crossroads + QUAKE + (WINGS | RIGHTDASH | (LEFTCLAW + RIGHTSUPERDASH))) | (Crystal_Peak + ((ANYCLAW + WINGS) | (FULLCLAW + FULLSUPERDASH) | (LEFTCLAW + FULLDASH + MILDSKIPS) | (LEFTCLAW + WINGS + (RIGHTDASH | RIGHTSUPERDASH))))",
+        "areaLogic": "(Mines_01[left1] + QUAKE + (RIGHTDASH | WINGS | (LEFTCLAW + RIGHTSUPERDASH))) | (Crystal_Peak + ((ANYCLAW + WINGS) | (FULLCLAW + FULLSUPERDASH) | (LEFTCLAW + FULLDASH + MILDSKIPS) | (LEFTCLAW + WINGS + (RIGHTDASH | RIGHTSUPERDASH))))",
+        "roomLogic": "(Mines_01[left1] + QUAKE + (RIGHTDASH | WINGS | (LEFTCLAW + RIGHTSUPERDASH))) | (Mines_01[bot1] + ((ANYCLAW + WINGS) | (FULLCLAW + FULLSUPERDASH) | (LEFTCLAW + FULLDASH + MILDSKIPS) | (LEFTCLAW + WINGS + (RIGHTDASH | RIGHTSUPERDASH))))"
+    },
+    {
+        "id": "Rancid_Egg-Crystal_Peak_Dark_Room",
+        "pool": "rancid_egg",
+        "scene": "Mines_29",
+        "itemLogic": "Crystal_Peak",
+        "areaLogic": "Crystal_Peak",
+        "roomLogic": "Mines_29[left1] | Mines_29[right1] | Mines_29[right2]"
+    },
+    {
+        "id": "Rancid_Egg-Crystal_Peak_Tall_Room",
+        "pool": "rancid_egg",
+        "scene": "Mines_20",
+        "itemLogic": "Upper_Crystal_Peak + QUAKE",
+        "areaLogic": "Upper_Crystal_Peak + QUAKE",
+        "roomLogic": "Mines_20 + QUAKE"
+    },
+    {
+        "id": "Rancid_Egg-City_of_Tears_Left",
+        "pool": "rancid_egg",
+        "scene": "Ruins1_05c",
+        "itemLogic": "Left_City + (ANYCLAW | WINGS | MILDSKIPS)",
+        "areaLogic": "Left_City + (ANYCLAW | WINGS | MILDSKIPS)",
+        "roomLogic": "Ruins1_05c + (ANYCLAW | WINGS | MILDSKIPS)"
+    },
+    {
+        "id": "Rancid_Egg-City_of_Tears_Pleasure_House",
+        "pool": "rancid_egg",
+        "scene": "Ruins_Elevator",
+        "itemLogic": "Pleasure_House",
+        "areaLogic": "Pleasure_House",
+        "roomLogic": "Ruins_Elevator[left1] | Ruins_Elevator[left2]"
+    },
+    {
+        "id": "Rancid_Egg-Beast's_Den",
+        "pool": "rancid_egg",
+        "scene": "Deepnest_Spider_Town",
+        "itemLogic": "Beast's_Den + (FULLCLAW | (WINGS + ANYCLAW) | (WINGS + SPICYSKIPS + SHADESKIPS + 4MASKS))",
+        "areaLogic": "Beast's_Den + (FULLCLAW | (WINGS + ANYCLAW))",
+        "roomLogic": "Deepnest_Spider_Town[left1] + (FULLCLAW | (WINGS + ANYCLAW))"
+    },
+    {
+        "id": "Rancid_Egg-Dark_Deepnest",
+        "pool": "rancid_egg",
+        "scene": "Deepnest_39",
+        "itemLogic": "Dark_Deepnest + (LEFTCLAW | (WINGS + RIGHTCLAW) | ((WINGS | RIGHTCLAW) + (MILDSKIPS | Bottom_Left_Queen's_Gardens)) | (Distant_Village_Stag + RIGHTCLAW))",
+        "areaLogic": "Dark_Deepnest + (LEFTCLAW | (WINGS + RIGHTCLAW) | ((WINGS | RIGHTCLAW) + MILDSKIPS) | Deepnest_39[door1] | Deepnest_42[top1] | (Deepnest_41[left1] + RIGHTCLAW))",
+        "roomLogic": "(LANTERN | DARKROOMS) + (Deepnest_39[left1] | Deepnest_39[top1] | Deepnest_39[door1] | (Deepnest_39[right1] + (LEFTCLAW | (WINGS + RIGHTCLAW) | ((WINGS | RIGHTCLAW) + MILDSKIPS))))"
+    },
+    {
+        "id": "Rancid_Egg-Weaver's_Den",
+        "pool": "rancid_egg",
+        "scene": "Deepnest_45_v02",
+        "itemLogic": "Weaver's_Den + (SPIKETUNNELS | LEFTDASH)",
+        "areaLogic": "Weaver's_Den + (SPIKETUNNELS | LEFTDASH)",
+        "roomLogic": "Deepnest_45_v02[left1] + (SPIKETUNNELS | LEFTDASH)"
+    },
+    {
+        "id": "Rancid_Egg-Near_Quick_Slash",
+        "pool": "rancid_egg",
+        "scene": "Deepnest_East_14",
+        "itemLogic": "Oro_Bench + QUAKE + (RIGHTCLAW | WINGS)",
+        "areaLogic": "Oro_Bench + QUAKE + (RIGHTCLAW | WINGS)",
+        "roomLogic": "Deepnest_East_14[top2] + QUAKE + (RIGHTCLAW | WINGS)"
+    },
+    {
+        "id": "Rancid_Egg-Upper_Kingdom's_Edge",
+        "pool": "rancid_egg",
+        "scene": "Deepnest_East_07",
+        "itemLogic": "Upper_Kingdom's_Edge + (ANYCLAW | WINGS)",
+        "areaLogic": "Upper_Kingdom's_Edge + (ANYCLAW | WINGS)",
+        "roomLogic": "Deepnest_East_07 + (ANYCLAW | WINGS)"
+    },
+    {
+        "id": "Rancid_Egg-Waterways_East",
+        "pool": "rancid_egg",
+        "scene": "Waterways_07",
+        "itemLogic": "Right_Waterways",
+        "areaLogic": "Right_Waterways",
+        "roomLogic": "Waterways_07"
+    },
+    {
+        "id": "Rancid_Egg-Waterways_Main",
+        "pool": "rancid_egg",
+        "scene": "Waterways_02",
+        "itemLogic": "Upper_Left_Waterways | (Far_Left_Waterways + RIGHTCLAW) | (Central_Left_Waterways + (ANYCLAW | WINGS | SPICYSKIPS))",
+        "areaLogic": "Upper_Left_Waterways | (Far_Left_Waterways + RIGHTCLAW) | (Central_Left_Waterways + (ANYCLAW | WINGS | SPICYSKIPS))",
+        "roomLogic": "Waterways_02 + (ANYCLAW | WINGS | Waterways_02[top1] | (QUAKE + Waterways_02[top3]))"
+    },
+    {
+        "id": "Rancid_Egg-Waterways_West_Bluggsac",
+        "pool": "rancid_egg",
+        "scene": "Waterways_04",
+        "itemLogic": "\n      Upper_Left_Waterways + ((SWIM + (ANYCLAW | WINGS | RIGHTDASH | MILDSKIPS)) | (LEFTSKIPACID + WINGS) | (SPICYSKIPS + FIREBALLSKIPS + ACIDSKIPS + FIREBALL + LEFTDASH + RIGHTCLAW + WINGS))\n      | Far_Left_Waterways + ((SWIM + (ANYCLAW | WINGS | RIGHTDASH | MILDSKIPS)) | (LEFTSKIPACID + WINGS))\n      | (Central_Left_Waterways + RIGHTCLAW) + ((SWIM + (ANYCLAW | WINGS | RIGHTDASH | MILDSKIPS)) | (RIGHTSKIPACID + WINGS) | (SPICYSKIPS + FIREBALLSKIPS + ACIDSKIPS + FIREBALL + LEFTDASH + RIGHTCLAW + WINGS))\n    ",
+        "areaLogic": "\n      Upper_Left_Waterways + ((SWIM + (ANYCLAW | WINGS | RIGHTDASH | MILDSKIPS)) | (LEFTSKIPACID + WINGS) | (SPICYSKIPS + FIREBALLSKIPS + ACIDSKIPS + FIREBALL + LEFTDASH + RIGHTCLAW + WINGS))\n      | Far_Left_Waterways + ((SWIM + (ANYCLAW | WINGS | RIGHTDASH | MILDSKIPS)) | (LEFTSKIPACID + WINGS))\n      | (Central_Left_Waterways + RIGHTCLAW) + ((SWIM + (ANYCLAW | WINGS | RIGHTDASH | MILDSKIPS)) | (RIGHTSKIPACID + WINGS) | (SPICYSKIPS + FIREBALLSKIPS + ACIDSKIPS + FIREBALL + LEFTDASH + RIGHTCLAW + WINGS))\n    ",
+        "roomLogic": "\n      Waterways_04[right1] + ((SWIM + (ANYCLAW | WINGS | RIGHTDASH | MILDSKIPS)) | (LEFTSKIPACID + WINGS) | (SPICYSKIPS + FIREBALLSKIPS + ACIDSKIPS + FIREBALL + LEFTDASH + RIGHTCLAW + WINGS))\n      | Waterways_04[left1] + (RIGHTCLAW | WINGS | MILDSKIPS) + ((SWIM + (ANYCLAW | WINGS | RIGHTDASH | MILDSKIPS)) | (LEFTSKIPACID + WINGS) | (SPICYSKIPS + FIREBALLSKIPS + ACIDSKIPS + FIREBALL + LEFTDASH + RIGHTCLAW + WINGS))\n      | Waterways_04[left2] + ((SWIM + (ANYCLAW | WINGS | RIGHTDASH | MILDSKIPS)) | (RIGHTSKIPACID + WINGS))\n    "
+    },
+    {
+        "id": "Rancid_Egg-Waterways_West_Pickup",
+        "pool": "rancid_egg",
+        "scene": "Waterways_04b",
+        "itemLogic": "Far_Left_Waterways + (ANYCLAW | (WINGS + SPICYSKIPS))",
+        "areaLogic": "Far_Left_Waterways + (ANYCLAW | (WINGS + SPICYSKIPS))",
+        "roomLogic": "Waterways_04b[left1] + (ANYCLAW | (WINGS + SPICYSKIPS))"
+    },
+    {
+        "id": "Wanderer's_Journal-Cliffs",
+        "pool": "",
+        "scene": "Cliffs_01",
+        "itemLogic": "Howling_Cliffs",
+        "areaLogic": "Howling_Cliffs",
+        "roomLogic": "Cliffs_01[right1] | Cliffs_01[right2] | (Cliffs_01[right3] + (ANYCLAW | WINGS | (FULLDASH + MILDSKIPS))) | Cliffs_01[right4]"
+    },
+    {
+        "id": "Wanderer's_Journal-Greenpath_Stag",
+        "pool": "",
+        "scene": "Fungus1_22",
+        "itemLogic": "Greenpath",
+        "areaLogic": "Greenpath",
+        "roomLogic": "Fungus1_22[left1] | Fungus1_22[top1]"
+    },
+    {
+        "id": "Wanderer's_Journal-Greenpath_Lower",
+        "pool": "",
+        "scene": "Fungus1_11",
+        "itemLogic": "Greenpath + ANYCLAW",
+        "areaLogic": "Greenpath + ANYCLAW",
+        "roomLogic": "Fungus1_11 + ANYCLAW"
+    },
+    {
+        "id": "Wanderer's_Journal-Fungal_Wastes_Thorns_Gauntlet",
+        "pool": "",
+        "scene": "Fungus2_04",
+        "itemLogic": "Left_Fungal_Wastes + ((LEFTCLAW + WINGS) | (RIGHTCLAW + (WINGS | RIGHTDASH | (RIGHTSUPERDASH + LEFTCLAW) | AIRSTALL)))",
+        "areaLogic": "Left_Fungal_Wastes + ((LEFTCLAW + WINGS) | (RIGHTCLAW + (WINGS | RIGHTDASH | (RIGHTSUPERDASH + LEFTCLAW) | AIRSTALL)))",
+        "roomLogic": "Fungus2_04 + ((LEFTCLAW + WINGS) | (RIGHTCLAW + (WINGS | RIGHTDASH | (RIGHTSUPERDASH + LEFTCLAW) | AIRSTALL)))"
+    },
+    {
+        "id": "Wanderer's_Journal-Above_Mantis_Village",
+        "pool": "",
+        "scene": "Fungus2_17",
+        "itemLogic": "Main_Fungal_Wastes + (LEFTCLAW | (WINGS + (RIGHTCLAW | (SHADESKIPS + 4MASKS))) | (RIGHTCLAW + ((SHADESKIPS + 4MASKS) | SPICYSKIPS)))",
+        "areaLogic": "(Main_Fungal_Wastes + (LEFTCLAW | (WINGS + (RIGHTCLAW | (SHADESKIPS + 4MASKS))) | (RIGHTCLAW + ((SHADESKIPS + 4MASKS) | SPICYSKIPS)))) | ((Fungus2_17[left1] | Fungus2_17[bot1]) + ANYCLAW)",
+        "roomLogic": "Fungus2_17 + ANYCLAW"
+    },
+    {
+        "id": "Wanderer's_Journal-Crystal_Peak_Crawlers",
+        "pool": "",
+        "scene": "Mines_20",
+        "itemLogic": "Upper_Crystal_Peak + (RIGHTCLAW | WINGS | MILDSKIPS)",
+        "areaLogic": "Upper_Crystal_Peak + (RIGHTCLAW | WINGS | MILDSKIPS)",
+        "roomLogic": "Mines_20 + (RIGHTCLAW | WINGS | MILDSKIPS)"
+    },
+    {
+        "id": "Wanderer's_Journal-Resting_Grounds_Catacombs",
+        "pool": "",
+        "scene": "RestingGrounds_10",
+        "itemLogic": "Upper_Resting_Grounds + QUAKE + (ANYCLAW | WINGS)",
+        "areaLogic": "Upper_Resting_Grounds + QUAKE + (ANYCLAW | WINGS)",
+        "roomLogic": "RestingGrounds_10 + (ANYCLAW | WINGS)"
+    },
+    {
+        "id": "Wanderer's_Journal-King's_Station",
+        "pool": "",
+        "scene": "Ruins2_05",
+        "itemLogic": "Upper_King's_Station",
+        "areaLogic": "Upper_King's_Station",
+        "roomLogic": "(Ruins2_05[bot1] + MILDSKIPS) | Ruins2_05[left1] | Ruins2_05[top1]"
+    },
+    {
+        "id": "Wanderer's_Journal-Pleasure_House",
+        "pool": "",
+        "scene": "Ruins_Elevator",
+        "itemLogic": "Pleasure_House",
+        "areaLogic": "Pleasure_House",
+        "roomLogic": "Ruins_Elevator[left1] | Ruins_Elevator[left2]"
+    },
+    {
+        "id": "Wanderer's_Journal-City_Storerooms",
+        "pool": "",
+        "scene": "Ruins1_28",
+        "itemLogic": "Upper_Storerooms",
+        "areaLogic": "Upper_Storerooms",
+        "roomLogic": "Ruins1_28"
+    },
+    {
+        "id": "Wanderer's_Journal-Ancient_Basin",
+        "pool": "",
+        "scene": "Abyss_02",
+        "itemLogic": "Upper_Basin + (RIGHTDASH | SPIKETUNNELS)",
+        "areaLogic": "Upper_Basin + (RIGHTDASH | SPIKETUNNELS)",
+        "roomLogic": "(Abyss_02[right1] | (Abyss_02[bot1] + (LEFTCLAW | WINGS))) + (RIGHTDASH | SPIKETUNNELS)"
+    },
+    {
+        "id": "Wanderer's_Journal-Kingdom's_Edge_Entrance",
+        "pool": "",
+        "scene": "Deepnest_East_07",
+        "itemLogic": "Central_Kingdom's_Edge + ((LEFTCLAW + (UPWALLBREAK | (RIGHTSUPERDASH + MILDSKIPS))) | ((RIGHTCLAW + WINGS + (SHADESKIPS + 4MASKS)) + (SIDESLASH | UPSLASH | FIREBALL | SCREAM)))",
+        "areaLogic": "Central_Kingdom's_Edge + ((LEFTCLAW + (UPWALLBREAK | (RIGHTSUPERDASH + MILDSKIPS))) | ((RIGHTCLAW + WINGS + (SHADESKIPS + 4MASKS)) + (SIDESLASH | UPSLASH | FIREBALL | SCREAM)))",
+        "roomLogic": "Deepnest_East_07[bot1]"
+    },
+    {
+        "id": "Wanderer's_Journal-Kingdom's_Edge_Camp",
+        "pool": "",
+        "scene": "Deepnest_East_13",
+        "itemLogic": "Center_Right_Kingdom's_Edge + (WINGS | (LEFTCLAW + (SPICYSKIPS | Cast_Off_Shell))) + UPWALLBREAK",
+        "areaLogic": "Center_Right_Kingdom's_Edge + (WINGS | (LEFTCLAW + (SPICYSKIPS | Deepnest_East_12[right1]))) + UPWALLBREAK",
+        "roomLogic": "Deepnest_East_13[bot1]"
+    },
+    {
+        "id": "Wanderer's_Journal-Kingdom's_Edge_Requires_Dive",
+        "pool": "",
+        "scene": "Deepnest_East_18",
+        "itemLogic": "Center_Right_Kingdom's_Edge + QUAKE",
+        "areaLogic": "Center_Right_Kingdom's_Edge + QUAKE",
+        "roomLogic": "Deepnest_East_18 + (ANYCLAW | WINGS | Deepnest_East_18[top1]) + QUAKE"
+    },
+    {
+        "id": "Hallownest_Seal-Crossroads_Well",
+        "pool": "",
+        "scene": "Crossroads_01",
+        "itemLogic": "Crossroads + (ANYCLAW | (WINGS + ((SHADESKIPS + (4MASKS | AIRSTALL | ANYDASH)) | INFECTED)) | (INFECTED + ANYDASH + AIRSTALL))",
+        "areaLogic": "Crossroads + (ANYCLAW | (WINGS + ((SHADESKIPS + (4MASKS | AIRSTALL | ANYDASH)) | INFECTED)) | (INFECTED + ANYDASH + AIRSTALL))",
+        "roomLogic": "(Crossroads_01[left1] | Crossroads_01[top1] | Crossroads_01[right1]) + (ANYCLAW | (WINGS + INFECTED))"
+    },
+    {
+        "id": "Hallownest_Seal-Grubs",
+        "pool": "",
+        "scene": "Crossroads_38",
+        "itemLogic": "Crossroads + GRUBCOUNT",
+        "areaLogic": "Crossroads + GRUBCOUNT",
+        "roomLogic": "Crossroads_38[right1] + GRUBCOUNT"
+    },
+    {
+        "id": "Hallownest_Seal-Greenpath",
+        "pool": "",
+        "scene": "Fungus1_10",
+        "itemLogic": "Greenpath + (ACID | (WINGS + AIRSTALL) | (LEFTDASH + (AIRSTALL | Dashmaster | WINGS | LEFTCLAW)) | (LEFTDASH + SHADESKIPS + SPICYSKIPS) | LEFTSUPERDASH)",
+        "areaLogic": "Greenpath + (ACID | (WINGS + AIRSTALL) | (LEFTDASH + (AIRSTALL | Dashmaster | WINGS | LEFTCLAW)) | (LEFTDASH + SHADESKIPS + SPICYSKIPS) | LEFTSUPERDASH)",
+        "roomLogic": "(Fungus1_10[left1] | Fungus1_10[top1] | Fungus1_10[right1]) + (ACID | (WINGS + AIRSTALL) | (LEFTDASH + (AIRSTALL | Dashmaster | WINGS | LEFTCLAW)) | LEFTSUPERDASH)"
+    },
+    {
+        "id": "Hallownest_Seal-Fog_Canyon_West",
+        "pool": "",
+        "scene": "Fungus3_30",
+        "itemLogic": "Left_Fog_Canyon",
+        "areaLogic": "Left_Fog_Canyon",
+        "roomLogic": "Fungus3_30[bot1]"
+    },
+    {
+        "id": "Hallownest_Seal-Fog_Canyon_East",
+        "pool": "",
+        "scene": "Fungus3_26",
+        "itemLogic": "((Right_Fog_Canyon + (ANYCLAW | WINGS | (RIGHTDASH + (LEFTDASH | AIRSTALL) + MILDSKIPS))) | (Crossroads + (ACID | (ACIDSKIPS + ((LEFTCLAW + RIGHTSUPERDASH + (WINGS | RIGHTCLAW)) | (WINGS + RIGHTDASH)))))) + (LEFTCLAW | WINGS | LEFTDASH | LEFTSUPERDASH | (SPICYSKIPS + 2MASKS))",
+        "areaLogic": "(Right_Fog_Canyon + (Fungus3_26[top1] | ANYCLAW | WINGS | (RIGHTDASH + (LEFTDASH | AIRSTALL) + MILDSKIPS))) + (LEFTCLAW | WINGS | LEFTDASH | LEFTSUPERDASH | (SPICYSKIPS + 2MASKS))",
+        "roomLogic": "(Fungus3_26 + (Fungus3_26[top1] | ANYCLAW | WINGS | (RIGHTDASH + (LEFTDASH | AIRSTALL) + MILDSKIPS))) + (LEFTCLAW | WINGS | LEFTSUPERDASH | LEFTDASH | (SPICYSKIPS + 2MASKS))"
+    },
+    {
+        "id": "Hallownest_Seal-Queen's_Station",
+        "pool": "",
+        "scene": "Fungus2_34",
+        "itemLogic": "Queen's_Station + WINGS",
+        "areaLogic": "Queen's_Station + WINGS",
+        "roomLogic": "Fungus2_34[right1] + WINGS"
+    },
+    {
+        "id": "Hallownest_Seal-Fungal_Wastes_Sporgs",
+        "pool": "",
+        "scene": "Fungus2_03",
+        "itemLogic": "Left_Fungal_Wastes",
+        "areaLogic": "Left_Fungal_Wastes",
+        "roomLogic": "Fungus2_03"
+    },
+    {
+        "id": "Hallownest_Seal-Mantis_Lords",
+        "pool": "",
+        "scene": "Fungus2_31",
+        "itemLogic": "Lower_Mantis_Village + (ANYCLAW | (WINGS + MILDSKIPS))",
+        "areaLogic": "Lower_Mantis_Village + (ANYCLAW | (WINGS + MILDSKIPS))",
+        "roomLogic": "Fungus2_31[left1] + (Fungus2_15 | Fungus2_15[left1]) + (ANYCLAW | WINGS)"
+    },
+    {
+        "id": "Hallownest_Seal-Seer",
+        "pool": "",
+        "scene": "RestingGrounds_07",
+        "itemLogic": "Upper_Resting_Grounds + ESSENCECOUNT",
+        "areaLogic": "Upper_Resting_Grounds + ESSENCECOUNT",
+        "roomLogic": "RestingGrounds_07[right1] + ESSENCECOUNT"
+    },
+    {
+        "id": "Hallownest_Seal-Resting_Grounds_Catacombs",
+        "pool": "",
+        "scene": "RestingGrounds_10",
+        "itemLogic": "Upper_Resting_Grounds + QUAKE",
+        "areaLogic": "Upper_Resting_Grounds + QUAKE",
+        "roomLogic": "RestingGrounds_10 + UPWALLBREAK"
+    },
+    {
+        "id": "Hallownest_Seal-King's_Station",
+        "pool": "",
+        "scene": "Ruins2_08",
+        "itemLogic": "(Upper_King's_Station | (King's_Station_Stag + Can_Stag) | (Lower_King's_Station + (RIGHTCLAW | SHADESKIPS))) + (LEFTCLAW | WINGS | (RIGHTCLAW + LEFTDASH))",
+        "areaLogic": "(Upper_King's_Station | (King's_Station_Stag + Can_Stag) | (Lower_King's_Station + RIGHTCLAW)) + (LEFTCLAW | WINGS | (RIGHTCLAW + LEFTDASH))",
+        "roomLogic": "Ruins2_08[left1] + (LEFTCLAW | WINGS | (RIGHTCLAW + LEFTDASH))"
+    },
+    {
+        "id": "Hallownest_Seal-City_Rafters",
+        "pool": "",
+        "scene": "Ruins1_03",
+        "itemLogic": "Left_City",
+        "areaLogic": "Left_City",
+        "roomLogic": "Ruins1_03"
+    },
+    {
+        "id": "Hallownest_Seal-Soul_Sanctum",
+        "pool": "",
+        "scene": "Ruins1_32",
+        "itemLogic": "Soul_Sanctum + (LEFTCLAW | (WINGS + RIGHTCLAW) | (RIGHTCLAW + LEFTSUPERDASH + MILDSKIPS)) + QUAKE + NAILCOMBAT",
+        "areaLogic": "Soul_Sanctum + (LEFTCLAW | (WINGS + RIGHTCLAW) | (RIGHTCLAW + LEFTSUPERDASH + MILDSKIPS)) + QUAKE + NAILCOMBAT",
+        "roomLogic": "Ruins1_32[right1] + ANYCLAW + QUAKE"
+    },
+    {
+        "id": "Hallownest_Seal-Watcher_Knight",
+        "pool": "",
+        "scene": "Ruins2_03",
+        "itemLogic": "Watcher's_Spire + (RIGHTCLAW | (WINGS + LEFTCLAW) | (LEFTCLAW + (RIGHTDASH | RIGHTSUPERDASH) + SHADESKIPS + 4MASKS)) + BOSS",
+        "areaLogic": "Watcher's_Spire + (RIGHTCLAW | (WINGS + LEFTCLAW) | (LEFTCLAW + (RIGHTDASH | RIGHTSUPERDASH) + SHADESKIPS + 4MASKS)) + BOSS",
+        "roomLogic": "(Ruins2_03[top1] | (Ruins2_03[bot1] + ANYCLAW + BOSS)) + (RIGHTCLAW | WINGS | (LEFTCLAW + RIGHTSUPERDASH) | (RIGHTDASH + MILDSKIPS))"
+    },
+    {
+        "id": "Hallownest_Seal-Deepnest_By_Mantis_Lords",
+        "pool": "",
+        "scene": "Deepnest_16",
+        "itemLogic": "Far_Right_Deepnest + (LEFTCLAW | (ANYCLAW + WINGS))",
+        "areaLogic": "Far_Right_Deepnest + (LEFTCLAW | (ANYCLAW + WINGS))",
+        "roomLogic": "Deepnest_16[bot1] + (LEFTCLAW | (ANYCLAW + WINGS))"
+    },
+    {
+        "id": "Hallownest_Seal-Beast's_Den",
+        "pool": "",
+        "scene": "Deepnest_Spider_Town",
+        "itemLogic": "Beast's_Den",
+        "areaLogic": "Beast's_Den",
+        "roomLogic": "Deepnest_Spider_Town[left1]"
+    },
+    {
+        "id": "Hallownest_Seal-Queen's_Gardens",
+        "pool": "",
+        "scene": "Fungus3_48",
+        "itemLogic": "Top_Left_Queen's_Gardens + (FULLCLAW | WINGS | (FULLDASH + SPICYSKIPS))",
+        "areaLogic": "Top_Left_Queen's_Gardens + (FULLCLAW | WINGS | (FULLDASH + SPICYSKIPS))",
+        "roomLogic": "(Fungus3_48[right2] | Fungus3_48[bot1]) + (FULLCLAW | WINGS | (FULLDASH + SPICYSKIPS))"
+    },
+    {
+        "id": "King's_Idol-Grubs",
+        "pool": "",
+        "scene": "Crossroads_38",
+        "itemLogic": "Crossroads + GRUBCOUNT",
+        "areaLogic": "Crossroads + GRUBCOUNT",
+        "roomLogic": "Crossroads_38[right1] + GRUBCOUNT"
+    },
+    {
+        "id": "King's_Idol-Cliffs",
+        "pool": "",
+        "scene": "Cliffs_01",
+        "itemLogic": "Howling_Cliffs",
+        "areaLogic": "Howling_Cliffs",
+        "roomLogic": "Cliffs_01"
+    },
+    {
+        "id": "King's_Idol-Crystal_Peak",
+        "pool": "",
+        "scene": "Mines_30",
+        "itemLogic": "Upper_Crystal_Peak + ((RIGHTCLAW + RIGHTDASH) | WINGS)",
+        "areaLogic": "Upper_Crystal_Peak + ((RIGHTCLAW + RIGHTDASH) | WINGS)",
+        "roomLogic": "(Mines_30[right1] | (RIGHTSUPERDASH + Mines_30[left1])) + ((RIGHTCLAW + RIGHTDASH) | WINGS)"
+    },
+    {
+        "id": "King's_Idol-Glade_of_Hope",
+        "pool": "",
+        "scene": "RestingGrounds_08",
+        "itemLogic": "Spirits_Glade + ((SWIM + LEFTCLAW) | (SWIM + WINGS + ANYCLAW) | (RIGHTSUPERDASH + FULLCLAW) | (RIGHTSUPERDASH + WINGS + ANYCLAW) | (WINGS + RIGHTDASH) | (RIGHTCLAW + RIGHTDASH + SPICYSKIPS + (SWIM | RIGHTSUPERDASH)))",
+        "areaLogic": "Spirits_Glade + ((SWIM + LEFTCLAW) | (SWIM + WINGS + ANYCLAW) | (RIGHTSUPERDASH + FULLCLAW) | (RIGHTSUPERDASH + WINGS + ANYCLAW) | (WINGS + RIGHTDASH) | (RIGHTCLAW + RIGHTDASH + SPICYSKIPS + (SWIM | RIGHTSUPERDASH)))",
+        "roomLogic": "RestingGrounds_08[left1] + ((SWIM + LEFTCLAW) | (SWIM + WINGS + ANYCLAW) | (RIGHTSUPERDASH + FULLCLAW) | (RIGHTSUPERDASH + WINGS + ANYCLAW) | (WINGS + RIGHTDASH) | (RIGHTCLAW + RIGHTDASH + SPICYSKIPS + (SWIM | RIGHTSUPERDASH)))"
+    },
+    {
+        "id": "King's_Idol-Dung_Defender",
+        "pool": "",
+        "scene": "Waterways_15",
+        "itemLogic": "Central_Left_Waterways + (RIGHTCLAW | (WINGS + LEFTCLAW) | ((WINGS | LEFTCLAW) + SPICYSKIPS)) + QUAKE + BOSS",
+        "areaLogic": "Central_Left_Waterways + (RIGHTCLAW | (WINGS + LEFTCLAW) | ((WINGS | LEFTCLAW) + SPICYSKIPS)) + QUAKE + BOSS",
+        "roomLogic": "Waterways_15[top1]"
+    },
+    {
+        "id": "King's_Idol-Great_Hopper",
+        "pool": "",
+        "scene": "Deepnest_East_08",
+        "itemLogic": "Top_Kingdom's_Edge",
+        "areaLogic": "Top_Kingdom's_Edge",
+        "roomLogic": "Deepnest_East_08[top1] | Deepnest_East_08[right1]"
+    },
+    {
+        "id": "King's_Idol-Pale_Lurker",
+        "pool": "",
+        "scene": "GG_Lurker",
+        "itemLogic": "Pale_Lurker_Area + (SWIM | RIGHTSKIPACID)",
+        "areaLogic": "Pale_Lurker_Area + (SWIM | RIGHTSKIPACID)",
+        "roomLogic": "GG_Lurker[left1] + (SWIM | RIGHTSKIPACID)"
+    },
+    {
+        "id": "King's_Idol-Deepnest",
+        "pool": "",
+        "scene": "Deepnest_33",
+        "itemLogic": "Failed_Tramway | (Mid_Deepnest + ANYCLAW)",
+        "areaLogic": "Deepnest_33[top1]",
+        "roomLogic": "Deepnest_33[top1]"
+    },
+    {
+        "id": "Arcane_Egg-Seer",
+        "pool": "",
+        "scene": "RestingGrounds_07",
+        "itemLogic": "Upper_Resting_Grounds + ESSENCECOUNT",
+        "areaLogic": "Upper_Resting_Grounds + ESSENCECOUNT",
+        "roomLogic": "RestingGrounds_07[right1] + ESSENCECOUNT"
+    },
+    {
+        "id": "Arcane_Egg-Lifeblood_Core",
+        "pool": "",
+        "scene": "Abyss_08",
+        "itemLogic": "Abyss + LIFEBLOOD + (RIGHTSUPERDASH + (RIGHTCLAW | WINGS))",
+        "areaLogic": "Abyss + LIFEBLOOD + (RIGHTSUPERDASH + (RIGHTCLAW | WINGS))",
+        "roomLogic": "Abyss_08[right1] + (RIGHTSUPERDASH + (RIGHTCLAW | WINGS))"
+    },
+    {
+        "id": "Arcane_Egg-Shade_Cloak",
+        "pool": "",
+        "scene": "Abyss_10",
+        "itemLogic": "Abyss_Ocean + (RIGHTSHADOWDASH | (VOIDHEART + (SWIM | RIGHTDASH | RIGHTSUPERDASH | FULLCLAW | WINGS)))",
+        "areaLogic": "Abyss_Ocean + (RIGHTSHADOWDASH | (VOIDHEART + (SWIM | RIGHTDASH | RIGHTSUPERDASH | FULLCLAW | WINGS)))",
+        "roomLogic": "\n      Abyss_10[left2] + RIGHTSHADOWDASH\n      | Abyss_10[left1] + (RIGHTSHADOWDASH | (VOIDHEART + (SWIM | RIGHTDASH | RIGHTSUPERDASH | FULLCLAW | WINGS)))\n    "
+    },
+    {
+        "id": "Arcane_Egg-Birthplace",
+        "pool": "",
+        "scene": "Abyss_15",
+        "itemLogic": "Abyss + KINGSOUL",
+        "areaLogic": "Abyss + KINGSOUL",
+        "roomLogic": "Abyss_15[top1]"
+    },
+    {
+        "id": "Whispering_Root-Crossroads",
+        "pool": "whisper_root",
+        "scene": "Crossroads_07",
+        "itemLogic": "Crossroads + (RIGHTCLAW | (WINGS + LEFTCLAW)) + (WINGS | FULLSUPERDASH | ANYDASH | INFECTED) + DREAMNAIL + UPWALLBREAK",
+        "areaLogic": "Crossroads + (RIGHTCLAW | (WINGS + LEFTCLAW)) + (WINGS | FULLSUPERDASH | ANYDASH | INFECTED) + DREAMNAIL + UPWALLBREAK",
+        "roomLogic": "Crossroads_07 + (RIGHTCLAW | (WINGS + LEFTCLAW)) + (WINGS | FULLSUPERDASH | ANYDASH | INFECTED) + DREAMNAIL + UPWALLBREAK"
+    },
+    {
+        "id": "Whispering_Root-Greenpath",
+        "pool": "whisper_root",
+        "scene": "Fungus1_13",
+        "itemLogic": "Far_Queen's_Gardens + Greenpath + (LEFTCLAW | (RIGHTCLAW + WINGS + (LEFTDASH | LEFTSUPERDASH | (2MASKS + SPICYSKIPS)))) + DREAMNAIL + (SIDESLASH | Great_Slash | Cyclone_Slash | (FULLDASH + Dash_Slash))",
+        "areaLogic": "Fungus1_13[left1] + Greenpath + (LEFTCLAW | (RIGHTCLAW + WINGS + (LEFTDASH | LEFTSUPERDASH | (2MASKS + SPICYSKIPS)))) + DREAMNAIL + (SIDESLASH | Great_Slash | Cyclone_Slash | (FULLDASH + Dash_Slash))",
+        "roomLogic": "Fungus1_13[left1] + Fungus1_13[right1] + (LEFTCLAW | (RIGHTCLAW + WINGS + (LEFTDASH | LEFTSUPERDASH | (2MASKS + SPICYSKIPS)))) + DREAMNAIL + (SIDESLASH | Great_Slash | Cyclone_Slash | (FULLDASH + Dash_Slash))"
+    },
+    {
+        "id": "Whispering_Root-Leg_Eater",
+        "pool": "whisper_root",
+        "scene": "Fungus2_33",
+        "itemLogic": "Right_Fog_Canyon + DREAMNAIL",
+        "areaLogic": "(Fungus2_33[left1] | (Main_Fungal_Wastes + ACID)) + DREAMNAIL",
+        "roomLogic": "(Fungus2_33[left1] | Fungus2_33[right1]) + DREAMNAIL"
+    },
+    {
+        "id": "Whispering_Root-Mantis_Village",
+        "pool": "whisper_root",
+        "scene": "Fungus2_17",
+        "itemLogic": "((Main_Fungal_Wastes + (LEFTCLAW | WINGS | SPICYSKIPS)) | (Mantis_Village + (RIGHTCLAW | WINGS) + MILDSKIPS)) + ANYCLAW + DREAMNAIL",
+        "areaLogic": "((Main_Fungal_Wastes + (LEFTCLAW | WINGS | SPICYSKIPS)) | Fungus2_17[left1] | Fungus2_17[bot1]) + ANYCLAW + DREAMNAIL",
+        "roomLogic": "Fungus2_17 + ANYCLAW + DREAMNAIL"
+    },
+    {
+        "id": "Whispering_Root-Deepnest",
+        "pool": "whisper_root",
+        "scene": "Deepnest_39",
+        "itemLogic": "Dark_Deepnest + (LANTERN | DARKROOMS) + (FULLCLAW | (WINGS + ANYCLAW) | (WINGS + MILDSKIPS)) + DREAMNAIL",
+        "areaLogic": "Dark_Deepnest + (LANTERN | DARKROOMS) + (FULLCLAW | (WINGS + ANYCLAW) | (WINGS + MILDSKIPS)) + DREAMNAIL",
+        "roomLogic": "Deepnest_39 + (LANTERN | DARKROOMS) + (FULLCLAW | (WINGS + ANYCLAW) | (WINGS + MILDSKIPS)) + DREAMNAIL"
+    },
+    {
+        "id": "Whispering_Root-Queens_Gardens",
+        "pool": "whisper_root",
+        "scene": "Fungus3_11",
+        "itemLogic": "Bottom_Right_Queen's_Gardens + LEFTCLAW + DREAMNAIL",
+        "areaLogic": "Bottom_Right_Queen's_Gardens + LEFTCLAW + DREAMNAIL",
+        "roomLogic": "Fungus3_11 + LEFTCLAW + DREAMNAIL"
+    },
+    {
+        "id": "Whispering_Root-Kingdoms_Edge",
+        "pool": "whisper_root",
+        "scene": "Deepnest_East_07",
+        "itemLogic": "Upper_Kingdom's_Edge + (ANYCLAW | WINGS) + DREAMNAIL",
+        "areaLogic": "Upper_Kingdom's_Edge + (ANYCLAW | WINGS) + DREAMNAIL",
+        "roomLogic": "Deepnest_East_07 + (ANYCLAW | WINGS) + DREAMNAIL"
+    },
+    {
+        "id": "Whispering_Root-Waterways",
+        "pool": "whisper_root",
+        "scene": "Abyss_01",
+        "itemLogic": "Waterways_Shaft + ((FULLCLAW + (FULLDASH | WINGS | RIGHTSUPERDASH | MILDSKIPS)) | (WINGS + ANYCLAW)) + DREAMNAIL",
+        "areaLogic": "Waterways_Shaft + ((FULLCLAW + (FULLDASH | WINGS | RIGHTSUPERDASH | MILDSKIPS)) | (WINGS + ANYCLAW)) + DREAMNAIL",
+        "roomLogic": "Abyss_01[left3] + ((FULLCLAW + (FULLDASH | WINGS | RIGHTSUPERDASH | MILDSKIPS)) | (WINGS + ANYCLAW)) + DREAMNAIL"
+    },
+    {
+        "id": "Whispering_Root-City",
+        "pool": "whisper_root",
+        "scene": "Ruins1_17",
+        "itemLogic": "Upper_Storerooms + (FULLDASH | WINGS | FULLSUPERDASH | MILDSKIPS) + DREAMNAIL",
+        "areaLogic": "Upper_Storerooms + (FULLDASH | WINGS | FULLSUPERDASH | MILDSKIPS) + DREAMNAIL",
+        "roomLogic": "(Ruins1_17[top1] | Ruins1_17[right1]) + (FULLDASH | WINGS | FULLSUPERDASH | MILDSKIPS) + DREAMNAIL"
+    },
+    {
+        "id": "Whispering_Root-Resting_Grounds",
+        "pool": "whisper_root",
+        "scene": "RestingGrounds_05",
+        "itemLogic": "Upper_Resting_Grounds + DREAMNAIL",
+        "areaLogic": "Upper_Resting_Grounds + DREAMNAIL",
+        "roomLogic": "RestingGrounds_05 + DREAMNAIL"
+    },
+    {
+        "id": "Whispering_Root-Spirits_Glade",
+        "pool": "whisper_root",
+        "scene": "RestingGrounds_08",
+        "itemLogic": "Spirits_Glade + DREAMNAIL + ((WINGS + ((SWIM + ANYCLAW) | (RIGHTDASH + ANYCLAW) | (RIGHTSUPERDASH + ANYCLAW) | FULLDASH)) | (LEFTCLAW + SWIM + (RIGHTDASH | AIRSTALL)) | (FULLCLAW + RIGHTSUPERDASH + (RIGHTDASH | AIRSTALL)) | (RIGHTCLAW + RIGHTDASH + SPICYSKIPS + (SWIM | RIGHTSUPERDASH)))",
+        "areaLogic": "Spirits_Glade + DREAMNAIL + ((WINGS + ((SWIM + ANYCLAW) | (RIGHTDASH + ANYCLAW) | (RIGHTSUPERDASH + ANYCLAW) | FULLDASH)) | (LEFTCLAW + SWIM + RIGHTDASH) | (FULLCLAW + RIGHTSUPERDASH + RIGHTDASH) | (RIGHTCLAW + RIGHTDASH + SPICYSKIPS + (SWIM | RIGHTSUPERDASH)))",
+        "roomLogic": "RestingGrounds_08[left1] + DREAMNAIL + ((WINGS + ((SWIM + ANYCLAW) | (RIGHTDASH + ANYCLAW) | (RIGHTSUPERDASH + ANYCLAW) | FULLDASH)) | (LEFTCLAW + SWIM + RIGHTDASH) | (FULLCLAW + RIGHTSUPERDASH + RIGHTDASH) | (RIGHTCLAW + RIGHTDASH + SPICYSKIPS + (SWIM | RIGHTSUPERDASH)))"
+    },
+    {
+        "id": "Whispering_Root-Crystal_Peak",
+        "pool": "whisper_root",
+        "scene": "Mines_23",
+        "itemLogic": "Upper_Crystal_Peak + (RIGHTCLAW | WINGS) + (FULLDASH | WINGS) + DREAMNAIL",
+        "areaLogic": "Upper_Crystal_Peak + (RIGHTCLAW | WINGS) + (FULLDASH | WINGS) + DREAMNAIL",
+        "roomLogic": "(Mines_23[left1] | Mines_23[top1] | Mines_23[right1] | Mines_23[right2]) + (RIGHTCLAW | WINGS) + (FULLDASH | WINGS) + DREAMNAIL"
+    },
+    {
+        "id": "Whispering_Root-Howling_Cliffs",
+        "pool": "whisper_root",
+        "scene": "Cliffs_01",
+        "itemLogic": "Howling_Cliffs + (LEFTCLAW | (RIGHTCLAW + FULLDASH) | WINGS | (FULLDASH + MILDSKIPS)) + DREAMNAIL",
+        "areaLogic": "Howling_Cliffs + (LEFTCLAW | (RIGHTCLAW + FULLDASH) | WINGS | (FULLDASH + MILDSKIPS)) + DREAMNAIL",
+        "roomLogic": "Cliffs_01 + (LEFTCLAW | (RIGHTCLAW + FULLDASH) | WINGS | (FULLDASH + MILDSKIPS)) + DREAMNAIL"
+    },
+    {
+        "id": "Whispering_Root-Ancestral_Mound",
+        "pool": "whisper_root",
+        "scene": "Crossroads_ShamanTemple",
+        "itemLogic": "Ancestral_Mound + (WINGS | (FULLCLAW + SPICYSKIPS)) + (ANYCLAW | LEFTBALDURS) + DREAMNAIL + UPWALLBREAK",
+        "areaLogic": "Ancestral_Mound + (WINGS | (FULLCLAW + SPICYSKIPS)) + (ANYCLAW | LEFTBALDURS) + DREAMNAIL + UPWALLBREAK",
+        "roomLogic": "Crossroads_ShamanTemple[left1] + (WINGS | (FULLCLAW + SPICYSKIPS)) + (ANYCLAW | LEFTBALDURS) + DREAMNAIL + UPWALLBREAK"
+    },
+    {
+        "id": "Whispering_Root-Hive",
+        "pool": "whisper_root",
+        "scene": "Hive_02",
+        "itemLogic": "Hive + (RIGHTCLAW | WINGS | (FULLDASH + LEFTCLAW)) + DREAMNAIL",
+        "areaLogic": "Hive + (RIGHTCLAW | WINGS | (FULLDASH + LEFTCLAW)) + DREAMNAIL",
+        "roomLogic": "(Hive_02[left1] | Hive_02[left2] | Hive_02[left3]) + (RIGHTCLAW | WINGS | (FULLDASH + LEFTCLAW)) + DREAMNAIL"
+    },
+    {
+        "id": "Boss_Essence-Elder_Hu",
+        "pool": "",
+        "scene": "Fungus2_32",
+        "itemLogic": "Main_Fungal_Wastes + DREAMNAIL + AERIALMINIBOSS",
+        "areaLogic": "Main_Fungal_Wastes + DREAMNAIL + AERIALMINIBOSS",
+        "roomLogic": "Fungus2_32[left1] + DREAMNAIL + AERIALMINIBOSS"
+    },
+    {
+        "id": "Boss_Essence-Xero",
+        "pool": "",
+        "scene": "RestingGrounds_02_boss",
+        "itemLogic": "Upper_Resting_Grounds + DREAMNAIL + AERIALMINIBOSS",
+        "areaLogic": "Upper_Resting_Grounds + DREAMNAIL + AERIALMINIBOSS",
+        "roomLogic": "RestingGrounds_02 + DREAMNAIL + AERIALMINIBOSS"
+    },
+    {
+        "id": "Boss_Essence-Gorb",
+        "pool": "",
+        "scene": "Cliffs_02_boss",
+        "itemLogic": "Howling_Cliffs + DREAMNAIL + AERIALMINIBOSS",
+        "areaLogic": "Howling_Cliffs + DREAMNAIL + AERIALMINIBOSS",
+        "roomLogic": "Cliffs_02 + DREAMNAIL + AERIALMINIBOSS"
+    },
+    {
+        "id": "Boss_Essence-Marmu",
+        "pool": "",
+        "scene": "Fungus3_40_boss",
+        "itemLogic": "(Top_Left_Queen's_Gardens | (Queen's_Gardens_Stag + Can_Stag + (LEFTDASH | LEFTCLAW | (RIGHTCLAW + LEFTSUPERDASH) | WINGS))) + DREAMNAIL + AERIALMINIBOSS",
+        "areaLogic": "(Top_Left_Queen's_Gardens | (Queen's_Gardens_Stag + Can_Stag + (LEFTDASH | LEFTCLAW | (RIGHTCLAW + LEFTSUPERDASH) | WINGS))) + DREAMNAIL + AERIALMINIBOSS",
+        "roomLogic": "(Fungus3_40[top1] | (Fungus3_40[right1] + (LEFTCLAW | (RIGHTCLAW + LEFTSUPERDASH) | WINGS | LEFTDASH))) + DREAMNAIL + AERIALMINIBOSS"
+    },
+    {
+        "id": "Boss_Essence-No_Eyes",
+        "pool": "",
+        "scene": "Fungus1_35",
+        "itemLogic": "Stone_Sanctuary + LANTERN + DREAMNAIL + AERIALMINIBOSS",
+        "areaLogic": "Stone_Sanctuary + LANTERN + DREAMNAIL + AERIALMINIBOSS",
+        "roomLogic": "(Fungus1_35[left1] | Fungus1_35[right1]) + LANTERN + DREAMNAIL + AERIALMINIBOSS"
+    },
+    {
+        "id": "Boss_Essence-Galien",
+        "pool": "",
+        "scene": "Deepnest_40",
+        "itemLogic": "((Failed_Tramway + (LANTERN | DARKROOMS)) | (Dark_Deepnest + FULLCLAW)) + DREAMNAIL + AERIALMINIBOSS",
+        "areaLogic": "((Deepnest_35[top1] + (LANTERN | DARKROOMS)) | (Dark_Deepnest + FULLCLAW)) + DREAMNAIL + AERIALMINIBOSS",
+        "roomLogic": "Deepnest_40[right1] + DREAMNAIL + AERIALMINIBOSS"
+    },
+    {
+        "id": "Boss_Essence-Markoth",
+        "pool": "",
+        "scene": "Deepnest_East_10",
+        "itemLogic": "Center_Right_Kingdom's_Edge + RIGHTSHADOWDASH + DREAMNAIL + AERIALMINIBOSS",
+        "areaLogic": "Center_Right_Kingdom's_Edge + RIGHTSHADOWDASH + DREAMNAIL + AERIALMINIBOSS",
+        "roomLogic": "Deepnest_East_10[left1] + DREAMNAIL + AERIALMINIBOSS"
+    },
+    {
+        "id": "Boss_Essence-Failed_Champion",
+        "pool": "",
+        "scene": "Crossroads_10",
+        "itemLogic": "Crossroads + ((ANYCLAW + (WINGS | LEFTDASH | LEFTSUPERDASH)) | (WINGS + INFECTED)) + DREAMNAIL + BOSS",
+        "areaLogic": "Crossroads + ((ANYCLAW + (WINGS | LEFTDASH | LEFTSUPERDASH)) | (WINGS + INFECTED)) + DREAMNAIL + BOSS",
+        "roomLogic": "Crossroads_10 + (ANYCLAW + (WINGS | LEFTDASH | LEFTSUPERDASH)) + DREAMNAIL + BOSS"
+    },
+    {
+        "id": "Boss_Essence-Soul_Tyrant",
+        "pool": "",
+        "scene": "Ruins1_24_boss_defeated",
+        "itemLogic": "Soul_Sanctum + (LEFTCLAW | WINGS | (RIGHTCLAW + LEFTDASH + LEFTSUPERDASH + MILDSKIPS)) + DREAMNAIL + BOSS",
+        "areaLogic": "Soul_Sanctum + (LEFTCLAW | WINGS | (RIGHTCLAW + LEFTDASH + LEFTSUPERDASH + MILDSKIPS)) + DREAMNAIL + BOSS",
+        "roomLogic": "Ruins1_24[right1] + (LEFTCLAW | WINGS | LEFTDASH) + DREAMNAIL + BOSS"
+    },
+    {
+        "id": "Boss_Essence-Lost_Kin",
+        "pool": "",
+        "scene": "Abyss_19",
+        "itemLogic": "Far_Left_Basin + (LEFTCLAW | (WINGS + MILDSKIPS)) + DREAMNAIL + BOSS",
+        "areaLogic": "Far_Left_Basin + (LEFTCLAW | (WINGS + MILDSKIPS)) + DREAMNAIL + BOSS",
+        "roomLogic": "Abyss_19[bot1] + (LEFTCLAW | WINGS) + DREAMNAIL + BOSS"
+    },
+    {
+        "id": "Boss_Essence-White_Defender",
+        "pool": "",
+        "scene": "Waterways_15",
+        "itemLogic": "Central_Left_Waterways + (RIGHTCLAW | (WINGS + LEFTCLAW) | ((WINGS | LEFTCLAW) + SPICYSKIPS)) + QUAKE + DREAMNAIL + BOSS + Lurien + Monomon + Herrah",
+        "areaLogic": "Central_Left_Waterways + (RIGHTCLAW | (WINGS + LEFTCLAW) | ((WINGS | LEFTCLAW) + SPICYSKIPS)) + QUAKE + DREAMNAIL + BOSS + Lurien + Monomon + Herrah",
+        "roomLogic": "Waterways_15[top1] + DREAMNAIL + BOSS + Lurien + Monomon + Herrah"
+    },
+    {
+        "id": "Boss_Essence-Grey_Prince_Zote",
+        "pool": "",
+        "scene": "Room_Bretta_Basement",
+        "itemLogic": "Dirtmouth + DREAMNAIL + BOSS + Mantis_Outskirts + (LEFTCLAW | (RIGHTCLAW + MILDSKIPS)) + WINGS + Failed_Tramway + Colosseum + (SPICYCOMBATSKIPS | FOCUS)",
+        "areaLogic": "Dirtmouth + DREAMNAIL + BOSS + Mantis_Outskirts + (LEFTCLAW | (RIGHTCLAW + MILDSKIPS)) + WINGS + Deepnest_33[top1] + Colosseum + (SPICYCOMBATSKIPS | FOCUS)",
+        "roomLogic": "Room_Bretta[right1] + DREAMNAIL + BOSS + Fungus2_23 + (LEFTCLAW | (RIGHTCLAW + MILDSKIPS)) + WINGS + Deepnest_33[top1] + Room_Colosseum_01[left1] + (SPICYCOMBATSKIPS | FOCUS)"
+    },
+    {
+        "id": "Grub-Crossroads_Acid",
+        "pool": "grub",
+        "scene": "Crossroads_35",
+        "itemLogic": "Crossroads",
+        "areaLogic": "Crossroads",
+        "roomLogic": "Crossroads_35[right1] | (Crossroads_35[bot1] + RIGHTCLAW + (ACID | (((LEFTSUPERDASH + LEFTCLAW) | (WINGS + LEFTDASH)) + ACIDSKIPS)))"
+    },
+    {
+        "id": "Grub-Crossroads_Center",
+        "pool": "grub",
+        "scene": "Crossroads_05",
+        "itemLogic": "Crossroads + (MILDSKIPS | RIGHTDASH | WINGS | RIGHTSUPERDASH)",
+        "areaLogic": "Crossroads + (MILDSKIPS | RIGHTDASH | WINGS | RIGHTSUPERDASH)",
+        "roomLogic": "(Crossroads_05[left1] | Crossroads_05[right1]) + (MILDSKIPS | RIGHTDASH | WINGS | RIGHTSUPERDASH)"
+    },
+    {
+        "id": "Grub-Crossroads_Stag",
+        "pool": "grub",
+        "scene": "Crossroads_03",
+        "itemLogic": "Crossroads",
+        "areaLogic": "Crossroads",
+        "roomLogic": "Crossroads_03"
+    },
+    {
+        "id": "Grub-Crossroads_Spike",
+        "pool": "grub",
+        "scene": "Crossroads_31",
+        "itemLogic": "Crossroads",
+        "areaLogic": "Crossroads",
+        "roomLogic": "Crossroads_31[right1]"
+    },
+    {
+        "id": "Grub-Crossroads_Guarded",
+        "pool": "grub",
+        "scene": "Crossroads_48",
+        "itemLogic": "Crossroads",
+        "areaLogic": "Crossroads",
+        "roomLogic": "Crossroads_48[left1]"
+    },
+    {
+        "id": "Grub-Greenpath_Cornifer",
+        "pool": "grub",
+        "scene": "Fungus1_06",
+        "itemLogic": "Greenpath + (SIDESLASH | Great_Slash | Cyclone_Slash | RIGHTDASH | RIGHTCLAW | WINGS | RIGHTSUPERDASH | MILDSKIPS)",
+        "areaLogic": "Greenpath + (SIDESLASH | Great_Slash | Cyclone_Slash | RIGHTDASH | RIGHTCLAW | WINGS | RIGHTSUPERDASH | MILDSKIPS)",
+        "roomLogic": "(Fungus1_06[left1] | Fungus1_06[bot1]) + (SIDESLASH | Great_Slash | Cyclone_Slash | RIGHTDASH | RIGHTCLAW | WINGS | RIGHTSUPERDASH | MILDSKIPS)"
+    },
+    {
+        "id": "Grub-Greenpath_Journal",
+        "pool": "grub",
+        "scene": "Fungus1_07",
+        "itemLogic": "Greenpath + (SIDESLASH | Great_Slash | Cyclone_Slash | RIGHTDASH | WINGS | (ACID + (RIGHTCLAW | MILDSKIPS)) | SPICYSKIPS)",
+        "areaLogic": "Greenpath + (SIDESLASH | Great_Slash | Cyclone_Slash | RIGHTDASH | WINGS | (ACID + (RIGHTCLAW | MILDSKIPS)) | SPICYSKIPS)",
+        "roomLogic": "(Fungus1_07[left1] | Fungus1_07[top1] | Fungus1_07[right1]) + (SIDESLASH | Great_Slash | Cyclone_Slash | RIGHTDASH | WINGS | (ACID + (RIGHTCLAW | MILDSKIPS)) | SPICYSKIPS)"
+    },
+    {
+        "id": "Grub-Greenpath_MMC",
+        "pool": "grub",
+        "scene": "Fungus1_13",
+        "itemLogic": "(Greenpath + (LEFTDASH | LEFTCLAW | WINGS | LEFTSUPERDASH | AIRSTALL | SHADESKIPS)) | Greenpath-MMC",
+        "areaLogic": "(Greenpath + (LEFTDASH | LEFTCLAW | WINGS | LEFTSUPERDASH | AIRSTALL | SHADESKIPS)) | Greenpath-MMC",
+        "roomLogic": "Fungus1_13[right1]"
+    },
+    {
+        "id": "Grub-Greenpath_Stag",
+        "pool": "grub",
+        "scene": "Fungus1_21",
+        "itemLogic": "Greenpath",
+        "areaLogic": "Greenpath",
+        "roomLogic": "Fungus1_21"
+    },
+    {
+        "id": "Grub-Fog_Canyon",
+        "pool": "grub",
+        "scene": "Fungus3_47",
+        "itemLogic": "LEFTSUPERDASH + Right_Fog_Canyon",
+        "areaLogic": "LEFTSUPERDASH + Right_Fog_Canyon",
+        "roomLogic": "LEFTSUPERDASH + Fungus3_47"
+    },
+    {
+        "id": "Grub-Fungal_Bouncy",
+        "pool": "grub",
+        "scene": "Fungus2_18",
+        "itemLogic": "Main_Fungal_Wastes",
+        "areaLogic": "Main_Fungal_Wastes",
+        "roomLogic": "Fungus2_18[right1]"
+    },
+    {
+        "id": "Grub-Fungal_Spore_Shroom",
+        "pool": "grub",
+        "scene": "Fungus2_20",
+        "itemLogic": "Bottom_Left_Fungal_Wastes",
+        "areaLogic": "Bottom_Left_Fungal_Wastes",
+        "roomLogic": "Fungus2_20[left1] | Fungus2_20[right1]"
+    },
+    {
+        "id": "Grub-Deepnest_Mimic",
+        "pool": "grub",
+        "scene": "Deepnest_36",
+        "itemLogic": "Bottom_Left_Fungal_Wastes | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | RIGHTSUPERDASH))))",
+        "areaLogic": "Deepnest_01b[top1] | Deepnest_01b[top2] | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | RIGHTSUPERDASH))))",
+        "roomLogic": "Deepnest_36[left1]"
+    },
+    {
+        "id": "Grub-Deepnest_Nosk",
+        "pool": "grub",
+        "scene": "Deepnest_31",
+        "itemLogic": "Deepnest + (LEFTSUPERDASH | WINGS | (LEFTCLAW + SHADESKIPS))",
+        "areaLogic": "Deepnest + (LEFTSUPERDASH | WINGS | (LEFTCLAW + SHADESKIPS))",
+        "roomLogic": "Deepnest_31[right1] | (Deepnest_31[right2] + (ANYCLAW | WINGS))"
+    },
+    {
+        "id": "Grub-Deepnest_Spike",
+        "pool": "grub",
+        "scene": "Deepnest_03",
+        "itemLogic": "Mid_Deepnest + (LEFTCLAW | WINGS)",
+        "areaLogic": "Mid_Deepnest + (LEFTCLAW | WINGS)",
+        "roomLogic": "Deepnest_03 + (FULLCLAW | WINGS | (LEFTCLAW + Deepnest_03[top1]))"
+    },
+    {
+        "id": "Grub-Dark_Deepnest",
+        "pool": "grub",
+        "scene": "Deepnest_39",
+        "itemLogic": "Dark_Deepnest + (RIGHTCLAW | (WINGS + (MILDSKIPS | LEFTCLAW | Bottom_Left_Queen's_Gardens)) | (LEFTCLAW + Bottom_Left_Queen's_Gardens))",
+        "areaLogic": "Dark_Deepnest + (RIGHTCLAW | (WINGS + (LEFTCLAW | MILDSKIPS)) | Deepnest_42[top1])",
+        "roomLogic": "(LANTERN | DARKROOMS) + ((Deepnest_39 + (RIGHTCLAW | (WINGS + (LEFTCLAW | MILDSKIPS)))) | Deepnest_39[top1] | (Deepnest_39[left1] + (RIGHTCLAW | WINGS | RIGHTDASH)))"
+    },
+    {
+        "id": "Grub-Beast's_Den",
+        "pool": "grub",
+        "scene": "Deepnest_Spider_Town",
+        "itemLogic": "Beast's_Den + (FULLCLAW | (WINGS + ANYCLAW) | (WINGS + SPICYSKIPS + SHADESKIPS + 4MASKS))",
+        "areaLogic": "Beast's_Den + (FULLCLAW | (WINGS + ANYCLAW))",
+        "roomLogic": "Deepnest_Spider_Town[left1] + (FULLCLAW | (WINGS + ANYCLAW))"
+    },
+    {
+        "id": "Grub-Kingdom's_Edge_Oro",
+        "pool": "grub",
+        "scene": "Deepnest_East_14",
+        "itemLogic": "Oro_Bench + (RIGHTCLAW | WINGS) + QUAKE + (MILDSKIPS | RIGHTDASH)",
+        "areaLogic": "Oro_Bench + (RIGHTCLAW | WINGS) + QUAKE + (MILDSKIPS | RIGHTDASH)",
+        "roomLogic": "(ANYCLAW | WINGS) + ((Deepnest_East_14[top2] + QUAKE + (MILDSKIPS | RIGHTDASH)) | (Deepnest_East_14[left1] + (SPIKETUNNELS | RIGHTDASH)) | Deepnest_East_14[door1])"
+    },
+    {
+        "id": "Grub-Kingdom's_Edge_Camp",
+        "pool": "grub",
+        "scene": "Deepnest_East_11",
+        "itemLogic": "Center_Right_Kingdom's_Edge + (ANYCLAW | WINGS | (MILDSKIPS + LEFTDASH))",
+        "areaLogic": "Center_Right_Kingdom's_Edge + (ANYCLAW | WINGS | (MILDSKIPS + LEFTDASH))",
+        "roomLogic": "Deepnest_East_11 + (ANYCLAW | WINGS | (MILDSKIPS + LEFTDASH))"
+    },
+    {
+        "id": "Grub-Hive_External",
+        "pool": "grub",
+        "scene": "Hive_03",
+        "itemLogic": "Lower_Kingdom's_Edge + (FULLCLAW | (ANYCLAW + SPICYSKIPS) | WINGS) + QUAKE + (ACID | LEFTSKIPACID | (LEFTDASH + WINGS + ACIDSKIPS))",
+        "areaLogic": "Hive_03[top1]",
+        "roomLogic": "Hive_03[top1]"
+    },
+    {
+        "id": "Grub-Hive_Internal",
+        "pool": "grub",
+        "scene": "Hive_04",
+        "itemLogic": "Hive_Top + ANYCLAW + WINGS + ((LEFTCLAW + RIGHTSUPERDASH) | (RIGHTCLAW + LEFTSUPERDASH) | SPICYSKIPS)",
+        "areaLogic": "Hive_Top + ANYCLAW + WINGS + ((LEFTCLAW + RIGHTSUPERDASH) | (RIGHTCLAW + LEFTSUPERDASH) | SPICYSKIPS)",
+        "roomLogic": "(Hive_04[left1] | Hive_04[right1]) + ANYCLAW + WINGS + ((LEFTCLAW + RIGHTSUPERDASH) | (RIGHTCLAW + LEFTSUPERDASH) | SPICYSKIPS)"
+    },
+    {
+        "id": "Grub-Basin_Requires_Wings",
+        "pool": "grub",
+        "scene": "Abyss_19",
+        "itemLogic": "Far_Left_Basin + WINGS + (RIGHTCLAW | (AIRSTALL + SPICYSKIPS))",
+        "areaLogic": "Far_Left_Basin + WINGS + (RIGHTCLAW | (AIRSTALL + SPICYSKIPS))",
+        "roomLogic": "Abyss_19 + WINGS + (RIGHTCLAW | (AIRSTALL + SPICYSKIPS))"
+    },
+    {
+        "id": "Grub-Basin_Requires_Dive",
+        "pool": "grub",
+        "scene": "Abyss_17",
+        "itemLogic": "Mid_Basin + QUAKE",
+        "areaLogic": "Mid_Basin + QUAKE",
+        "roomLogic": "Abyss_17[top1] + QUAKE"
+    },
+    {
+        "id": "Grub-Waterways_Main",
+        "pool": "grub",
+        "scene": "Waterways_04",
+        "itemLogic": "\n      Upper_Left_Waterways + (RIGHTCLAW | SWIM | CYCLONE | FIREBALL | SCREAM)\n      | Far_Left_Waterways + ((WINGS + (ANYCLAW | SPICYSKIPS)) | SWIM | RIGHTSKIPACID) + (RIGHTCLAW | SWIM | CYCLONE | FIREBALL | SCREAM)\n      | (Central_Left_Waterways + RIGHTCLAW) + (RIGHTCLAW | SWIM | CYCLONE | FIREBALL | SCREAM)\n    ",
+        "areaLogic": "\n      Upper_Left_Waterways + (RIGHTCLAW | SWIM | CYCLONE | FIREBALL | SCREAM)\n      | Far_Left_Waterways + ((WINGS + (ANYCLAW | SPICYSKIPS)) | SWIM | RIGHTSKIPACID) + (RIGHTCLAW | SWIM | CYCLONE | FIREBALL | SCREAM)\n      | (Central_Left_Waterways + RIGHTCLAW) + (RIGHTCLAW | SWIM | CYCLONE | FIREBALL | SCREAM)\n    ",
+        "roomLogic": "\n      Waterways_04[right1] + (RIGHTCLAW | SWIM | CYCLONE | FIREBALL | SCREAM)\n      | Waterways_04[left1] + (RIGHTCLAW | WINGS | MILDSKIPS) + (RIGHTCLAW | SWIM | CYCLONE | FIREBALL | SCREAM)\n      | Waterways_04[left2] + (SWIM | RIGHTSKIPACID)\n    "
+    },
+    {
+        "id": "Grub-Waterways_East",
+        "pool": "grub",
+        "scene": "Waterways_13",
+        "itemLogic": "Isma's_Grove + ANYCLAW + (ACID | RIGHTSKIPACID)",
+        "areaLogic": "Isma's_Grove + ANYCLAW + (ACID | RIGHTSKIPACID)",
+        "roomLogic": "((Waterways_13[left1] + (FULLCLAW | (ANYCLAW + (WINGS | MILDSKIPS)) | (LEFTCLAW + (RIGHTDASH | RIGHTSUPERDASH)))) | (Waterways_13[left2] + (RIGHTCLAW | ((WINGS | MILDSKIPS) + LEFTCLAW)))) + (ACID | RIGHTSKIPACID)"
+    },
+    {
+        "id": "Grub-Waterways_Requires_Tram",
+        "pool": "grub",
+        "scene": "Waterways_14",
+        "itemLogic": "Lower_Kingdom's_Edge + (FULLCLAW | (RIGHTCLAW + SPICYSKIPS) | (ANYCLAW + WINGS)) + ((LEFTSUPERDASH + WINGS + (RIGHTCLAW | (LEFTCLAW + MILDSKIPS))) | (ACID + (RIGHTCLAW | (LEFTCLAW + WINGS))))",
+        "areaLogic": "Waterways_14[bot2] + (RIGHTCLAW | (WINGS + LEFTCLAW)) + ((LEFTSUPERDASH + WINGS + (RIGHTCLAW | (LEFTCLAW + MILDSKIPS))) | (ACID + (RIGHTCLAW | (LEFTCLAW + WINGS))))",
+        "roomLogic": "\n      Waterways_14[bot1] + ANYCLAW + ((RIGHTSUPERDASH + WINGS + (RIGHTCLAW | (LEFTCLAW + MILDSKIPS))) | (ACID + (RIGHTCLAW | (LEFTCLAW + WINGS))))\n      | Waterways_14[bot2] + (RIGHTCLAW | (WINGS + LEFTCLAW)) + ((LEFTSUPERDASH + WINGS + (RIGHTCLAW | (LEFTCLAW + MILDSKIPS))) | (ACID + (RIGHTCLAW | (LEFTCLAW + WINGS))))\n    "
+    },
+    {
+        "id": "Grub-City_of_Tears_Left",
+        "pool": "grub",
+        "scene": "Ruins1_05",
+        "itemLogic": "(Left_City + ((FULLCLAW + (FULLDASH | FULLSUPERDASH | WINGS | MILDSKIPS)) | (WINGS + MILDSKIPS))) | ((Upper_Storerooms | Soul_Sanctum) + (LEFTCLAW | WINGS | MILDSKIPS))",
+        "areaLogic": "(Left_City + ((FULLCLAW + (FULLDASH | FULLSUPERDASH | WINGS | MILDSKIPS)) | (WINGS + MILDSKIPS))) | ((Upper_Storerooms | Ruins1_05[right1] | Ruins1_31[right1]) + (LEFTCLAW | WINGS | MILDSKIPS))",
+        "roomLogic": "Ruins1_05 + (LEFTCLAW | WINGS | (MILDSKIPS + (Ruins1_05[top1] | Ruins1_05[right1])))"
+    },
+    {
+        "id": "Grub-Soul_Sanctum",
+        "pool": "grub",
+        "scene": "Ruins1_32",
+        "itemLogic": "Soul_Sanctum + (LEFTCLAW | (WINGS + RIGHTCLAW) | (RIGHTCLAW + LEFTSUPERDASH + MILDSKIPS)) + QUAKE + NAILCOMBAT",
+        "areaLogic": "Soul_Sanctum + (LEFTCLAW | (WINGS + RIGHTCLAW) | (RIGHTCLAW + LEFTSUPERDASH + MILDSKIPS)) + QUAKE + NAILCOMBAT",
+        "roomLogic": "Ruins1_32[right1] + ANYCLAW + QUAKE"
+    },
+    {
+        "id": "Grub-Watcher's_Spire",
+        "pool": "grub",
+        "scene": "Ruins2_03",
+        "itemLogic": "Watcher's_Spire + (RIGHTCLAW | (WINGS + LEFTCLAW))",
+        "areaLogic": "Watcher's_Spire + (RIGHTCLAW | (WINGS + LEFTCLAW))",
+        "roomLogic": "Ruins2_03[bot2] + (RIGHTCLAW | (WINGS + LEFTCLAW))"
+    },
+    {
+        "id": "Grub-City_of_Tears_Guarded",
+        "pool": "grub",
+        "scene": "Ruins_House_01",
+        "itemLogic": "Right_City + (WINGS | ((LEFTCLAW | LEFTDASH) + (RIGHTCLAW | RIGHTDASH)) | Upper_King's_Station | (Lower_King's_Station + RIGHTCLAW))",
+        "areaLogic": "Right_City + (WINGS | ((LEFTCLAW | LEFTDASH) + (RIGHTCLAW | RIGHTDASH)) | Ruins2_04[right1] | (Ruins2_04[door_Ruin_Elevator] + (ANYCLAW | RIGHTSUPERDASH)))",
+        "roomLogic": "Ruins_House_01[left1]"
+    },
+    {
+        "id": "Grub-King's_Station",
+        "pool": "grub",
+        "scene": "Ruins2_07",
+        "itemLogic": "\n      Lower_King's_Station + (SWIM | RIGHTSKIPACID)\n      | Tower_of_Love + (LEFTDASH | (RIGHTCLAW + LEFTSUPERDASH) | (RIGHTCLAW + WINGS + MILDSKIPS))\n      | Central_Kingdom's_Edge + (LEFTDASH | SWIM | ((RIGHTCLAW + (LEFTCLAW | WINGS)) + LEFTSUPERDASH) | (RIGHTCLAW + WINGS + MILDSKIPS))\n    ",
+        "areaLogic": "\n      Lower_King's_Station + (SWIM | RIGHTSKIPACID)\n      | Ruins2_07[top1] + (LEFTDASH | (RIGHTCLAW + LEFTSUPERDASH) | (RIGHTCLAW + WINGS + MILDSKIPS))\n      | Ruins2_07[right1] + (LEFTDASH | SWIM | ((RIGHTCLAW + (LEFTCLAW | WINGS)) + LEFTSUPERDASH) | (RIGHTCLAW + WINGS + MILDSKIPS))\n    ",
+        "roomLogic": "\n      Ruins2_07[left1] + (SWIM | RIGHTSKIPACID)\n      | Ruins2_07[top1] + (LEFTDASH | (RIGHTCLAW + LEFTSUPERDASH) | (RIGHTCLAW + WINGS + MILDSKIPS))\n      | Ruins2_07[right1] + (LEFTDASH | SWIM | ((RIGHTCLAW + (LEFTCLAW | WINGS)) + LEFTSUPERDASH) | (RIGHTCLAW + WINGS + MILDSKIPS))\n    "
+    },
+    {
+        "id": "Grub-Resting_Grounds",
+        "pool": "grub",
+        "scene": "RestingGrounds_10",
+        "itemLogic": "Upper_Resting_Grounds + QUAKE + (LEFTCLAW | WINGS) + UPWALLBREAK",
+        "areaLogic": "Upper_Resting_Grounds + QUAKE + (LEFTCLAW | WINGS) + UPWALLBREAK",
+        "roomLogic": "RestingGrounds_10 + (LEFTCLAW | WINGS) + UPWALLBREAK"
+    },
+    {
+        "id": "Grub-Crystal_Peak_Below_Chest",
+        "pool": "grub",
+        "scene": "Mines_04",
+        "itemLogic": "Upper_Crystal_Peak + (FULLDASH | (SPICYSKIPS + FULLSUPERDASH) | (Dashmaster + Sprintmaster + 2NOTCHES))",
+        "areaLogic": "Upper_Crystal_Peak + (FULLDASH | (SPICYSKIPS + FULLSUPERDASH) | (Dashmaster + Sprintmaster + 2NOTCHES))",
+        "roomLogic": "Mines_04[top1]"
+    },
+    {
+        "id": "Grub-Crystallized_Mound",
+        "pool": "grub",
+        "scene": "Mines_35",
+        "itemLogic": "Crystallized_Mound + QUAKE + (LEFTCLAW | (RIGHTCLAW + ((RIGHTDASH + MILDSKIPS) | SPICYSKIPS)) | WINGS)",
+        "areaLogic": "Crystallized_Mound + QUAKE + (LEFTCLAW | (RIGHTCLAW + ((RIGHTDASH + MILDSKIPS) | SPICYSKIPS)) | WINGS)",
+        "roomLogic": "Mines_35[left1] + QUAKE + (LEFTCLAW | (RIGHTCLAW + ((RIGHTDASH + MILDSKIPS) | SPICYSKIPS)) | WINGS)"
+    },
+    {
+        "id": "Grub-Crystal_Peak_Spike",
+        "pool": "grub",
+        "scene": "Mines_03",
+        "itemLogic": "Crystal_Peak + ((FULLCLAW + FULLDASH) | (WINGS + SPIKETUNNELS + (FULLDASH | AIRSTALL)))",
+        "areaLogic": "Crystal_Peak + ((FULLCLAW + FULLDASH) | (WINGS + SPIKETUNNELS + (FULLDASH | AIRSTALL)))",
+        "roomLogic": "Mines_03 + ((FULLCLAW + FULLDASH) | (WINGS + SPIKETUNNELS + (FULLDASH | AIRSTALL)))"
+    },
+    {
+        "id": "Grub-Crystal_Peak_Mimic",
+        "pool": "grub",
+        "scene": "Mines_16",
+        "itemLogic": "(Upper_Crystal_Peak + FULLCLAW + LEFTSUPERDASH) | (King's_Pass + WINGS + RIGHTSUPERDASH)",
+        "areaLogic": "(Upper_Crystal_Peak + FULLCLAW + LEFTSUPERDASH) | (Mines_10[left1] + ((LEFTCLAW + RIGHTSUPERDASH) | (WINGS + (RIGHTDASH | RIGHTSUPERDASH))))",
+        "roomLogic": "Mines_16[top1] + (LEFTCLAW | WINGS)"
+    },
+    {
+        "id": "Grub-Crystal_Peak_Crushers",
+        "pool": "grub",
+        "scene": "Mines_19",
+        "itemLogic": "Upper_Crystal_Peak + LEFTDASH + (ANYCLAW | WINGS)",
+        "areaLogic": "Upper_Crystal_Peak + LEFTDASH + (ANYCLAW | WINGS)",
+        "roomLogic": "(Mines_19[left1] + Mines_19[right1]) + LEFTDASH + (ANYCLAW | WINGS)"
+    },
+    {
+        "id": "Grub-Crystal_Heart",
+        "pool": "grub",
+        "scene": "Mines_31",
+        "itemLogic": "Upper_Crystal_Peak + ((LEFTCLAW + RIGHTSUPERDASH) | WINGS | (FULLCLAW + RIGHTDASH + AIRSTALL))",
+        "areaLogic": "Upper_Crystal_Peak + ((LEFTCLAW + RIGHTSUPERDASH) | WINGS | (FULLCLAW + RIGHTDASH + AIRSTALL))",
+        "roomLogic": "Mines_31[left1] + ((LEFTCLAW + RIGHTSUPERDASH) | WINGS | (FULLCLAW + RIGHTDASH + AIRSTALL))"
+    },
+    {
+        "id": "Grub-Hallownest_Crown",
+        "pool": "grub",
+        "scene": "Mines_24",
+        "itemLogic": "(Upper_Crystal_Peak + (RIGHTCLAW | (LEFTDASH + LEFTCLAW) | WINGS) + (RIGHTDASH | (RIGHTCLAW + RIGHTSUPERDASH))) | (Hallownest's_Crown + (RIGHTDASH | RIGHTSUPERDASH | SPIKETUNNELS))",
+        "areaLogic": "(Upper_Crystal_Peak + (RIGHTCLAW | (LEFTDASH + LEFTCLAW) | WINGS) + (RIGHTDASH | (RIGHTCLAW + RIGHTSUPERDASH))) | ((Mines_23[top1] | Mines_23[right1]) + (RIGHTDASH | RIGHTSUPERDASH | SPIKETUNNELS))",
+        "roomLogic": "Mines_24[left1] + (RIGHTDASH | RIGHTSUPERDASH | SPIKETUNNELS)"
+    },
+    {
+        "id": "Grub-Howling_Cliffs",
+        "pool": "grub",
+        "scene": "Fungus1_28",
+        "itemLogic": "Howling_Cliffs",
+        "areaLogic": "Howling_Cliffs",
+        "roomLogic": "Fungus1_28[left1] | (Fungus1_28[left2] + (((FULLCLAW | (WINGS + ANYCLAW)) + RIGHTBALDURS) | (WINGS + LEFTCLAW)))"
+    },
+    {
+        "id": "Grub-Queen's_Gardens_Stag",
+        "pool": "grub",
+        "scene": "Fungus3_10",
+        "itemLogic": "Top_Left_Queen's_Gardens | (Queen's_Gardens_Stag + Can_Stag)",
+        "areaLogic": "Top_Left_Queen's_Gardens | (Queen's_Gardens_Stag + Can_Stag)",
+        "roomLogic": "(Fungus3_10[bot1] + (WINGS | FULLDASH) + MINIBOSS) | Fungus3_10[top1]"
+    },
+    {
+        "id": "Grub-Queen's_Gardens_Marmu",
+        "pool": "grub",
+        "scene": "Fungus3_48",
+        "itemLogic": "Top_Left_Queen's_Gardens + (FULLCLAW | (WINGS + ANYCLAW))",
+        "areaLogic": "Top_Left_Queen's_Gardens + (FULLCLAW | (WINGS + ANYCLAW))",
+        "roomLogic": "(Fungus3_48[bot1] | Fungus3_48[right2]) + (FULLCLAW | (WINGS + ANYCLAW))"
+    },
+    {
+        "id": "Grub-Queen's_Gardens_Top",
+        "pool": "grub",
+        "scene": "Fungus3_22",
+        "itemLogic": "Far_Queen's_Gardens + ((FULLCLAW + LEFTSUPERDASH + (RIGHTSUPERDASH | WINGS)) | (AIRSTALL + WINGS + ((LEFTCLAW + LEFTSHARPSHADOW + SPICYSKIPS) | (FULLCLAW + LEFTDASH + (SPICYSKIPS | LEFTSHARPSHADOW)))))",
+        "areaLogic": "Far_Queen's_Gardens + ((FULLCLAW + LEFTSUPERDASH + (RIGHTSUPERDASH | WINGS)) | (AIRSTALL + WINGS + ((LEFTCLAW + LEFTSHARPSHADOW + SPICYSKIPS) | (FULLCLAW + LEFTDASH + (SPICYSKIPS | LEFTSHARPSHADOW)))))",
+        "roomLogic": "Fungus3_22 + ((FULLCLAW + LEFTSUPERDASH + (RIGHTSUPERDASH | WINGS)) | (AIRSTALL + WINGS + ((LEFTCLAW + LEFTSHARPSHADOW + SPICYSKIPS) | (FULLCLAW + LEFTDASH + (SPICYSKIPS | LEFTSHARPSHADOW)))))"
+    },
+    {
+        "id": "Grub-Collector_1",
+        "pool": "grub",
+        "scene": "Ruins2_11",
+        "itemLogic": "Tower_of_Love + LOVE + (LEFTCLAW | ((WINGS | RIGHTDASH) + RIGHTCLAW) | (WINGS + SPICYSKIPS)) + BOSS",
+        "areaLogic": "Tower_of_Love + LOVE + (LEFTCLAW | ((WINGS | RIGHTDASH) + RIGHTCLAW) | (WINGS + SPICYSKIPS)) + BOSS",
+        "roomLogic": "Ruins2_11[right1] + (LEFTCLAW | ((WINGS | RIGHTDASH) + RIGHTCLAW) | (WINGS + SPICYSKIPS)) + BOSS"
+    },
+    {
+        "id": "Grub-Collector_2",
+        "pool": "grub",
+        "scene": "Ruins2_11",
+        "itemLogic": "Tower_of_Love + LOVE + (LEFTCLAW | ((WINGS | RIGHTDASH) + RIGHTCLAW) | (WINGS + SPICYSKIPS)) + BOSS",
+        "areaLogic": "Tower_of_Love + LOVE + (LEFTCLAW | ((WINGS | RIGHTDASH) + RIGHTCLAW) | (WINGS + SPICYSKIPS)) + BOSS",
+        "roomLogic": "Ruins2_11[right1] + (LEFTCLAW | ((WINGS | RIGHTDASH) + RIGHTCLAW) | (WINGS + SPICYSKIPS)) + BOSS"
+    },
+    {
+        "id": "Grub-Collector_3",
+        "pool": "grub",
+        "scene": "Ruins2_11",
+        "itemLogic": "Tower_of_Love + LOVE + (LEFTCLAW | ((WINGS | RIGHTDASH) + RIGHTCLAW) | (WINGS + SPICYSKIPS)) + BOSS",
+        "areaLogic": "Tower_of_Love + LOVE + (LEFTCLAW | ((WINGS | RIGHTDASH) + RIGHTCLAW) | (WINGS + SPICYSKIPS)) + BOSS",
+        "roomLogic": "Ruins2_11[right1] + (LEFTCLAW | ((WINGS | RIGHTDASH) + RIGHTCLAW) | (WINGS + SPICYSKIPS)) + BOSS"
+    },
+    {
+        "id": "Mimic_Grub-Deepnest_1",
+        "pool": "",
+        "scene": "Deepnest_36",
+        "itemLogic": "Bottom_Left_Fungal_Wastes | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | SUPERDASH))))",
+        "areaLogic": "Deepnest_01b[top1] | Deepnest_01b[top2] | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | SUPERDASH))))",
+        "roomLogic": "Deepnest_36[left1]"
+    },
+    {
+        "id": "Mimic_Grub-Deepnest_2",
+        "pool": "",
+        "scene": "Deepnest_36",
+        "itemLogic": "Bottom_Left_Fungal_Wastes | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | SUPERDASH))))",
+        "areaLogic": "Deepnest_01b[top1] | Deepnest_01b[top2] | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | SUPERDASH))))",
+        "roomLogic": "Deepnest_36[left1]"
+    },
+    {
+        "id": "Mimic_Grub-Deepnest_3",
+        "pool": "",
+        "scene": "Deepnest_36",
+        "itemLogic": "Bottom_Left_Fungal_Wastes | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | SUPERDASH))))",
+        "areaLogic": "Deepnest_01b[top1] | Deepnest_01b[top2] | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | SUPERDASH))))",
+        "roomLogic": "Deepnest_36[left1]"
+    },
+    {
+        "id": "Mimic_Grub-Crystal_Peak",
+        "pool": "",
+        "scene": "Mines_16",
+        "itemLogic": "(Upper_Crystal_Peak + FULLCLAW + SUPERDASH) | (King's_Pass + WINGS + SUPERDASH)",
+        "areaLogic": "(Upper_Crystal_Peak + FULLCLAW + SUPERDASH) | (Mines_10[left1] + ((RIGHTDASH + WINGS) | SUPERDASH))",
+        "roomLogic": "Mines_16[top1]"
+    },
+    {
+        "id": "Crossroads_Map",
+        "pool": "map",
+        "scene": "Crossroads_33",
+        "itemLogic": "Crossroads",
+        "areaLogic": "Crossroads",
+        "roomLogic": "Crossroads_33"
+    },
+    {
+        "id": "Greenpath_Map",
+        "pool": "map",
+        "scene": "Fungus1_06",
+        "itemLogic": "Greenpath",
+        "areaLogic": "Greenpath",
+        "roomLogic": "Fungus1_06[left1] | Fungus1_06[bot1]"
+    },
+    {
+        "id": "Fog_Canyon_Map",
+        "pool": "map",
+        "scene": "Fungus3_25",
+        "itemLogic": "Right_Fog_Canyon + ((LEFTCLAW + LEFTDASH + MILDSKIPS) | WINGS)",
+        "areaLogic": "Right_Fog_Canyon + ((LEFTCLAW + LEFTDASH + MILDSKIPS) | WINGS)",
+        "roomLogic": "((Fungus3_25[left1] + RIGHTSHADOWDASH) | Fungus3_25[right1]) + ((LEFTCLAW + LEFTDASH + MILDSKIPS) | WINGS)"
+    },
+    {
+        "id": "Fungal_Wastes_Map",
+        "pool": "map",
+        "scene": "Fungus2_18",
+        "itemLogic": "Left_Fungal_Wastes",
+        "areaLogic": "Left_Fungal_Wastes",
+        "roomLogic": "Fungus2_18[top1] | Fungus2_18[right1] | (Fungus2_18[bot1] + (RIGHTCLAW | WINGS))"
+    },
+    {
+        "id": "Deepnest_Map-Upper",
+        "pool": "map",
+        "scene": "Deepnest_01b",
+        "itemLogic": "Upper_Deepnest",
+        "areaLogic": "Upper_Deepnest",
+        "roomLogic": "Deepnest_01b"
+    },
+    {
+        "id": "Deepnest_Map-Right_[Gives_Quill]",
+        "pool": "map",
+        "scene": "Fungus2_25",
+        "itemLogic": "Far_Right_Deepnest + ANYCLAW",
+        "areaLogic": "Far_Right_Deepnest + ANYCLAW",
+        "roomLogic": "(Fungus2_25[top1] | Fungus2_25[top2] | Fungus2_25[right1]) + ANYCLAW"
+    },
+    {
+        "id": "Ancient_Basin_Map",
+        "pool": "map",
+        "scene": "Abyss_04",
+        "itemLogic": "Mid_Basin + (RIGHTDASH | ANYCLAW | WINGS | RIGHTSUPERDASH | MILDSKIPS)",
+        "areaLogic": "Mid_Basin + (RIGHTDASH | ANYCLAW | WINGS | RIGHTSUPERDASH | MILDSKIPS)",
+        "roomLogic": "(Abyss_04[top1] + (RIGHTDASH | ANYCLAW | WINGS | RIGHTSUPERDASH | MILDSKIPS)) | ((Abyss_04[left1] | Abyss_04[right1] | Abyss_04[bot1]) + (ANYCLAW | (WINGS + MILDSKIPS)))"
+    },
+    {
+        "id": "Kingdom's_Edge_Map",
+        "pool": "map",
+        "scene": "Deepnest_East_03",
+        "itemLogic": "Central_Kingdom's_Edge",
+        "areaLogic": "Central_Kingdom's_Edge",
+        "roomLogic": "Deepnest_East_03"
+    },
+    {
+        "id": "City_of_Tears_Map",
+        "pool": "map",
+        "scene": "Ruins1_31",
+        "itemLogic": "Upper_Storerooms",
+        "areaLogic": "Upper_Storerooms",
+        "roomLogic": "(Ruins1_31 | Ruins1_31[bot1] | Ruins1_31[left1])"
+    },
+    {
+        "id": "Royal_Waterways_Map",
+        "pool": "map",
+        "scene": "Waterways_09",
+        "itemLogic": "Far_Upper_Left_Waterways",
+        "areaLogic": "Far_Upper_Left_Waterways",
+        "roomLogic": "(Waterways_09[left1] | Waterways_09[right1]) + (LEFTCLAW | ((LEFTDASH | LEFTSUPERDASH) + RIGHTCLAW) | WINGS)"
+    },
+    {
+        "id": "Howling_Cliffs_Map",
+        "pool": "map",
+        "scene": "Cliffs_01",
+        "itemLogic": "Howling_Cliffs",
+        "areaLogic": "Howling_Cliffs",
+        "roomLogic": "Cliffs_01 + ((FULLDASH + MILDSKIPS) | ANYCLAW | WINGS | Cliffs_01[right1] | Cliffs_01[right2])"
+    },
+    {
+        "id": "Crystal_Peak_Map",
+        "pool": "map",
+        "scene": "Mines_30",
+        "itemLogic": "Upper_Crystal_Peak",
+        "areaLogic": "Upper_Crystal_Peak",
+        "roomLogic": "Mines_30[right1] | (RIGHTSUPERDASH + Mines_30[left1])"
+    },
+    {
+        "id": "Queen's_Gardens_Map",
+        "pool": "map",
+        "scene": "Fungus1_24",
+        "itemLogic": "(Top_Left_Queen's_Gardens | (Top_Right_Queen's_Gardens + (LEFTDASH | WINGS | (RIGHTCLAW + (LEFTSUPERDASH | MILDSKIPS))))) + (ANYCLAW | WINGS)",
+        "areaLogic": "(Top_Left_Queen's_Gardens | (Top_Right_Queen's_Gardens + (LEFTDASH | WINGS | (RIGHTCLAW + (LEFTSUPERDASH | MILDSKIPS))))) + (ANYCLAW | WINGS)",
+        "roomLogic": "Fungus1_24[left1] + (ANYCLAW | WINGS)"
+    },
+    {
+        "id": "Resting_Grounds_Map",
+        "pool": "map",
+        "scene": "RestingGrounds_09",
+        "itemLogic": "Upper_Resting_Grounds + GEO",
+        "areaLogic": "Upper_Resting_Grounds",
+        "roomLogic": "RestingGrounds_09[left1] | (Resting_Grounds_Stag + CANSTAG-R)"
+    },
+    {
+        "id": "Dirtmouth_Stag",
+        "pool": "stag",
+        "scene": "Room_Town_Stag_Station",
+        "itemLogic": "Can_Stag",
+        "areaLogic": "Can_Stag",
+        "roomLogic": "Room_Town_Stag_Station[left1] | CANSTAG-R"
+    },
+    {
+        "id": "Crossroads_Stag",
+        "pool": "stag",
+        "scene": "Crossroads_47",
+        "itemLogic": "Crossroads",
+        "areaLogic": "Crossroads",
+        "roomLogic": "Crossroads_47[right1] | (Crossroads_Stag + CANSTAG-R)"
+    },
+    {
+        "id": "Greenpath_Stag",
+        "pool": "stag",
+        "scene": "Fungus1_16_alt",
+        "itemLogic": "Greenpath",
+        "areaLogic": "Greenpath",
+        "roomLogic": "Fungus1_16_alt[right1] | (Greenpath_Stag + CANSTAG-R)"
+    },
+    {
+        "id": "Queen's_Station_Stag",
+        "pool": "stag",
+        "scene": "Fungus2_02",
+        "itemLogic": "Queen's_Station",
+        "areaLogic": "Queen's_Station",
+        "roomLogic": "Fungus2_02[right1] | (Queen's_Station_Stag + CANSTAG-R)"
+    },
+    {
+        "id": "Queen's_Gardens_Stag",
+        "pool": "stag",
+        "scene": "Fungus3_40",
+        "itemLogic": "Top_Left_Queen's_Gardens | (Queen's_Gardens_Stag + Can_Stag + GEO)",
+        "areaLogic": "Top_Left_Queen's_Gardens | (Queen's_Gardens_Stag + Can_Stag)",
+        "roomLogic": "Fungus3_40[top1] | Fungus3_40[right1] | (Queen's_Gardens_Stag + CANSTAG-R)"
+    },
+    {
+        "id": "City_Storerooms_Stag",
+        "pool": "stag",
+        "scene": "Ruins1_29",
+        "itemLogic": "Upper_Storerooms",
+        "areaLogic": "Upper_Storerooms",
+        "roomLogic": "Ruins1_29[left1] | (City_Storerooms_Stag + CANSTAG-R)"
+    },
+    {
+        "id": "King's_Station_Stag",
+        "pool": "stag",
+        "scene": "Ruins2_08",
+        "itemLogic": "\n      Upper_King's_Station \n      | (Right_City + ((LEFTDASH | LEFTCLAW) + (RIGHTDASH | RIGHTCLAW))) \n      | (Lower_King's_Station + (RIGHTCLAW | WINGS | SHADESKIPS)) \n      | (King's_Station_Stag + Can_Stag)\n    ",
+        "areaLogic": "\n      Upper_King's_Station \n      | Ruins2_06[left1] \n      | (Lower_King's_Station + (RIGHTCLAW | WINGS)) \n      | (King's_Station_Stag + Can_Stag)\n    ",
+        "roomLogic": "Ruins2_08[left1] | (King's_Station_Stag + CANSTAG-R)"
+    },
+    {
+        "id": "Resting_Grounds_Stag",
+        "pool": "stag",
+        "scene": "RestingGrounds_09",
+        "itemLogic": "Upper_Resting_Grounds",
+        "areaLogic": "Upper_Resting_Grounds",
+        "roomLogic": "RestingGrounds_09[left1] | (Resting_Grounds_Stag + CANSTAG-R)"
+    },
+    {
+        "id": "Distant_Village_Stag",
+        "pool": "stag",
+        "scene": "Deepnest_09",
+        "itemLogic": "(Distant_Village + (FULLCLAW | (RIGHTCLAW + FULLDASH) | WINGS | (Beast's_Den + (RIGHTDASH | RIGHTSUPERDASH)))) | (Distant_Village_Stag + Can_Stag + GEO)",
+        "areaLogic": "((Deepnest_10[door1] | Deepnest_10[right2] | Distant_Village) + (FULLCLAW | (RIGHTCLAW + FULLDASH) | WINGS | (Deepnest_10[door1] + (RIGHTDASH | RIGHTSUPERDASH)))) | (Distant_Village_Stag + Can_Stag)",
+        "roomLogic": "Deepnest_09[left1] | (Distant_Village_Stag + CANSTAG-R)"
+    },
+    {
+        "id": "Hidden_Station_Stag",
+        "pool": "stag",
+        "scene": "Abyss_22",
+        "itemLogic": "Palace_Grounds + GEO",
+        "areaLogic": "Palace_Grounds",
+        "roomLogic": "Abyss_22[left1] | (Hidden_Station_Stag + CANSTAG-R)"
+    },
+    {
+        "id": "Stag_Nest_Stag",
+        "pool": "stag",
+        "scene": "Cliffs_03",
+        "itemLogic": "Stag_Nest",
+        "areaLogic": "Stag_Nest",
+        "roomLogic": "Cliffs_03[right1] | (ALLSTAGS + CANSTAG-R)"
+    },
+    {
+        "id": "Lifeblood_Cocoon-King's_Pass",
+        "pool": "lifeblood_cocoon",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Lifeblood_Cocoon-Ancestral_Mound",
+        "pool": "lifeblood_cocoon",
+        "scene": "Crossroads_ShamanTemple",
+        "itemLogic": "Ancestral_Mound + (UPWALLBREAK | (((LEFTSUPERDASH + RIGHTCLAW) | (RIGHTSUPERDASH + LEFTCLAW)) + MILDSKIPS))",
+        "areaLogic": "Ancestral_Mound + (UPWALLBREAK | (((LEFTSUPERDASH + RIGHTCLAW) | (RIGHTSUPERDASH + LEFTCLAW)) + MILDSKIPS))",
+        "roomLogic": "Crossroads_ShamanTemple[left1] + (UPWALLBREAK | (((LEFTSUPERDASH + RIGHTCLAW) | (RIGHTSUPERDASH + LEFTCLAW)) + MILDSKIPS))"
+    },
+    {
+        "id": "Lifeblood_Cocoon-Greenpath",
+        "pool": "lifeblood_cocoon",
+        "scene": "Fungus1_32",
+        "itemLogic": "Greenpath",
+        "areaLogic": "Greenpath",
+        "roomLogic": "Fungus1_32[bot1] | Fungus1_32[top1] | Fungus1_32[left1]"
+    },
+    {
+        "id": "Lifeblood_Cocoon-Fog_Canyon_West",
+        "pool": "lifeblood_cocoon",
+        "scene": "Fungus3_30",
+        "itemLogic": "Left_Fog_Canyon",
+        "areaLogic": "Left_Fog_Canyon",
+        "roomLogic": "Fungus3_30[bot1]"
+    },
+    {
+        "id": "Lifeblood_Cocoon-Mantis_Village",
+        "pool": "lifeblood_cocoon",
+        "scene": "Fungus2_15",
+        "itemLogic": "Lower_Mantis_Village + ((LEFTCLAW + WINGS) | (RIGHTCLAW + LEFTSUPERDASH))",
+        "areaLogic": "(Lower_Mantis_Village | Fungus2_15[left1]) + ((LEFTCLAW + WINGS) | (RIGHTCLAW + LEFTSUPERDASH))",
+        "roomLogic": "(Fungus2_15 | Fungus2_15[left1]) + ((LEFTCLAW + WINGS) | (RIGHTCLAW + LEFTSUPERDASH))"
+    },
+    {
+        "id": "Lifeblood_Cocoon-Failed_Tramway",
+        "pool": "lifeblood_cocoon",
+        "scene": "Deepnest_26",
+        "itemLogic": "Failed_Tramway + (LEFTCLAW | (WINGS + (MILDSKIPS | SHADESKIPS)))",
+        "areaLogic": "Failed_Tramway + (LEFTCLAW | (WINGS + (MILDSKIPS | SHADESKIPS)))",
+        "roomLogic": "Deepnest_26 + (LEFTCLAW | (WINGS + MILDSKIPS))"
+    },
+    {
+        "id": "Lifeblood_Cocoon-Galien",
+        "pool": "lifeblood_cocoon",
+        "scene": "Deepnest_40",
+        "itemLogic": "(Dark_Deepnest + FULLCLAW) | (Failed_Tramway + (LANTERN | DARKROOMS) + (RIGHTCLAW | (WINGS + LEFTCLAW)))",
+        "areaLogic": "(Dark_Deepnest + FULLCLAW) | (Deepnest_35[top1] + (LANTERN | DARKROOMS) + (RIGHTCLAW | (WINGS + LEFTCLAW)))",
+        "roomLogic": "Deepnest_40[right1] + (RIGHTCLAW | (WINGS + LEFTCLAW))"
+    },
+    {
+        "id": "Lifeblood_Cocoon-Kingdom's_Edge",
+        "pool": "lifeblood_cocoon",
+        "scene": "Deepnest_East_15",
+        "itemLogic": "Upper_Kingdom's_Edge + (WINGS | (RIGHTCLAW + MILDSKIPS))",
+        "areaLogic": "Upper_Kingdom's_Edge + (WINGS | (RIGHTCLAW + MILDSKIPS))",
+        "roomLogic": "Deepnest_East_15[left1]"
+    },
+    {
+        "id": "Grimmkin_Flame-City_Storerooms",
+        "pool": "grimmkin_flame",
+        "scene": "Ruins1_28",
+        "itemLogic": "Upper_Storerooms + Grimmchild",
+        "areaLogic": "Upper_Storerooms + Grimmchild",
+        "roomLogic": "Ruins1_28 + Grimmchild"
+    },
+    {
+        "id": "Grimmkin_Flame-Greenpath",
+        "pool": "grimmkin_flame",
+        "scene": "Fungus1_10",
+        "itemLogic": "Greenpath + Grimmchild",
+        "areaLogic": "Greenpath + Grimmchild",
+        "roomLogic": "(Fungus1_10[left1] | Fungus1_10[top1] | Fungus1_10[right1]) + Grimmchild"
+    },
+    {
+        "id": "Grimmkin_Flame-Crystal_Peak",
+        "pool": "grimmkin_flame",
+        "scene": "Mines_10",
+        "itemLogic": "((Upper_Crystal_Peak + LEFTSUPERDASH) | (King's_Pass + WINGS + RIGHTSUPERDASH + (FULLCLAW | (RIGHTDASH + AIRSTALL + SHADESKIPS + 4MASKS)))) + Grimmchild",
+        "areaLogic": "((Upper_Crystal_Peak + LEFTSUPERDASH) | (Mines_10[left1] + ((WINGS + RIGHTDASH + AIRSTALL + FULLCLAW) | (FULLCLAW + RIGHTSUPERDASH)))) + Grimmchild",
+        "roomLogic": "(((Mines_10[left1] | Mines_10[bot1]) + ((WINGS + RIGHTDASH + AIRSTALL + FULLCLAW) | (FULLCLAW + RIGHTSUPERDASH))) | (Mines_10[right1] + (LEFTSUPERDASH | (LEFTDASH + WINGS + FULLCLAW + AIRSTALL)))) + Grimmchild"
+    },
+    {
+        "id": "Grimmkin_Flame-King's_Pass",
+        "pool": "grimmkin_flame",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass + Grimmchild + 3FLAMES + Dirtmouth",
+        "areaLogic": "King's_Pass + Grimmchild + 3FLAMES + Dirtmouth",
+        "roomLogic": "Tutorial_01 + Grimmchild + 3FLAMES + Grimm_Main_Tent[left1]"
+    },
+    {
+        "id": "Grimmkin_Flame-Resting_Grounds",
+        "pool": "grimmkin_flame",
+        "scene": "RestingGrounds_06",
+        "itemLogic": "Lower_Resting_Grounds + Grimmchild + 3FLAMES + Dirtmouth",
+        "areaLogic": "Lower_Resting_Grounds + Grimmchild + 3FLAMES + Dirtmouth",
+        "roomLogic": "(RestingGrounds_06[left1] | RestingGrounds_06[right1] | RestingGrounds_06[top1]) + Grimmchild + 3FLAMES + Grimm_Main_Tent[left1]"
+    },
+    {
+        "id": "Grimmkin_Flame-Kingdom's_Edge",
+        "pool": "grimmkin_flame",
+        "scene": "Deepnest_East_03",
+        "itemLogic": "Central_Kingdom's_Edge + Grimmchild + 3FLAMES + Dirtmouth",
+        "areaLogic": "Central_Kingdom's_Edge + Grimmchild + 3FLAMES + Dirtmouth",
+        "roomLogic": "Deepnest_East_03 + Grimmchild + 3FLAMES + Grimm_Main_Tent[left1]"
+    },
+    {
+        "id": "Grimmkin_Flame-Fungal_Core",
+        "pool": "grimmkin_flame",
+        "scene": "Fungus2_30",
+        "itemLogic": "Fungal_Core + Grimmchild + 6FLAMES + Dirtmouth + BOSS",
+        "areaLogic": "Fungal_Core + Grimmchild + 6FLAMES + Dirtmouth + BOSS",
+        "roomLogic": "Fungus2_30[top1] + Grimmchild + 6FLAMES + Grimm_Main_Tent[left1] + BOSS"
+    },
+    {
+        "id": "Grimmkin_Flame-Ancient_Basin",
+        "pool": "grimmkin_flame",
+        "scene": "Abyss_02",
+        "itemLogic": "(Waterways_Shaft | (Upper_Basin + (RIGHTCLAW | WINGS | RIGHTDASH | RIGHTSUPERDASH | MILDSKIPS))) + Grimmchild + 6FLAMES + Dirtmouth + BOSS",
+        "areaLogic": "(Abyss_02[right1] | (Upper_Basin + (RIGHTCLAW | WINGS | RIGHTDASH | RIGHTSUPERDASH | MILDSKIPS))) + Grimmchild + 6FLAMES + Dirtmouth + BOSS",
+        "roomLogic": "(Abyss_02[right1] | (Abyss_02[bot1] + (LEFTCLAW | WINGS) + (RIGHTCLAW | WINGS | RIGHTDASH | RIGHTSUPERDASH | MILDSKIPS))) + Grimmchild + 6FLAMES + Grimm_Main_Tent[left1] + BOSS"
+    },
+    {
+        "id": "Grimmkin_Flame-Hive",
+        "pool": "grimmkin_flame",
+        "scene": "Hive_03",
+        "itemLogic": "Hive_Top + Grimmchild + 6FLAMES + Dirtmouth + BOSS",
+        "areaLogic": "Hive_Top + Grimmchild + 6FLAMES + Dirtmouth + BOSS",
+        "roomLogic": "(Hive_03[right1] | (Hive_03[bot1] + (FULLCLAW | WINGS | (FULLDASH + MILDSKIPS)))) + Grimmchild + 6FLAMES + Grimm_Main_Tent[left1] + BOSS"
+    },
+    {
+        "id": "Grimmkin_Flame-Brumm",
+        "pool": "grimmkin_flame",
+        "scene": "Room_spider_small",
+        "itemLogic": "Distant_Village + Grimmchild + 6FLAMES + Dirtmouth + BOSS",
+        "areaLogic": "(Deepnest_10[door1] | (Deepnest_10[right2] + (LEFTDASH | ANYCLAW | WINGS | AIRSTALL)) | (Distant_Village_Stag + Can_Stag)) + Grimmchild + 6FLAMES + Dirtmouth + BOSS",
+        "roomLogic": "Room_spider_small[left1] + Grimmchild + 6FLAMES + Grimm_Main_Tent[left1] + BOSS"
+    },
+    {
+        "id": "Hunter's_Journal",
+        "pool": "journal",
+        "scene": "Fungus1_08",
+        "itemLogic": "Greenpath",
+        "areaLogic": "Greenpath",
+        "roomLogic": "Fungus1_08[left1]"
+    },
+    {
+        "id": "Journal_Entry-Void_Tendrils",
+        "pool": "journal",
+        "scene": "Abyss_09",
+        "itemLogic": "Abyss_Ocean + (RIGHTCLAW | (WINGS + SHADESKIPS + 4MASKS) | ((RIGHTSHADOWDASH | VOIDHEART) + (LEFTCLAW | WINGS))) + LEFTSHADOWDASH",
+        "areaLogic": "Abyss_Ocean + (RIGHTCLAW | (WINGS + SHADESKIPS + 4MASKS) | ((RIGHTSHADOWDASH | VOIDHEART) + (LEFTCLAW | WINGS))) + LEFTSHADOWDASH",
+        "roomLogic": "Abyss_09[right3]"
+    },
+    {
+        "id": "Journal_Entry-Charged_Lumafly",
+        "pool": "journal",
+        "scene": "Fungus3_archive_02",
+        "itemLogic": "Teacher's_Archives + AERIALMINIBOSS + (((RIGHTCLAW | (LEFTCLAW + WINGS)) + (FULLSUPERDASH | ACID)) | (ACIDSKIPS + FULLDASH + FULLCLAW + WINGS))",
+        "areaLogic": "Teacher's_Archives + AERIALMINIBOSS + (((RIGHTCLAW | (LEFTCLAW + WINGS)) + (FULLSUPERDASH | ACID)) | (ACIDSKIPS + FULLDASH + FULLCLAW + WINGS))",
+        "roomLogic": "Fungus3_archive_02[top1] + AERIALMINIBOSS + (((RIGHTCLAW | (LEFTCLAW + WINGS)) + (FULLSUPERDASH | ACID)) | (ACIDSKIPS + FULLDASH + FULLCLAW + WINGS))"
+    },
+    {
+        "id": "Journal_Entry-Goam",
+        "pool": "journal",
+        "scene": "Crossroads_52",
+        "itemLogic": "Crossroads + QUAKE + (LEFTDASH | WINGS | INFECTED | (LEFTCLAW + AIRSTALL) | (Main_Fungal_Wastes + (ACID | RIGHTCLAW | RIGHTDASH | RIGHTSUPERDASH | AIRSTALL)))",
+        "areaLogic": "Crossroads + QUAKE + (LEFTDASH | WINGS | INFECTED | (LEFTCLAW + AIRSTALL) | Crossroads_18[bot1])",
+        "roomLogic": "Crossroads_52[left1] + QUAKE"
+    },
+    {
+        "id": "Journal_Entry-Garpede",
+        "pool": "journal",
+        "scene": "Deepnest_44",
+        "itemLogic": "Deepnest",
+        "areaLogic": "Deepnest",
+        "roomLogic": "Deepnest_44[top1]"
+    },
+    {
+        "id": "Journal_Entry-Seal_of_Binding",
+        "pool": "",
+        "scene": "White_Palace_20",
+        "itemLogic": "Palace_Grounds + AWOKEN + FULLCLAW + WINGS + FULLDASH + FULLSUPERDASH + BOSS",
+        "areaLogic": "Palace_Grounds + AWOKEN + FULLCLAW + WINGS + FULLDASH + FULLSUPERDASH + BOSS",
+        "roomLogic": "White_Palace_20[bot1] + FULLCLAW + RIGHTDASH + WINGS + BOSS"
+    },
+    {
+        "id": "Elevator_Pass",
+        "pool": "",
+        "scene": "Crossroads_49b",
+        "itemLogic": "Upper_Storerooms",
+        "areaLogic": "Upper_Storerooms",
+        "roomLogic": "Crossroads_49b[right1]"
+    },
+    {
+        "id": "Split_Mothwing_Cloak",
+        "pool": "",
+        "scene": "Fungus1_04",
+        "itemLogic": "Greenpath",
+        "areaLogic": "Greenpath",
+        "roomLogic": "Fungus1_04"
+    },
+    {
+        "id": "Left_Mantis_Claw",
+        "pool": "",
+        "scene": "Fungus2_14",
+        "itemLogic": "Mantis_Village + (LEFTDASH | WINGS | (LEFTSUPERDASH + ANYCLAW) | MILDSKIPS)",
+        "areaLogic": "Mantis_Village + (LEFTDASH | WINGS | (LEFTSUPERDASH + ANYCLAW) | MILDSKIPS)",
+        "roomLogic": "Fungus2_14 + (LEFTDASH | WINGS | (LEFTSUPERDASH + ANYCLAW) | MILDSKIPS)"
+    },
+    {
+        "id": "Right_Mantis_Claw",
+        "pool": "",
+        "scene": "Fungus2_14",
+        "itemLogic": "Mantis_Village + (LEFTDASH | WINGS | (LEFTSUPERDASH + ANYCLAW) | MILDSKIPS)",
+        "areaLogic": "Mantis_Village + (LEFTDASH | WINGS | (LEFTSUPERDASH + ANYCLAW) | MILDSKIPS)",
+        "roomLogic": "Fungus2_14 + (LEFTDASH | WINGS | (LEFTSUPERDASH + ANYCLAW) | MILDSKIPS)"
+    },
+    {
+        "id": "Leftslash",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Rightslash",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "Upslash",
+        "pool": "",
+        "scene": "Tutorial_01",
+        "itemLogic": "King's_Pass",
+        "areaLogic": "King's_Pass",
+        "roomLogic": "Tutorial_01"
+    },
+    {
+        "id": "450_Geo-Egg_Shop_1",
+        "pool": "",
+        "scene": "Room_Ouiji",
+        "itemLogic": "Dirtmouth + SIMPLE4 + EGGCOUNT",
+        "areaLogic": "Dirtmouth + SIMPLE4 + EGGCOUNT",
+        "roomLogic": "Room_Ouiji[left1] + EGGCOUNT"
+    },
+    {
+        "id": "450_Geo-Egg_Shop_2",
+        "pool": "",
+        "scene": "Room_Ouiji",
+        "itemLogic": "Dirtmouth + SIMPLE4 + EGGCOUNT",
+        "areaLogic": "Dirtmouth + SIMPLE4 + EGGCOUNT",
+        "roomLogic": "Room_Ouiji[left1] + EGGCOUNT"
+    },
+    {
+        "id": "450_Geo-Egg_Shop_3",
+        "pool": "",
+        "scene": "Room_Ouiji",
+        "itemLogic": "Dirtmouth + SIMPLE4 + EGGCOUNT",
+        "areaLogic": "Dirtmouth + SIMPLE4 + EGGCOUNT",
+        "roomLogic": "Room_Ouiji[left1] + EGGCOUNT"
+    },
+    {
+        "id": "450_Geo-Egg_Shop_4",
+        "pool": "",
+        "scene": "Room_Ouiji",
+        "itemLogic": "Dirtmouth + SIMPLE4 + EGGCOUNT",
+        "areaLogic": "Dirtmouth + SIMPLE4 + EGGCOUNT",
+        "roomLogic": "Room_Ouiji[left1] + EGGCOUNT"
+    },
+    {
+        "id": "450_Geo-Egg_Shop_5",
+        "pool": "",
+        "scene": "Room_Ouiji",
+        "itemLogic": "Dirtmouth + SIMPLE4 + EGGCOUNT",
+        "areaLogic": "Dirtmouth + SIMPLE4 + EGGCOUNT",
+        "roomLogic": "Room_Ouiji[left1] + EGGCOUNT"
+    }
+]

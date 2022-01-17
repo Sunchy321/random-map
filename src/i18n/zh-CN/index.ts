@@ -1,0 +1,63 @@
+export default {
+    title:   '随机地图',
+    version: '版本',
+    skips:   'Skips',
+    items:   '随机物品',
+    misc:    '杂项',
+
+    version313: {
+        skip: {
+            mild:     '温和',
+            shade:    '劈魂',
+            acid:     '酸冲',
+            fireball: '扭波',
+            tunnel:   '钻刺',
+            dark:     '摸黑',
+            spicy:    '刺激',
+        },
+
+        skipPreset: {
+            easy:   '简单',
+            medium: '中等',
+            hard:   '困难',
+        },
+
+        item: {
+            dreamer:          '守梦人',
+            skill:            '技能',
+            charm:            '护符',
+            key:              '钥匙',
+            mask_shard:       '面具碎片',
+            vessel_fragment:  '容器碎片',
+            pale_ore:         '苍白矿石',
+            charm_notch:      '护符槽',
+            geo_chest:        '箱子',
+            relic:            '古董',
+            rancid_egg:       '腐臭蛋',
+            stag:             '鹿角站',
+            map:              '地图',
+            whisper_root:     '梦树',
+            grub:             '幼虫',
+            lifeblood_cocoon: '蓝血',
+            soul_totem:       '图腾',
+            lore_tablet:      '碑文',
+            grimmkin_flame:   '格林火',
+            geo_rock:         '钱堆',
+            boss_essence:     'Boss精华',
+            boss_geo:         'Boss吉欧',
+            journal:          '猎人日志',
+            junk_pit:         '垃圾箱',
+            palace:           '白宫',
+            egg_shop:         '吉吉商店',
+            mimic:            '假虫',
+        },
+
+        itemPreset: {
+            standard:    'Standard',
+            super:       'Super',
+            lifetotems:  'Life Totem',
+            spoiler_dab: 'Spoiler DAB',
+            everything:  'Everything',
+        },
+    },
+};

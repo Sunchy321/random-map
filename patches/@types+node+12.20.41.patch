@@ -1,0 +1,13 @@
+diff --git a/node_modules/@types/node/globals.d.ts b/node_modules/@types/node/globals.d.ts
+index b9e83dd..0650157 100755
+--- a/node_modules/@types/node/globals.d.ts
++++ b/node_modules/@types/node/globals.d.ts
+@@ -762,7 +762,7 @@ declare namespace NodeJS {
+     }
+ 
+     interface ProcessEnv {
+-        [key: string]: string | undefined;
++        [key: string]: any | undefined;
+     }
+ 
+     interface HRTime {

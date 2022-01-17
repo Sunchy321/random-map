@@ -1,0 +1,13 @@
+diff --git a/node_modules/quasar/dist/types/index.d.ts b/node_modules/quasar/dist/types/index.d.ts
+index dbf3572..0e00628 100644
+--- a/node_modules/quasar/dist/types/index.d.ts
++++ b/node_modules/quasar/dist/types/index.d.ts
+@@ -6801,7 +6801,7 @@ export interface QPaginationProps {
+    * Emitted when the component needs to change the model; Is also used by v-model
+    * @param value New model value
+    */
+-  "onUpdate:modelValue"?: (value: string) => void;
++  "onUpdate:modelValue"?: (value: number) => void;
+ }
+ 
+ export interface QPaginationSlots {}

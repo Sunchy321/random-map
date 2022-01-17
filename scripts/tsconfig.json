@@ -1,0 +1,24 @@
+{
+  "extends": "@quasar/app/tsconfig-preset",
+  "compilerOptions": {
+      "target": "ES2019",
+      "module": "commonjs",
+      "baseUrl": ".",
+      "jsx": "preserve",
+      "paths": {
+          "src/*": ["../src/*"],
+          "app/*": ["../*"],
+          "components/*": ["../src/components/*"],
+          "layouts/*": ["../src/layouts/*"],
+          "pages/*": ["../src/pages/*"],
+          "assets/*": ["../src/assets/*"],
+          "boot/*": ["../src/boot/*"],
+          "setup/*": ["../src/setup/*"]
+      }
+  },
+  "include": [
+      "../src/**/*.ts",
+      "../src/**/*.vue",
+      "./**/*.ts"
+  ]
+}
