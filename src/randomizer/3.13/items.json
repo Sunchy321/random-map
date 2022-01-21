@@ -186,12 +186,18 @@
     {
         "id": "Gathering_Swarm",
         "pool": "charm",
-        "scene": "Room_shop"
+        "scene": "Room_shop",
+        "itemLogic": "Crossroads + Dirtmouth",
+        "areaLogic": "Crossroads + Dirtmouth",
+        "roomLogic": "Room_ruinhouse[left1] + Room_shop[left1]"
     },
     {
         "id": "Wayward_Compass",
         "pool": "charm",
-        "scene": "Room_mapper"
+        "scene": "Room_mapper",
+        "itemLogic": "Dirtmouth",
+        "areaLogic": "Dirtmouth",
+        "roomLogic": "Room_mapper[left1]"
     },
     {
         "id": "Grubsong",
@@ -204,7 +210,10 @@
     {
         "id": "Stalwart_Shell",
         "pool": "charm",
-        "scene": "Room_shop"
+        "scene": "Room_shop",
+        "itemLogic": "Crossroads + Dirtmouth",
+        "areaLogic": "Crossroads + Dirtmouth",
+        "roomLogic": "Room_ruinhouse[left1] + Room_shop[left1]"
     },
     {
         "id": "Baldur_Shell",
@@ -225,12 +234,18 @@
     {
         "id": "Quick_Focus",
         "pool": "charm",
-        "scene": "Room_Charm_Shop"
+        "scene": "Room_Charm_Shop",
+        "itemLogic": "(Crossroads + (RIGHTCLAW | RIGHTDASH | WINGS | RIGHTSUPERDASH | INFECTED | ((SCREAM | FIREBALL) + FIREBALLSKIPS) | SHADESKIPS)) | Left_Blue_Lake",
+        "areaLogic": "(Crossroads + (RIGHTCLAW | RIGHTDASH | WINGS | RIGHTSUPERDASH | INFECTED | ((SCREAM | FIREBALL) + FIREBALLSKIPS) | SHADESKIPS)) | Crossroads_04[right1]",
+        "roomLogic": "Room_Charm_Shop[left1]"
     },
     {
         "id": "Lifeblood_Heart",
         "pool": "charm",
-        "scene": "Room_Charm_Shop"
+        "scene": "Room_Charm_Shop",
+        "itemLogic": "(Crossroads + (RIGHTCLAW | RIGHTDASH | WINGS | RIGHTSUPERDASH | INFECTED | ((SCREAM | FIREBALL) + FIREBALLSKIPS) | SHADESKIPS)) | Left_Blue_Lake",
+        "areaLogic": "(Crossroads + (RIGHTCLAW | RIGHTDASH | WINGS | RIGHTSUPERDASH | INFECTED | ((SCREAM | FIREBALL) + FIREBALLSKIPS) | SHADESKIPS)) | Crossroads_04[right1]",
+        "roomLogic": "Room_Charm_Shop[left1]"
     },
     {
         "id": "Lifeblood_Core",
@@ -275,12 +290,18 @@
     {
         "id": "Steady_Body",
         "pool": "charm",
-        "scene": "Room_Charm_Shop"
+        "scene": "Room_Charm_Shop",
+        "itemLogic": "(Crossroads + (RIGHTCLAW | RIGHTDASH | WINGS | RIGHTSUPERDASH | INFECTED | ((SCREAM | FIREBALL) + FIREBALLSKIPS) | SHADESKIPS)) | Left_Blue_Lake",
+        "areaLogic": "(Crossroads + (RIGHTCLAW | RIGHTDASH | WINGS | RIGHTSUPERDASH | INFECTED | ((SCREAM | FIREBALL) + FIREBALLSKIPS) | SHADESKIPS)) | Crossroads_04[right1]",
+        "roomLogic": "Room_Charm_Shop[left1]"
     },
     {
         "id": "Heavy_Blow",
         "pool": "charm",
-        "scene": "Room_shop"
+        "scene": "Room_shop",
+        "itemLogic": "SHOPKEY + Crossroads + Dirtmouth",
+        "areaLogic": "SHOPKEY + Crossroads + Dirtmouth",
+        "roomLogic": "Room_ruinhouse[left1] + Room_shop[left1] + SHOPKEY"
     },
     {
         "id": "Sharp_Shadow",
@@ -301,12 +322,18 @@
     {
         "id": "Longnail",
         "pool": "charm",
-        "scene": "Room_Charm_Shop"
+        "scene": "Room_Charm_Shop",
+        "itemLogic": "(Crossroads + (RIGHTCLAW | RIGHTDASH | WINGS | RIGHTSUPERDASH | INFECTED | ((SCREAM | FIREBALL) + FIREBALLSKIPS) | SHADESKIPS)) | Left_Blue_Lake",
+        "areaLogic": "(Crossroads + (RIGHTCLAW | RIGHTDASH | WINGS | RIGHTSUPERDASH | INFECTED | ((SCREAM | FIREBALL) + FIREBALLSKIPS) | SHADESKIPS)) | Crossroads_04[right1]",
+        "roomLogic": "Room_Charm_Shop[left1]"
     },
     {
         "id": "Shaman_Stone",
         "pool": "charm",
-        "scene": "Room_Charm_Shop"
+        "scene": "Room_Charm_Shop",
+        "itemLogic": "(Crossroads + (RIGHTCLAW | RIGHTDASH | WINGS | RIGHTSUPERDASH | INFECTED | ((SCREAM | FIREBALL) + FIREBALLSKIPS) | SHADESKIPS)) | Left_Blue_Lake",
+        "areaLogic": "(Crossroads + (RIGHTCLAW | RIGHTDASH | WINGS | RIGHTSUPERDASH | INFECTED | ((SCREAM | FIREBALL) + FIREBALLSKIPS) | SHADESKIPS)) | Crossroads_04[right1]",
+        "roomLogic": "Room_Charm_Shop[left1]"
     },
     {
         "id": "Soul_Catcher",
@@ -335,17 +362,26 @@
     {
         "id": "Fragile_Heart",
         "pool": "charm",
-        "scene": "Fungus2_26"
+        "scene": "Fungus2_26",
+        "itemLogic": "(Main_Fungal_Wastes + (RIGHTDASH | WINGS | ACID | AIRSTALL | RIGHTCLAW | RIGHTSUPERDASH)) | (Crossroads + (INFECTED | LEFTDASH | WINGS | (LEFTCLAW + AIRSTALL)))",
+        "areaLogic": "Main_Fungal_Wastes + (RIGHTDASH | WINGS | ACID | AIRSTALL | RIGHTCLAW | RIGHTSUPERDASH | Fungus2_06[top1])",
+        "roomLogic": "Fungus2_26[left1]"
     },
     {
         "id": "Fragile_Greed",
         "pool": "charm",
-        "scene": "Fungus2_26"
+        "scene": "Fungus2_26",
+        "itemLogic": "(Main_Fungal_Wastes + (RIGHTDASH | WINGS | ACID | AIRSTALL | RIGHTCLAW | RIGHTSUPERDASH)) | (Crossroads + (INFECTED | LEFTDASH | WINGS | (LEFTCLAW + AIRSTALL)))",
+        "areaLogic": "Main_Fungal_Wastes + (RIGHTDASH | WINGS | ACID | AIRSTALL | RIGHTCLAW | RIGHTSUPERDASH | Fungus2_06[top1])",
+        "roomLogic": "Fungus2_26[left1]"
     },
     {
         "id": "Fragile_Strength",
         "pool": "charm",
-        "scene": "Fungus2_26"
+        "scene": "Fungus2_26",
+        "itemLogic": "(Main_Fungal_Wastes + (RIGHTDASH | WINGS | ACID | AIRSTALL | RIGHTCLAW | RIGHTSUPERDASH)) | (Crossroads + (INFECTED | LEFTDASH | WINGS | (LEFTCLAW + AIRSTALL)))",
+        "areaLogic": "Main_Fungal_Wastes + (RIGHTDASH | WINGS | ACID | AIRSTALL | RIGHTCLAW | RIGHTSUPERDASH | Fungus2_06[top1])",
+        "roomLogic": "Fungus2_26[left1]"
     },
     {
         "id": "Nailmaster_s_Glory",
@@ -454,7 +490,10 @@
     {
         "id": "Sprintmaster",
         "pool": "charm",
-        "scene": "Room_shop"
+        "scene": "Room_shop",
+        "itemLogic": "SHOPKEY + Crossroads + Dirtmouth",
+        "areaLogic": "SHOPKEY + Crossroads + Dirtmouth",
+        "roomLogic": "Room_ruinhouse[left1] + Room_shop[left1] + SHOPKEY"
     },
     {
         "id": "Dreamshield",
@@ -491,7 +530,10 @@
     {
         "id": "Lumafly_Lantern",
         "pool": "key",
-        "scene": "Room_shop"
+        "scene": "Room_shop",
+        "itemLogic": "Crossroads + Dirtmouth",
+        "areaLogic": "Crossroads + Dirtmouth",
+        "roomLogic": "Room_ruinhouse[left1] + Room_shop[left1]"
     },
     {
         "id": "Tram_Pass",
@@ -504,7 +546,10 @@
     {
         "id": "Simple_Key-Sly",
         "pool": "key",
-        "scene": "Room_shop"
+        "scene": "Room_shop",
+        "itemLogic": "Crossroads + Dirtmouth",
+        "areaLogic": "Crossroads + Dirtmouth",
+        "roomLogic": "Room_ruinhouse[left1] + Room_shop[left1]"
     },
     {
         "id": "Simple_Key-Basin",
@@ -541,7 +586,10 @@
     {
         "id": "Elegant_Key",
         "pool": "key",
-        "scene": "Room_shop"
+        "scene": "Room_shop",
+        "itemLogic": "SHOPKEY + Crossroads + Dirtmouth",
+        "areaLogic": "SHOPKEY + Crossroads + Dirtmouth",
+        "roomLogic": "Room_ruinhouse[left1] + Room_shop[left1] + SHOPKEY"
     },
     {
         "id": "Love_Key",
@@ -578,22 +626,34 @@
     {
         "id": "Mask_Shard-Sly1",
         "pool": "mask_shard",
-        "scene": "Room_shop"
+        "scene": "Room_shop",
+        "itemLogic": "Crossroads + Dirtmouth",
+        "areaLogic": "Crossroads + Dirtmouth",
+        "roomLogic": "Room_ruinhouse[left1] + Room_shop[left1]"
     },
     {
         "id": "Mask_Shard-Sly2",
         "pool": "mask_shard",
-        "scene": "Room_shop"
+        "scene": "Room_shop",
+        "itemLogic": "Crossroads + Dirtmouth",
+        "areaLogic": "Crossroads + Dirtmouth",
+        "roomLogic": "Room_ruinhouse[left1] + Room_shop[left1]"
     },
     {
         "id": "Mask_Shard-Sly3",
         "pool": "mask_shard",
-        "scene": "Room_shop"
+        "scene": "Room_shop",
+        "itemLogic": "SHOPKEY + Crossroads + Dirtmouth",
+        "areaLogic": "SHOPKEY + Crossroads + Dirtmouth",
+        "roomLogic": "Room_ruinhouse[left1] + Room_shop[left1] + SHOPKEY"
     },
     {
         "id": "Mask_Shard-Sly4",
         "pool": "mask_shard",
-        "scene": "Room_shop"
+        "scene": "Room_shop",
+        "itemLogic": "SHOPKEY + Crossroads + Dirtmouth",
+        "areaLogic": "SHOPKEY + Crossroads + Dirtmouth",
+        "roomLogic": "Room_ruinhouse[left1] + Room_shop[left1] + SHOPKEY"
     },
     {
         "id": "Mask_Shard-Seer",
@@ -822,12 +882,18 @@
     {
         "id": "Vessel_Fragment-Sly1",
         "pool": "vessel_fragment",
-        "scene": "Room_shop"
+        "scene": "Room_shop",
+        "itemLogic": "Crossroads + Dirtmouth",
+        "areaLogic": "Crossroads + Dirtmouth",
+        "roomLogic": "Room_ruinhouse[left1] + Room_shop[left1]"
     },
     {
         "id": "Vessel_Fragment-Sly2",
         "pool": "vessel_fragment",
-        "scene": "Room_shop"
+        "scene": "Room_shop",
+        "itemLogic": "SHOPKEY + Crossroads + Dirtmouth",
+        "areaLogic": "SHOPKEY + Crossroads + Dirtmouth",
+        "roomLogic": "Room_ruinhouse[left1] + Room_shop[left1] + SHOPKEY"
     },
     {
         "id": "Vessel_Fragment-Seer",
@@ -1088,7 +1154,10 @@
     {
         "id": "Rancid_Egg-Sly",
         "pool": "rancid_egg",
-        "scene": "Room_shop"
+        "scene": "Room_shop",
+        "itemLogic": "Crossroads + Dirtmouth",
+        "areaLogic": "Crossroads + Dirtmouth",
+        "roomLogic": "Room_ruinhouse[left1] + Room_shop[left1]"
     },
     {
         "id": "Rancid_Egg-Grubs",
@@ -2243,7 +2312,7 @@
         "roomLogic": "Deepnest_01b"
     },
     {
-        "id": "Deepnest_Map-Right_[Gives_Quill]",
+        "id": "Deepnest_Map-Right",
         "pool": "map",
         "scene": "Fungus2_25",
         "itemLogic": "Far_Right_Deepnest + ANYCLAW",
@@ -2366,8 +2435,8 @@
         "id": "King_s_Station_Stag",
         "pool": "stag",
         "scene": "Ruins2_08",
-        "itemLogic": "\n      Upper_King's_Station\n      | (Right_City + ((LEFTDASH | LEFTCLAW) + (RIGHTDASH | RIGHTCLAW)))\n      | (Lower_King's_Station + (RIGHTCLAW | WINGS | SHADESKIPS))\n      | (King's_Station_Stag + Can_Stag)\n    ",
-        "areaLogic": "\n      Upper_King's_Station\n      | Ruins2_06[left1]\n      | (Lower_King's_Station + (RIGHTCLAW | WINGS))\n      | (King's_Station_Stag + Can_Stag)\n    ",
+        "itemLogic": "\n      Upper_King's_Station \n      | (Right_City + ((LEFTDASH | LEFTCLAW) + (RIGHTDASH | RIGHTCLAW))) \n      | (Lower_King's_Station + (RIGHTCLAW | WINGS | SHADESKIPS)) \n      | (King's_Station_Stag + Can_Stag)\n    ",
+        "areaLogic": "\n      Upper_King's_Station \n      | Ruins2_06[left1] \n      | (Lower_King's_Station + (RIGHTCLAW | WINGS)) \n      | (King's_Station_Stag + Can_Stag)\n    ",
         "roomLogic": "Ruins2_08[left1] | (King's_Station_Stag + CANSTAG-R)"
     },
     {

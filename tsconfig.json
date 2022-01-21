@@ -13,7 +13,7 @@
           "assets/*": ["src/assets/*"],
           "boot/*": ["src/boot/*"],
           "setup/*": ["src/setup/*"],
-          "data/*": ["src/data/*"]
+          "data/*": ["src/randomizer/*"]
       }
   },
   "include": [

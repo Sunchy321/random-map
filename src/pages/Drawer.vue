@@ -104,7 +104,10 @@ import { useI18n } from 'vue-i18n';
 import dataSetup from 'src/setup/config';
 
 import versions from 'data/versions.json';
-import basic313 from 'data/3.13/basic.json';
+import {
+    skips as skips313, pools as pools313, modes as modes313, miscs as miscs313,
+    skipsPreset as skipPreset313, poolPreset as poolPreset313,
+} from 'data/3.13/basic';
 
 export default defineComponent({
     name: 'Drawer',
@@ -121,22 +124,22 @@ export default defineComponent({
             },
         } = dataSetup();
 
-        const skipOptions313 = basic313.skips.map(s => ({
+        const skipOptions313 = skips313.map(s => ({
             label: i18n.t(`version313.skip.${s}`),
             value: s,
         }));
 
-        const poolOptions313 = basic313.pools.map(s => ({
+        const poolOptions313 = pools313.map(s => ({
             label: i18n.t(`version313.pool.${s}`),
             value: s,
         }));
 
-        const modeOptions313 = basic313.modes.map(s => ({
+        const modeOptions313 = modes313.map(s => ({
             label: i18n.t(`version313.mode.${s}`),
             value: s,
         }));
 
-        const miscOptions313 = basic313.miscs.map(s => ({
+        const miscOptions313 = miscs313.map(s => ({
             label: i18n.t(`version313.misc.${s}`),
             value: s,
         }));
@@ -147,11 +150,11 @@ export default defineComponent({
 
             skip313,
             skipOptions313,
-            skipPreset313: basic313.skipsPreset,
+            skipPreset313,
 
             pool313,
             poolOptions313,
-            poolPreset313: basic313.poolPreset,
+            poolPreset313,
 
             mode313,
             modeOptions313,

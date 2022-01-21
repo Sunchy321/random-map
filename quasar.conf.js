@@ -78,9 +78,12 @@ module.exports = configure((ctx) => ({
         // https://quasar.dev/quasar-cli/handling-webpack
         // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain
         chainWebpack(chain) {
-            // chain
-            //     .plugin('node-polyfill')
-            //     .use(require('node-polyfill-webpack-plugin'));
+            chain
+                .module
+                .rule()
+                .test(/\.pegjs$/)
+                .use('raw-loader')
+                .loader('raw-loader');
 
             chain
                 .plugin('eslint-webpack-plugin')
@@ -90,9 +93,9 @@ module.exports = configure((ctx) => ({
                 .resolve
                 .alias.set('setup', resolve('src/setup'));
 
-                chain
+            chain
                 .resolve
-                .alias.set('data', resolve('src/data'));
+                .alias.set('data', resolve('src/randomizer'));
         },
     },
 

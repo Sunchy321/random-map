@@ -2,7 +2,7 @@ import { computed, WritableComputedRef } from 'vue';
 
 import { useRouter, useRoute } from 'vue-router';
 
-import versions from 'data/versions.json';
+import versions from 'src/randomizer/versions.json';
 
 import config313Setup, { ConfigSetup as ConfigSetup313 } from './config313';
 

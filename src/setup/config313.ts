@@ -6,20 +6,23 @@ import { useRouter, useRoute } from 'vue-router';
 
 import { Buffer } from 'buffer';
 
-import basic from 'data/3.13/basic.json';
+import {
+    Skip, Pool, Mode, Misc,
+    skips, pools, modes, miscs,
+} from 'src/randomizer/3.13/basic';
 
 export type ConfigSetup = {
-    skip: WritableComputedRef<string[]>;
-    pool: WritableComputedRef<string[]>;
-    mode: WritableComputedRef<string>;
-    misc: WritableComputedRef<string[]>;
+    skip: WritableComputedRef<Skip[]>;
+    pool: WritableComputedRef<Pool[]>;
+    mode: WritableComputedRef<Mode>;
+    misc: WritableComputedRef<Misc[]>;
 };
 
 type Config = {
-    skip: string[];
-    pool: string[];
-    mode: string;
-    misc: string[];
+    skip: Skip[];
+    pool: Pool[];
+    mode: Mode;
+    misc: Misc[];
 };
 
 function encode(config: Config): string {
@@ -65,57 +68,57 @@ export default function data313Setup(): ConfigSetup {
     });
 
     const skip = computed({
-        get(): string[] {
+        get(): Skip[] {
             const { skip } = config.value;
 
-            if (skip.every(s => basic.skips.includes(s))) {
+            if (skip.every(s => skips.includes(s))) {
                 return skip;
             } else {
                 return [];
             }
         },
-        set(newValue: string[]) {
-            if (newValue.every(s => basic.skips.includes(s))) {
+        set(newValue: Skip[]) {
+            if (newValue.every(s => skips.includes(s))) {
                 config.value = {
                     ...config.value,
-                    skip: newValue,
+                    skip: newValue.sort((a, b) => skips.indexOf(a) - skips.indexOf(b)),
                 };
             }
         },
     });
 
     const pool = computed({
-        get(): string[] {
+        get(): Pool[] {
             const { pool } = config.value;
 
-            if (pool.every(p => basic.pools.includes(p))) {
+            if (pool.every(p => pools.includes(p))) {
                 return pool;
             } else {
                 return [];
             }
         },
-        set(newValue: string[]) {
-            if (newValue.every(p => basic.pools.includes(p))) {
+        set(newValue: Pool[]) {
+            if (newValue.every(p => pools.includes(p))) {
                 config.value = {
                     ...config.value,
-                    pool: newValue,
+                    pool: newValue.sort((a, b) => pools.indexOf(a) - pools.indexOf(b)),
                 };
             }
         },
     });
 
     const mode = computed({
-        get(): string {
+        get(): Mode {
             const { mode } = config.value;
 
-            if (basic.modes.includes(mode)) {
+            if (modes.includes(mode)) {
                 return mode;
             } else {
                 return 'item';
             }
         },
-        set(newValue: string) {
-            if (basic.modes.includes(newValue)) {
+        set(newValue: Mode) {
+            if (modes.includes(newValue)) {
                 config.value = {
                     ...config.value,
                     mode: newValue,
@@ -125,20 +128,20 @@ export default function data313Setup(): ConfigSetup {
     });
 
     const misc = computed({
-        get(): string[] {
+        get(): Misc[] {
             const { misc } = config.value;
 
-            if (misc.every(m => basic.miscs.includes(m))) {
+            if (misc.every(m => miscs.includes(m))) {
                 return misc;
             } else {
                 return [];
             }
         },
-        set(newValue: string[]) {
-            if (newValue.every(m => basic.miscs.includes(m))) {
+        set(newValue: Misc[]) {
+            if (newValue.every(m => miscs.includes(m))) {
                 config.value = {
                     ...config.value,
-                    misc: newValue,
+                    misc: newValue.sort((a, b) => miscs.indexOf(a) - miscs.indexOf(b)),
                 };
             }
         },

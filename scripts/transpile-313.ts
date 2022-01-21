@@ -2,10 +2,18 @@ import { readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { xml2js } from 'xml-js';
 
-const itemsPath = './src/data/3.13/items.json';
+const itemsPath = './src/randomizer/3.13/items.json';
 
 const projectPath = process.argv[2];
 const resourcePath = join(projectPath, 'RandomizerMod3.0', 'Resources');
+
+function readXml(filename: string): any {
+    return xml2js(readFileSync(join(resourcePath, filename)).toString(), { compact: true }) as any;
+}
+
+const idMap: Record<string, string> = {
+    'Deepnest_Map-Right_[Gives_Quill]': 'Deepnest_Map-Right',
+};
 
 const poolMap: Record<string, string> = {
     Charm:              'charm',
@@ -45,24 +53,40 @@ const poolMap: Record<string, string> = {
     Vessel:             'vessel_fragment',
 };
 
+const shops: Record<string, any> = { };
+
+const shopsXml = readXml('shops.xml');
+
+for (const item of shopsXml.randomizer.shop) {
+    shops[item._attributes.name] = {
+        itemLogic: item.itemLogic?._text,
+        areaLogic: item.areaLogic?._text,
+        roomLogic: item.roomLogic?._text,
+    };
+}
+
 const data = [];
 
-const itemsText = readFileSync(join(resourcePath, 'items.xml')).toString();
-
-const itemsXml = xml2js(itemsText, { compact: true }) as any;
+const itemsXml = readXml('items.xml');
 
 for (const item of itemsXml.randomizer.item) {
     if (item.sceneName?._text == null) {
         continue;
     }
 
+    const id = item._attributes.name.replace(/'/g, '_');
+
+    const shopName = item.shopName?._text;
+
+    const shop = shopName != null ? shops[shopName] : undefined;
+
     data.push({
-        id:        item._attributes.name.replace(/'/g, '_'),
+        id:        idMap[id] ?? id,
         pool:      poolMap[item.pool?._text],
         scene:     item.sceneName?._text,
-        itemLogic: item.itemLogic?._text,
-        areaLogic: item.areaLogic?._text,
-        roomLogic: item.roomLogic?._text,
+        itemLogic: item.itemLogic?._text ?? shop?.itemLogic,
+        areaLogic: item.areaLogic?._text ?? shop?.areaLogic,
+        roomLogic: item.roomLogic?._text ?? shop?.roomLogic,
     });
 }
 

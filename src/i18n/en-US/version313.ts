@@ -72,4 +72,8 @@ export default {
         spoiler_dab: 'Spoiler DAB',
         everything:  'Everything',
     },
+
+    term: {
+
+    },
 };

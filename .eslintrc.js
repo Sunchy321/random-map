@@ -65,6 +65,7 @@ module.exports = {
         'no-continue':                 'off',
         'no-else-return':              'off',
         'no-implied-eval':             'off',
+        'no-lonely-if':                'off',
         'no-nested-ternary':           'off',
         'no-param-reassign':           'off',
         'no-shadow':                   'off',

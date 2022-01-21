@@ -73,8 +73,11 @@ import configSetup from 'src/setup/config';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
+import { parseLogic, printLogic } from 'data/logic';
+import { evalLogic as evalLogic313 } from 'data/3.13/logic';
+
 import markers from 'data/marker.json';
-import data313 from 'src/data/3.13/items.json';
+import data313 from 'data/3.13/items.json';
 
 const mapUrl = './map.png';
 
@@ -103,12 +106,14 @@ export default defineComponent({
             version,
             config313: {
                 pool: pool313,
-                misc:misc313,
+                skip: skip313,
+                misc: misc313,
+                mode: mode313,
             },
         } = configSetup();
 
         const realPool313 = computed(() => {
-            const result = pool313.value.slice();
+            const result = pool313.value.slice() as string[];
 
             if (misc313.value.includes('random_focus')) {
                 result.push('focus');
@@ -176,35 +181,64 @@ export default defineComponent({
                         }
                     }
 
-                    const grouped = groupedMarkers.find(
+                    const group = groupedMarkers.find(
                         m => m.coord[0] === marker.coord[0] && m.coord[1] === marker.coord[1],
                     );
 
-                    if (grouped != null) {
-                        grouped.id.push(marker.id);
+                    const dataLogic = data[`${mode313.value}Logic`];
 
-                        if (grouped.pool !== data.pool) {
-                            grouped.pool = 'mixed';
+                    if (group != null) {
+                        if (dataLogic !== group.logic) {
+                            console.error(`Logic mismatch:\n${data.id} = ${dataLogic}\n${group.id.join(',')} = ${group.logic}`);
+                        }
+
+                        group.id.push(marker.id);
+
+                        if (group.pool !== data.pool) {
+                            group.pool = 'mixed';
                         }
                     } else {
                         groupedMarkers.push({
                             id:    [marker.id],
                             pool:  data.pool,
                             coord: marker.coord,
+                            logic: dataLogic,
                         });
                     }
                 }
 
                 for (const marker of groupedMarkers) {
+                    let popupContent = marker.id.map(id => i18n.t(`items.${id}`)).join(',');
+
+                    if (marker.logic != null) {
+                        const parsedLogic = parseLogic(marker.logic);
+
+                        const evaluatedLogic = evalLogic313(parsedLogic, skip313.value, misc313.value);
+
+                        popupContent += `<hr>${
+                            printLogic(evaluatedLogic, {
+                                isTopLevel: true,
+                                transform:  text => {
+                                    if (/^.*\[.*\]$/.test(text)) {
+                                        return text;
+                                    } else {
+                                        return i18n.t(`version313.term.${text.replace(/'/g, '_')}`);
+                                    }
+                                },
+                            })
+                        }`;
+                    }
+
+                    const popup = L.popup()
+                        .setContent(`<div>${popupContent.replace(/\n/g, '<br>')}</div>`);
+
                     L.marker(marker.coord as L.LatLngExpression, {
                         icon: L.divIcon({
                             className: `map-marker ${marker.pool}`,
                             iconSize:  [iconSize, iconSize],
                         }),
                     })
-                        .bindPopup(marker.id.map(id => i18n.t(`items.${id}`)).join(','))
-                        .on('mouseover', function (this: L.Marker) { this.openPopup(); })
-                        .on('mouseout', function (this: L.Marker) { this.closePopup(); })
+                        .bindPopup(popup)
                         .addTo(markLayer);
                 }
             }

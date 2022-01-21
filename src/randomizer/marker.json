@@ -62,7 +62,7 @@
     { "id": "Sharp_Shadow", "coord": [726, 1698] },
     { "id": "Shape_of_Unn", "coord": [1992, 376] },
     { "id": "Nailmaster_s_Glory", "coord": [2296, 1976] },
-    { "id": "Weaversong", "coord": [965, 1002] },
+    { "id": "Weaversong", "coord": [978, 1022] },
     { "id": "Dream_Wielder", "coord": [2092, 3434] },
     { "id": "Dreamshield", "coord": [2046, 3320] },
     { "id": "Grimmchild", "coord": [2279, 1876] },
@@ -114,14 +114,14 @@
     { "id": "Charm_Notch-Shrumal_Ogres", "coord": [1640, 1904] },
     { "id": "Charm_Notch-Fog_Canyon", "coord": [1823, 1740] },
     { "id": "Charm_Notch-Colosseum", "coord": [1650, 3718] },
-    { "id": "Charm_Notch-Grimm", "coord": [2279, 1876] },
+    { "id": "Charm_Notch-Grimm", "coord": [2299, 1876] },
 
     { "id": "Pale_Ore-Basin", "coord": [768, 2350] },
     { "id": "Pale_Ore-Crystal_Peak", "coord": [2800, 3124] },
     { "id": "Pale_Ore-Nosk", "coord": [768, 1546] },
     { "id": "Pale_Ore-Seer", "coord": [2092, 3434] },
     { "id": "Pale_Ore-Grubs", "coord": [2198, 1880] },
-    { "id": "Pale_Ore-Colosseum", "coord": [1650, 3718] },
+    { "id": "Pale_Ore-Colosseum", "coord": [1650, 3738] },
 
     { "id": "200_Geo-False_Knight_Chest", "coord": [2064, 2121] },
     { "id": "380_Geo-Soul_Master_Chest", "coord": [1679, 2540] },
@@ -130,7 +130,7 @@
     { "id": "620_Geo-Mantis_Lords_Chest", "coord": [1195, 2000] },
     { "id": "150_Geo-Resting_Grounds_Chest", "coord": [1892, 3604] },
     { "id": "80_Geo-Crystal_Peak_Chest", "coord": [2208, 2932] },
-    { "id": "160_Geo-Weavers_Den_Chest", "coord": [965, 1002] },
+    { "id": "160_Geo-Weavers_Den_Chest", "coord": [987, 992] },
     { "id": "8_Geo-Junk_Pit_Chest_1", "coord": [927, 2112] },
     { "id": "8_Geo-Junk_Pit_Chest_2", "coord": [927, 2066] },
     { "id": "25_Geo-Junk_Pit_Chest_3", "coord": [933, 2048] },
@@ -150,7 +150,7 @@
     { "id": "Rancid_Egg-City_of_Tears_Pleasure_House", "coord": [1447, 3219] },
     { "id": "Rancid_Egg-Beast_s_Den", "coord": [1066, 331] },
     { "id": "Rancid_Egg-Dark_Deepnest", "coord": [896, 725] },
-    { "id": "Rancid_Egg-Weaver_s_Den", "coord": [965, 1002] },
+    { "id": "Rancid_Egg-Weaver_s_Den", "coord": [955, 982] },
     { "id": "Rancid_Egg-Near_Quick_Slash", "coord": [966, 4247] },
     { "id": "Rancid_Egg-Upper_Kingdom_s_Edge", "coord": [1527, 3736] },
     { "id": "Rancid_Egg-Waterways_East", "coord": [964, 3131] },
@@ -338,5 +338,5 @@
     { "id": "Journal_Entry-Charged_Lumafly", "coord": [1678, 1588] },
     { "id": "Journal_Entry-Goam", "coord": [1901, 2046] },
     { "id": "Journal_Entry-Garpede", "coord": [779, 1598] },
-    { "id": "Journal_Entry-Seal_of_Binding", "coord": [678, 3042] }
+    { "id": "Journal_Entry-Seal_of_Binding", "coord": [698, 3042] }
 ]
