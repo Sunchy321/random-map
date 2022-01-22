@@ -6,8 +6,9 @@
   "author": "Sunchy321 <sunchy321@qq.com>",
   "private": true,
   "scripts": {
-    "lint": "eslint --ext .js,.ts,.vue ./",
     "postinstall": "patch-package",
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "build": "quasar build",
     "transpile-313": "ts-node scripts/transpile-313"
   },
   "dependencies": {
