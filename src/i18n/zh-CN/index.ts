@@ -1,4 +1,4 @@
-import items from './items';
+import locations from './locations';
 import version313 from './version313';
 
 export default {
@@ -9,6 +9,6 @@ export default {
     misc:    '杂项',
     mode:    '模式',
 
-    items,
+    locations,
     version313,
 };

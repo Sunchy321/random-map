@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { xml2js } from 'xml-js';
 
-const itemsPath = './src/randomizer/3.13/items.json';
+const locationsPath = './src/randomizer/3.13/locations.json';
 
 const projectPath = process.argv[2];
 const resourcePath = join(projectPath, 'RandomizerMod3.0', 'Resources');
@@ -57,37 +57,37 @@ const shops: Record<string, any> = { };
 
 const shopsXml = readXml('shops.xml');
 
-for (const item of shopsXml.randomizer.shop) {
-    shops[item._attributes.name] = {
-        itemLogic: item.itemLogic?._text,
-        areaLogic: item.areaLogic?._text,
-        roomLogic: item.roomLogic?._text,
+for (const shop of shopsXml.randomizer.shop) {
+    shops[shop._attributes.name] = {
+        itemLogic: shop.itemLogic?._text,
+        areaLogic: shop.areaLogic?._text,
+        roomLogic: shop.roomLogic?._text,
     };
 }
 
 const data = [];
 
-const itemsXml = readXml('items.xml');
+const locationsXml = readXml('items.xml');
 
-for (const item of itemsXml.randomizer.item) {
-    if (item.sceneName?._text == null) {
+for (const location of locationsXml.randomizer.item) {
+    if (location.sceneName?._text == null) {
         continue;
     }
 
-    const id = item._attributes.name.replace(/'/g, '_');
+    const id = location._attributes.name.replace(/'/g, '_');
 
-    const shopName = item.shopName?._text;
+    const shopName = location.shopName?._text;
 
     const shop = shopName != null ? shops[shopName] : undefined;
 
     data.push({
         id:        idMap[id] ?? id,
-        pool:      poolMap[item.pool?._text],
-        scene:     item.sceneName?._text,
-        itemLogic: item.itemLogic?._text ?? shop?.itemLogic,
-        areaLogic: item.areaLogic?._text ?? shop?.areaLogic,
-        roomLogic: item.roomLogic?._text ?? shop?.roomLogic,
+        pool:      poolMap[location.pool?._text],
+        scene:     location.sceneName?._text,
+        itemLogic: location.itemLogic?._text ?? shop?.itemLogic,
+        areaLogic: location.areaLogic?._text ?? shop?.areaLogic,
+        roomLogic: location.roomLogic?._text ?? shop?.roomLogic,
     });
 }
 
-writeFileSync(itemsPath, JSON.stringify(data, null, 4));
+writeFileSync(locationsPath, JSON.stringify(data, null, 4));

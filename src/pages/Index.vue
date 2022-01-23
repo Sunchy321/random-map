@@ -77,20 +77,20 @@ import { parseLogic, printLogic } from 'data/logic';
 import { evalLogic as evalLogic313 } from 'data/3.13/logic';
 
 import markers from 'data/marker.json';
-import data313 from 'data/3.13/items.json';
+import data313 from 'src/randomizer/3.13/locations.json';
 
 const mapUrl = './map.png';
 
-function itemActivated313(item: typeof data313[0], pools: string[]): boolean {
-    if (!pools.includes(item.pool)) {
+function locationActivated313(location: typeof data313[0], pools: string[]): boolean {
+    if (!pools.includes(location.pool)) {
         return false;
     }
 
-    if (['Focus', 'World_Sense'].includes(item.id) && pools.includes('lore_tablet')) {
+    if (['Focus', 'World_Sense'].includes(location.id) && pools.includes('lore_tablet')) {
         return false;
     }
 
-    if (['Journal_Entry-Seal_of_Binding'].includes(item.id) && !pools.includes('palace')) {
+    if (['Journal_Entry-Seal_of_Binding'].includes(location.id) && !pools.includes('palace')) {
         return false;
     }
 
@@ -176,7 +176,7 @@ export default defineComponent({
                     }
 
                     if (version.value === '3.13') {
-                        if (!itemActivated313(data, realPool313.value)) {
+                        if (!locationActivated313(data, realPool313.value)) {
                             continue;
                         }
                     }
@@ -208,7 +208,7 @@ export default defineComponent({
                 }
 
                 for (const marker of groupedMarkers) {
-                    let popupContent = marker.id.map(id => i18n.t(`items.${id}`)).join(',');
+                    let popupContent = marker.id.map(id => i18n.t(`locations.${id}`)).join(',');
 
                     if (marker.logic != null) {
                         const parsedLogic = parseLogic(marker.logic);

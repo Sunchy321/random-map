@@ -1,4 +1,4 @@
-import items from './items';
+import locations from './locations';
 import version313 from './version313';
 
 export default {
@@ -9,6 +9,6 @@ export default {
     misc:    'Misc',
     mode:    'Mode',
 
-    items,
+    locations,
     version313,
 };
