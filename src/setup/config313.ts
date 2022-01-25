@@ -25,23 +25,49 @@ type Config = {
     misc: Misc[];
 };
 
+const skipByteLength = Math.ceil(skips.length / 8);
+const poolByteLength = Math.ceil(pools.length / 8);
+const miscByteLength = Math.ceil(miscs.length / 8);
+
+function fromBits(bits: boolean[]): number {
+    return Number.parseInt(
+        bits.map(b => (b ? '1' : '0')).join('').padEnd(8, '0'),
+        2,
+    );
+}
+
+function toBits(num: number): boolean[] {
+    return (num % 256)
+        .toString(2)
+        .padStart(8, '0')
+        .split('')
+        .map(v => v === '1');
+}
+
 function encode(config: Config): string {
-    return Buffer.from(JSON.stringify(config)).toString('base64');
+    const numbers = [];
+
+    for (let i = 0; i < skipByteLength; i += 1) {
+        numbers.push(fromBits(skips.slice(i * 8, (i + 1) * 8).map(s => config.skip.includes(s))));
+    }
+
+    for (let i = 0; i < poolByteLength; i += 1) {
+        numbers.push(fromBits(pools.slice(i * 8, (i + 1) * 8).map(p => config.pool.includes(p))));
+    }
+
+    for (let i = 0; i < miscByteLength; i += 1) {
+        numbers.push(fromBits(miscs.slice(i * 8, (i + 1) * 8).map(m => config.misc.includes(m))));
+    }
+
+    numbers.push(modes.indexOf(config.mode));
+
+    return Buffer.from(numbers).toString('base64');
 }
 
 function decode(code: string): Config {
     const buffer = Buffer.from(code, 'base64');
 
-    try {
-        const data = JSON.parse(buffer.toString());
-
-        return {
-            skip: data.skip ?? [],
-            pool: data.pool ?? [],
-            misc: data.misc ?? [],
-            mode: data.mode ?? 'item',
-        };
-    } catch (e) {
+    if (buffer.length !== (skipByteLength + poolByteLength + miscByteLength + 1)) {
         return {
             skip: [],
             pool: [],
@@ -49,6 +75,30 @@ function decode(code: string): Config {
             mode: 'item',
         };
     }
+
+    const skipBits = buffer
+        .slice(0, skipByteLength)
+        .reduce((prev: boolean[], curr) => [...prev, ...toBits(curr)], []);
+
+    const skip = skips.filter((_, i) => skipBits[i]);
+
+    const poolBits = buffer
+        .slice(skipByteLength, poolByteLength)
+        .reduce((prev: boolean[], curr) => [...prev, ...toBits(curr)], []);
+
+    const pool = pools.filter((_, i) => poolBits[i]);
+
+    const miscBits = buffer
+        .slice(skipByteLength + poolByteLength)
+        .reduce((prev: boolean[], curr) => [...prev, ...toBits(curr)], []);
+
+    const misc = miscs.filter((_, i) => miscBits[i]);
+
+    const mode = modes[buffer[skipByteLength + poolByteLength + miscByteLength]];
+
+    return {
+        skip, pool, mode, misc,
+    };
 }
 
 export default function data313Setup(): ConfigSetup {
