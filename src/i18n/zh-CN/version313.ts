@@ -23,7 +23,7 @@ export default {
         rancid_egg:       '腐臭蛋',
         stag:             '鹿角站',
         map:              '地图',
-        whisper_root:     '梦树',
+        whispering_root:  '梦树',
         grub:             '幼虫',
         lifeblood_cocoon: '蓝血',
         soul_totem:       '图腾',

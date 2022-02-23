@@ -23,7 +23,7 @@ export default {
         rancid_egg:       'Rancid Egg',
         stag:             'Stag',
         map:              'Map',
-        whisper_root:     'Whisper Root',
+        whispering_root:  'Whisper Root',
         grub:             'Grub',
         lifeblood_cocoon: 'Lifeblood Cocoon',
         soul_totem:       'Soul Totem',

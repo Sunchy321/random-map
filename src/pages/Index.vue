@@ -44,7 +44,7 @@
     &.relic
         background-color: #DEA302
 
-    &.whisper_root
+    &.whispering_root
         background-color: #CE5CD6
 
     &.boss_essence

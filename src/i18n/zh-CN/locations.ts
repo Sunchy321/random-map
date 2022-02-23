@@ -160,7 +160,7 @@ export default {
     'Wanderer_s_Journal-Cliffs':                        '悬崖右边古董',
     'Wanderer_s_Journal-Greenpath_Stag':                '苍绿车站古董',
     'Wanderer_s_Journal-Greenpath_Lower':               '庇护所古董',
-    'Wanderer_s_Journal-Fungal_Wastes_Thorns_Gauntlet': '真菌途中古董',
+    'Wanderer_s_Journal-Fungal_Wastes_Thorns_Gauntlet': '荆棘门古董',
     'Wanderer_s_Journal-Above_Mantis_Village':          '螳螂村上方古董',
     'Wanderer_s_Journal-Crystal_Peak_Crawlers':         '矿山激光虫古董',
     'Wanderer_s_Journal-Resting_Grounds_Catacombs':     '安息棺材左边古董',

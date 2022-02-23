@@ -27,7 +27,7 @@ export default function configSetup(): ConfigSetup {
             if (versions.includes(newValue)) {
                 router.replace({
                     path:  route.path,
-                    query: { ...route.query, version: newValue },
+                    query: { ...route.query, version: newValue, config: undefined },
                 });
             }
         },

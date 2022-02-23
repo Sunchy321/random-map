@@ -44,7 +44,7 @@ const poolMap: Record<string, string> = {
     Ore:                'pale_ore',
     PalaceJournal:      'journal',
     Relic:              'relic',
-    Root:               'whisper_root',
+    Root:               'whispering_root',
     Skill:              'skill',
     SplitClaw:          '',
     SplitCloak:         '',

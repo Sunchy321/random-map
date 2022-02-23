@@ -1657,7 +1657,7 @@
     },
     {
         "id": "Whispering_Root-Crossroads",
-        "pool": "whisper_root",
+        "pool": "whispering_root",
         "scene": "Crossroads_07",
         "itemLogic": "Crossroads + (RIGHTCLAW | (WINGS + LEFTCLAW)) + (WINGS | FULLSUPERDASH | ANYDASH | INFECTED) + DREAMNAIL + UPWALLBREAK",
         "areaLogic": "Crossroads + (RIGHTCLAW | (WINGS + LEFTCLAW)) + (WINGS | FULLSUPERDASH | ANYDASH | INFECTED) + DREAMNAIL + UPWALLBREAK",
@@ -1665,7 +1665,7 @@
     },
     {
         "id": "Whispering_Root-Greenpath",
-        "pool": "whisper_root",
+        "pool": "whispering_root",
         "scene": "Fungus1_13",
         "itemLogic": "Far_Queen's_Gardens + Greenpath + (LEFTCLAW | (RIGHTCLAW + WINGS + (LEFTDASH | LEFTSUPERDASH | (2MASKS + SPICYSKIPS)))) + DREAMNAIL + (SIDESLASH | Great_Slash | Cyclone_Slash | (FULLDASH + Dash_Slash))",
         "areaLogic": "Fungus1_13[left1] + Greenpath + (LEFTCLAW | (RIGHTCLAW + WINGS + (LEFTDASH | LEFTSUPERDASH | (2MASKS + SPICYSKIPS)))) + DREAMNAIL + (SIDESLASH | Great_Slash | Cyclone_Slash | (FULLDASH + Dash_Slash))",
@@ -1673,7 +1673,7 @@
     },
     {
         "id": "Whispering_Root-Leg_Eater",
-        "pool": "whisper_root",
+        "pool": "whispering_root",
         "scene": "Fungus2_33",
         "itemLogic": "Right_Fog_Canyon + DREAMNAIL",
         "areaLogic": "(Fungus2_33[left1] | (Main_Fungal_Wastes + ACID)) + DREAMNAIL",
@@ -1681,7 +1681,7 @@
     },
     {
         "id": "Whispering_Root-Mantis_Village",
-        "pool": "whisper_root",
+        "pool": "whispering_root",
         "scene": "Fungus2_17",
         "itemLogic": "((Main_Fungal_Wastes + (LEFTCLAW | WINGS | SPICYSKIPS)) | (Mantis_Village + (RIGHTCLAW | WINGS) + MILDSKIPS)) + ANYCLAW + DREAMNAIL",
         "areaLogic": "((Main_Fungal_Wastes + (LEFTCLAW | WINGS | SPICYSKIPS)) | Fungus2_17[left1] | Fungus2_17[bot1]) + ANYCLAW + DREAMNAIL",
@@ -1689,7 +1689,7 @@
     },
     {
         "id": "Whispering_Root-Deepnest",
-        "pool": "whisper_root",
+        "pool": "whispering_root",
         "scene": "Deepnest_39",
         "itemLogic": "Dark_Deepnest + (LANTERN | DARKROOMS) + (FULLCLAW | (WINGS + ANYCLAW) | (WINGS + MILDSKIPS)) + DREAMNAIL",
         "areaLogic": "Dark_Deepnest + (LANTERN | DARKROOMS) + (FULLCLAW | (WINGS + ANYCLAW) | (WINGS + MILDSKIPS)) + DREAMNAIL",
@@ -1697,7 +1697,7 @@
     },
     {
         "id": "Whispering_Root-Queens_Gardens",
-        "pool": "whisper_root",
+        "pool": "whispering_root",
         "scene": "Fungus3_11",
         "itemLogic": "Bottom_Right_Queen's_Gardens + LEFTCLAW + DREAMNAIL",
         "areaLogic": "Bottom_Right_Queen's_Gardens + LEFTCLAW + DREAMNAIL",
@@ -1705,7 +1705,7 @@
     },
     {
         "id": "Whispering_Root-Kingdoms_Edge",
-        "pool": "whisper_root",
+        "pool": "whispering_root",
         "scene": "Deepnest_East_07",
         "itemLogic": "Upper_Kingdom's_Edge + (ANYCLAW | WINGS) + DREAMNAIL",
         "areaLogic": "Upper_Kingdom's_Edge + (ANYCLAW | WINGS) + DREAMNAIL",
@@ -1713,7 +1713,7 @@
     },
     {
         "id": "Whispering_Root-Waterways",
-        "pool": "whisper_root",
+        "pool": "whispering_root",
         "scene": "Abyss_01",
         "itemLogic": "Waterways_Shaft + ((FULLCLAW + (FULLDASH | WINGS | RIGHTSUPERDASH | MILDSKIPS)) | (WINGS + ANYCLAW)) + DREAMNAIL",
         "areaLogic": "Waterways_Shaft + ((FULLCLAW + (FULLDASH | WINGS | RIGHTSUPERDASH | MILDSKIPS)) | (WINGS + ANYCLAW)) + DREAMNAIL",
@@ -1721,7 +1721,7 @@
     },
     {
         "id": "Whispering_Root-City",
-        "pool": "whisper_root",
+        "pool": "whispering_root",
         "scene": "Ruins1_17",
         "itemLogic": "Upper_Storerooms + (FULLDASH | WINGS | FULLSUPERDASH | MILDSKIPS) + DREAMNAIL",
         "areaLogic": "Upper_Storerooms + (FULLDASH | WINGS | FULLSUPERDASH | MILDSKIPS) + DREAMNAIL",
@@ -1729,7 +1729,7 @@
     },
     {
         "id": "Whispering_Root-Resting_Grounds",
-        "pool": "whisper_root",
+        "pool": "whispering_root",
         "scene": "RestingGrounds_05",
         "itemLogic": "Upper_Resting_Grounds + DREAMNAIL",
         "areaLogic": "Upper_Resting_Grounds + DREAMNAIL",
@@ -1737,7 +1737,7 @@
     },
     {
         "id": "Whispering_Root-Spirits_Glade",
-        "pool": "whisper_root",
+        "pool": "whispering_root",
         "scene": "RestingGrounds_08",
         "itemLogic": "Spirits_Glade + DREAMNAIL + ((WINGS + ((SWIM + ANYCLAW) | (RIGHTDASH + ANYCLAW) | (RIGHTSUPERDASH + ANYCLAW) | FULLDASH)) | (LEFTCLAW + SWIM + (RIGHTDASH | AIRSTALL)) | (FULLCLAW + RIGHTSUPERDASH + (RIGHTDASH | AIRSTALL)) | (RIGHTCLAW + RIGHTDASH + SPICYSKIPS + (SWIM | RIGHTSUPERDASH)))",
         "areaLogic": "Spirits_Glade + DREAMNAIL + ((WINGS + ((SWIM + ANYCLAW) | (RIGHTDASH + ANYCLAW) | (RIGHTSUPERDASH + ANYCLAW) | FULLDASH)) | (LEFTCLAW + SWIM + RIGHTDASH) | (FULLCLAW + RIGHTSUPERDASH + RIGHTDASH) | (RIGHTCLAW + RIGHTDASH + SPICYSKIPS + (SWIM | RIGHTSUPERDASH)))",
@@ -1745,7 +1745,7 @@
     },
     {
         "id": "Whispering_Root-Crystal_Peak",
-        "pool": "whisper_root",
+        "pool": "whispering_root",
         "scene": "Mines_23",
         "itemLogic": "Upper_Crystal_Peak + (RIGHTCLAW | WINGS) + (FULLDASH | WINGS) + DREAMNAIL",
         "areaLogic": "Upper_Crystal_Peak + (RIGHTCLAW | WINGS) + (FULLDASH | WINGS) + DREAMNAIL",
@@ -1753,7 +1753,7 @@
     },
     {
         "id": "Whispering_Root-Howling_Cliffs",
-        "pool": "whisper_root",
+        "pool": "whispering_root",
         "scene": "Cliffs_01",
         "itemLogic": "Howling_Cliffs + (LEFTCLAW | (RIGHTCLAW + FULLDASH) | WINGS | (FULLDASH + MILDSKIPS)) + DREAMNAIL",
         "areaLogic": "Howling_Cliffs + (LEFTCLAW | (RIGHTCLAW + FULLDASH) | WINGS | (FULLDASH + MILDSKIPS)) + DREAMNAIL",
@@ -1761,7 +1761,7 @@
     },
     {
         "id": "Whispering_Root-Ancestral_Mound",
-        "pool": "whisper_root",
+        "pool": "whispering_root",
         "scene": "Crossroads_ShamanTemple",
         "itemLogic": "Ancestral_Mound + (WINGS | (FULLCLAW + SPICYSKIPS)) + (ANYCLAW | LEFTBALDURS) + DREAMNAIL + UPWALLBREAK",
         "areaLogic": "Ancestral_Mound + (WINGS | (FULLCLAW + SPICYSKIPS)) + (ANYCLAW | LEFTBALDURS) + DREAMNAIL + UPWALLBREAK",
@@ -1769,7 +1769,7 @@
     },
     {
         "id": "Whispering_Root-Hive",
-        "pool": "whisper_root",
+        "pool": "whispering_root",
         "scene": "Hive_02",
         "itemLogic": "Hive + (RIGHTCLAW | WINGS | (FULLDASH + LEFTCLAW)) + DREAMNAIL",
         "areaLogic": "Hive + (RIGHTCLAW | WINGS | (FULLDASH + LEFTCLAW)) + DREAMNAIL",
@@ -2243,32 +2243,32 @@
         "id": "Mimic_Grub-Deepnest_1",
         "pool": "mimic",
         "scene": "Deepnest_36",
-        "itemLogic": "Bottom_Left_Fungal_Wastes | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | SUPERDASH))))",
-        "areaLogic": "Deepnest_01b[top1] | Deepnest_01b[top2] | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | SUPERDASH))))",
+        "itemLogic": "Bottom_Left_Fungal_Wastes | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | RIGHTSUPERDASH))))",
+        "areaLogic": "Deepnest_01b[top1] | Deepnest_01b[top2] | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | RIGHTSUPERDASH))))",
         "roomLogic": "Deepnest_36[left1]"
     },
     {
         "id": "Mimic_Grub-Deepnest_2",
         "pool": "mimic",
         "scene": "Deepnest_36",
-        "itemLogic": "Bottom_Left_Fungal_Wastes | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | SUPERDASH))))",
-        "areaLogic": "Deepnest_01b[top1] | Deepnest_01b[top2] | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | SUPERDASH))))",
+        "itemLogic": "Bottom_Left_Fungal_Wastes | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | RIGHTSUPERDASH))))",
+        "areaLogic": "Deepnest_01b[top1] | Deepnest_01b[top2] | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | RIGHTSUPERDASH))))",
         "roomLogic": "Deepnest_36[left1]"
     },
     {
         "id": "Mimic_Grub-Deepnest_3",
         "pool": "mimic",
         "scene": "Deepnest_36",
-        "itemLogic": "Bottom_Left_Fungal_Wastes | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | SUPERDASH))))",
-        "areaLogic": "Deepnest_01b[top1] | Deepnest_01b[top2] | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | SUPERDASH))))",
+        "itemLogic": "Bottom_Left_Fungal_Wastes | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | RIGHTSUPERDASH))))",
+        "areaLogic": "Deepnest_01b[top1] | Deepnest_01b[top2] | (Upper_Deepnest + (WINGS | (ANYCLAW + (RIGHTDASH | RIGHTSUPERDASH))))",
         "roomLogic": "Deepnest_36[left1]"
     },
     {
         "id": "Mimic_Grub-Crystal_Peak",
         "pool": "mimic",
         "scene": "Mines_16",
-        "itemLogic": "(Upper_Crystal_Peak + FULLCLAW + SUPERDASH) | (King's_Pass + WINGS + SUPERDASH)",
-        "areaLogic": "(Upper_Crystal_Peak + FULLCLAW + SUPERDASH) | (Mines_10[left1] + ((RIGHTDASH + WINGS) | SUPERDASH))",
+        "itemLogic": "(Upper_Crystal_Peak + FULLCLAW + RIGHTSUPERDASH) | (King's_Pass + WINGS + RIGHTSUPERDASH)",
+        "areaLogic": "(Upper_Crystal_Peak + FULLCLAW + RIGHTSUPERDASH) | (Mines_10[left1] + ((RIGHTDASH + WINGS) | RIGHTSUPERDASH))",
         "roomLogic": "Mines_16[top1]"
     },
     {
